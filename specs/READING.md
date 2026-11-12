@@ -162,9 +162,9 @@ has taken the misreading named beside it.
 | Does choosing an articulation make the glider exist? | No. It must be carried; carrying is open. | 4 |
 | Would a history constrained as a whole change co-articulation? | No. Determination is a separate axis. | 5 |
 | Is a glider's configuration its state? | No. Configuration is its footprint. | 6 |
-| Does `cell < field > glider` say a cell is the same as a glider? | No. It says cell-sameness and glider-sameness are two articulations of one field. | 7 |
-| Do cells and gliders combine to make the field, as the arrows suggest? | No. The orientation is mnemonic; the expression states only cross-cutting and carrying. | 7 |
+| Does `cell < grid > glider` say a cell is the same as a glider? | No. It says cell-sameness and glider-sameness are two articulations of one grid. | 7 |
+| Do cells and gliders combine to make the grid, as the arrows suggest? | No. The orientation is mnemonic; the expression states only cross-cutting and carrying. | 7 |
 | Is `A < X > A` ever true? | No. Irreflexive. | 7 |
 | Is `temperature < gas > microstate`? | No. Nested. | — |
-| Does the field articulate itself into cells and gliders? | No. There is no articulator, the field included. | 8 |
+| Does the grid articulate itself into cells and gliders? | No. There is no articulator, the grid included. | 8 |
 | Is `colour < cars > shape`? | Cannot yet be refused. Uncarried; O2. | — |

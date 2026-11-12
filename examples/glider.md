@@ -19,11 +19,16 @@ nothing, then by a different glider: same cell, different gliders. One glider
 occupies different cells at every step: same glider, different cells. The two
 criteria cross-cut (D7), over one history.
 
-    cell < field > glider
+    cell < grid > glider
 
-Read: *the field is articulated as cells and as gliders.* The arrows point
+Read: *the grid is articulated as cells and as gliders.* The arrows point
 outward from the whole and are mnemonic; they are not causation, composition or
 order (D11).
+
+*The grid* here is the running grid, its whole history of changes, not the
+lattice of sites. The lattice is how occurrences are labelled, and a label is
+not a criterion of identity (A1). Otherwise the cell side would quietly become
+the whole.
 
 ## Three sentences, three verdicts
 

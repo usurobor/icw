@@ -19,9 +19,9 @@ history and you get two inventories. Neither is the substrate of the other.
 Neither produces or constrains the other. They are two articulations of one
 changing whole.
 
-    cell < field > glider
+    cell < grid > glider
 
-*The field is articulated as cells and as gliders.*
+*The grid is articulated as cells and as gliders.*
 
 ## Why it matters
 
@@ -45,7 +45,7 @@ A candidate pair goes through ordered checks and gets exactly one verdict.
 | charge, field | **coincident** | one criterion under two names |
 | temperature, microstate | **nested** | one refines the other |
 | colour, shape of parked cars | **uncarried** | cross-cuts, but carrying is not shown |
-| cell, glider | **holds** | `cell < field > glider` |
+| cell, glider | **holds** | `cell < grid > glider` |
 
 A theory that said yes to everything would say nothing.
 

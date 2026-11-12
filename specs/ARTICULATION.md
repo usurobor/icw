@@ -176,7 +176,7 @@ and as B*.
 that is, `A` and `B` cross-cut (D7) and are both articulations of `X` (D9).
 
 `X` is required. `A < > B` is not an expression. Applications abbreviate by
-naming the persistences: `cell < field > glider`.
+naming the persistences: `cell < grid > glider`.
 
 *The signs.* `<` and `>` are not causal arrows, derivation operators,
 composition operators or inequalities. The outward orientation, from the whole
