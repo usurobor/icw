@@ -1,59 +1,66 @@
-# Glider
+# The glider
 
-The base case. IDs refer to `specs/ARTICULATION.md`.
+The computational case. Terms are in the [README](../README.md#two-ways-of-counting),
+credits in [PRIOR-ART.md](../PRIOR-ART.md), and IDs point to
+[`specs/ARTICULATION.md`](../specs/ARTICULATION.md).
 
-## Two criteria, one history
+## The case
 
-In Conway's Game of Life, cells sit at fixed sites and switch on and off. Run
-the rule, and a five-cell shape reappears every four steps, one site over
-diagonally. That shape is a glider.
+Conway's Game of Life (Gardner 1970) is a grid of cells, each alive or dead.
+A cell's next state is fixed by its own state and how many of its eight
+neighbours are alive: a live cell with two or three live neighbours stays
+alive, a dead cell with exactly three comes alive, and every other cell is
+dead at the next step. Cells never move. A *glider* is a five-cell pattern
+that recurs every four steps, shifted one cell diagonally.
 
-Two ways of counting one thing:
+## Two criteria
 
-- **Cell.** Same site, through any change of state. A cell never moves.
-- **Glider.** Same organization, through any change of site. A glider never
-  stays.
+Both are Dennett's (1991): at what he calls the physical level, the cells and
+their rule, nothing moves; at the design level one and the same glider moves.
 
-Each holds where the other does not. One cell is occupied by a glider, then by
-nothing, then by a different glider: same cell, different gliders. One glider
-occupies different cells at every step: same glider, different cells. The two
-criteria cross-cut (D7), over one history.
+- **Cell.** Same site, through any change of state.
+- **Glider.** The same glider, followed from step to step, through any change
+  of site, not sameness of arrangement.
 
-    cell < grid > glider
+Witnesses in both directions:
 
-Read: *the grid is articulated as cells and as gliders.* The arrows point
-outward from the whole and are mnemonic; they are not causation, composition or
-order (D11).
+- *Same cell, different gliders.* A cell lies in one glider's path, then
+  another's.
+- *Same glider, different cells.* After sixteen steps a glider shares no cell
+  with where it began.
 
-*The grid* here is the running grid, its whole history of changes, not the
-lattice of sites. The lattice is how occurrences are labelled, and a label is
-not a criterion of identity (A1). Otherwise the cell side would quietly become
-the whole.
+The candidate is `cell < grid > glider`, where *the grid* is the running
+grid, its whole history. Site labels do not privilege the cell criterion
+(A1, proposed).
 
-## Three sentences, three verdicts
+**Verdict.** The grid changes, the criteria differ, and they cross-cut (D7).
+Whether its changing carries both is undecided (D8, O2): **uncarried**,
+pending; check 3 is the furthest it passes.
 
-**"Gliders emerge from cells."** Two different things are easily confused. A
-glider can *arise* in time: at one step nothing on the board fits the glider
-criterion, at a later step something does. That is a change. Switching from
-counting cells to counting gliders is not a change at all; nothing in the
-board corresponds to it. Neither is a new level coming into being, and neither
-is a process running from cells to gliders.
+## Three sentences
 
-**"Gliders are made of cells."** True of the glider's footprint at an instant:
-a frozen frame shows five live cells. False of the glider as a persisting
-thing, which has no fixed set of cells. Replace every cell and the same glider
-goes on; take the same cells otherwise arranged and there is no glider.
-"Consists of" works within one criterion, never across two (R4).
+**"Gliders emerge from cells."** A glider can arise: at one step nothing fits
+the glider criterion, later something does. That is a change in the one
+history. Switching from counting cells to counting gliders changes what is
+counted, not what occurs (D9). Neither is a process running from cells to
+gliders.
 
-**"The collision of two gliders made these cells change."** True. Had the
-gliders not collided, those cells would not have changed. It picks out its
-subject by one criterion and its object by the other, and that is fine. What
-it cannot mean is a second cause acting between the two inventories alongside
-the cell rule. There is one change, read twice (R5).
+**"Gliders are made of cells."** True of the glider's footprint: a frozen
+frame shows five live cells, and no glider (D3). But cell-sameness is not what
+makes it the same glider: the same glider has no fixed set of cells (D7). Nor
+is cell-sameness with arrangement: a second glider crossing the same sites in
+the same phase has the same cells in the same arrangement, yet is a different
+glider. If the pair were articulated, "made of" in the identity-fixing sense
+would refer only to footprints (R4, proposed).
 
-## Derivable is not the same as constituted
+**"The collision of two gliders made these cells switch."** This can be true:
+without the collision, those cells would not have switched. If the pair were
+articulated, it would be a claim about the grid's one change read through two
+criteria, not a second cause running between them (R5, proposed). Compare
+Davidson (1970); PRIOR-ART.md gives the differences.
 
-Given the rule and the starting states, every glider is calculable. ICW does
-not deny this. Derivability and a different criterion of identity are
-compatible facts (R2): the cell description determines the history, and the
-glider is still not built out of cells.
+## Derivable, and still a different sameness
+
+Every glider is calculable from the rule, as Dennett notes, and derivability
+is compatible with a different criterion of identity (R2). Dennett argues the
+glider is a real pattern; ICW makes no claim about what is real.

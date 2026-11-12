@@ -1,41 +1,57 @@
-# Ship of Theseus
+# The ship of Theseus
 
-The oldest case, and the one anyone can check without being taught the theory.
-IDs refer to `specs/ARTICULATION.md`.
+The philosophical case, and one anyone can check without learning the theory
+first. Terms are in the [README](../README.md#two-ways-of-counting), credits in
+[PRIOR-ART.md](../PRIOR-ART.md), and IDs point to [`specs/ARTICULATION.md`](../specs/ARTICULATION.md).
 
-## The puzzle
+## The case
 
-Plutarch reports that the Athenians preserved Theseus's ship by replacing its
-rotten planks one at a time, until none of the original planks remained. Was
-it still the same ship? Hobbes added a second half: suppose someone kept every
-discarded plank and reassembled them. Which ship is Theseus's?
+Plutarch (*Theseus* 23.1) reports that the Athenians preserved Theseus's
+thirty-oared ship by replacing decayed timbers with sound ones, and that
+philosophers split over whether it remained the same ship. Hobbes (*De
+Corpore* II.11.7) added a second half: if someone kept the old planks and
+rebuilt a ship from them, there would seem to be two ships numerically the
+same, which is absurd. His answer was that sameness depends on what the name
+is given for: the matter, the form, or an aggregate of accidents. He applied
+it. "Ship" signifies matter so shaped, so a ship is the same while its matter
+is, and only partly the same if its matter is partly changed.
 
 ## Two criteria
 
-- **Plank.** Same piece of wood, wherever it goes.
-- **Ship.** Same vessel, through repair.
+- **Plank.** The same piece of timber, wherever it goes.
+- **Ship.** The same vessel, through repair.
 
-Each holds where the other does not. The repaired ship is the same ship with
-different planks. The reassembled ship is built from the same planks but is a
-different vessel. The criteria cross-cut in both directions (D7), and neither
-direction has to be imagined: the puzzle is stated in exactly these cases.
+The cases are Plutarch's and Hobbes's; neither has to be invented:
 
-    plank < dockyard > ship
+- *Same ship, different planks.* The ship before and after its repairs
+  (Plutarch's case).
+- *Same plank, different ships.* A plank in Theseus's ship, and the same
+  plank in the rebuilt one (Hobbes's case). This witness holds under the ship
+  criterion as stipulated here, through repair. On Hobbes's own answer, where
+  "ship" signifies matter so shaped, the rebuilt ship is the same ship.
 
-## What ICW says
+The candidate is `plank < dockyard > ship`: the dockyard's changing, through
+the repairs and the rebuilding, contains every occurrence of both.
 
-**"Which one is really Theseus's ship?"** The question asks one criterion to
-rule on the other's inventory. By the ship criterion, the repaired ship is
-Theseus's. By the plank criterion, the reassembled ship is made of Theseus's
-wood. If the pair co-articulates, those answers do not compete, and asking
-which is *really* the ship is malformed. ICW does not declare a winner. It
-removes the demand for one.
+## What the test adds
 
-**"The ship is made of planks."** True at any instant: freeze the harbour and
-the ship is some planks. False of the ship as a persisting thing, which is made
-of no particular planks (R4).
+Running the ordered test, the pair passes the first three checks. The
+dockyard changes, the criteria differ, and they cross-cut (D7). It stops at
+the fourth: whether the dockyard's changing carries ship-sameness and
+plank-sameness, or has either laid across it, is undecided (D8, O2). The
+verdict is **uncarried**, pending.
 
-**What stays open.** "Holds" requires that the dockyard's changing carries
-both criteria, and carrying is not yet defined (O2). So the result is
-conditional: *if* the pair co-articulates, the puzzle dissolves. It does not
-dissolve because ICW stipulates it away.
+**"Which ship is really Theseus's?"** Hobbes's puzzle sets two candidate
+*ship* criteria against each other: the same vessel through repair, and the
+same matter so shaped. The plank/ship pair tested here does not adjudicate
+between them; within this example the ship criterion is stipulated. Hobbes
+chose the matter by fixing what the word "ship" is given for. ICW does not
+settle which criterion a word's meaning selects, and nothing in the test
+ranks criteria (R3), so it names no winner. Its contribution here is to run
+the test and to name the question it cannot yet answer for this case: O2.
+
+**"The ship is made of planks."** True only of its footprint: freeze the
+dockyard and the ship's footprint is some planks (D3). If the pair were
+articulated, the ship as it persists would be made of no particular planks
+(R4, proposed). Locke's oak, the same oak through changes of matter, makes the
+older form of this point.

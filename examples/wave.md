@@ -1,25 +1,45 @@
-# Wave
+# The wave
 
-The glider case without a computer. IDs refer to `specs/ARTICULATION.md`.
+The physical case. Terms are in the [README](../README.md#two-ways-of-counting),
+credits in [PRIOR-ART.md](../PRIOR-ART.md), and IDs point to [`specs/ARTICULATION.md`](../specs/ARTICULATION.md).
 
-When a wave crosses open water, the water itself barely travels. Each parcel
-of water rises and falls in a small loop and ends up roughly where it started.
-The wave crosses the whole bay.
+## The case
 
-- **Parcel.** Same water, through any change of place and shape. A parcel can
-  persist while different waves pass through it.
-- **Wave.** Same disturbance, through any change of water. A wave can persist
-  while every parcel it moves through changes.
+A swell crosses the open sea, but in deep water the water barely travels
+with it. As each crest passes, a small parcel of water moves round a nearly
+closed loop and ends close to where it started; only a small net drift
+remains. Single crests run faster than the swell as a whole, rising at its
+back and fading at its front, so the wave followed here is one crest, for as
+long as it lasts.
 
-Same parcel, different waves; same wave, different parcels. The criteria
-cross-cut (D7).
+## Two criteria
 
-    parcel < water > wave
+- **Parcel.** The same water, through any change of place and shape.
+- **Wave.** The same crest, followed as it travels for as long as it lasts,
+  through any change of water.
 
-Nothing extra is going on. The water moves, and that one motion counts as
-parcels looping and as a wave travelling. The water waves.
+Both directions are witnessed:
 
-"The wave is just water" is true of its footprint: at an instant, the crest is
-some water. It is false of the wave as a persisting thing, which is made of no
-particular water (R4). "The wave is something over and above the water" is
-false too: there is no second change for it to be (R5).
+- *Same parcel, different crests.* Successive crests pass through one parcel,
+  each turning it once round its loop.
+- *Same crest, different parcels.* A crest moves on into water it has not
+  moved before.
+
+The candidate is `parcel < sea > wave`: the sea's changing contains every
+occurrence of both.
+
+**Verdict.** The sea changes, the criteria differ, and they cross-cut (D7).
+Whether the sea's changing carries both is undecided (D8, O2), so the verdict
+is **uncarried**, pending. Quine's river and its water (1950) have the same
+shape.
+
+## Two sentences
+
+**"The wave is just water."** True only of its footprint: at an instant, the
+wave's footprint is some water (D3). If the pair were articulated, the
+persisting wave would be made of no particular water (R4, proposed).
+
+**"The wave is something over and above the water."** If the pair were
+articulated, there would be no second change for it to be. The water moves
+once, and that one motion is counted twice: as parcels looping and as a
+wave travelling (R5, proposed).

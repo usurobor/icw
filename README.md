@@ -1,109 +1,90 @@
 # Identity in Changing Wholes
 
-**What counts as one thing, when everything is changing?**
+**When everything in a whole is changing, what counts as one thing?**
 
-## An old question
+A wave runs across deep water while the water it passes through mostly circles
+in place. A glider crawls across Conway's Game of Life while no cell ever
+moves. The Athenians replaced the planks of Theseus's ship one by one. Was it
+still the same ship?
 
-Heraclitus: upon those who step into the same river, different waters flow.
-Plutarch: the Athenians kept Theseus's ship sailing by replacing its planks
-one at a time. Was it still the same ship? Hobbes: and if someone reassembled
-the old planks, which ship would be Theseus's?
+Each time there are two ways of counting, and they come apart in both
+directions: same wave, different water; same water, a different wave. Are
+both sustained by the whole's own changing, or is one of them a sorting laid
+across it? ICW (Identity in Changing Wholes) states a test. It refuses pairs
+for three stated reasons. Its last check is an open problem, named but not
+yet solved, and no pair has passed it.
 
-Each puzzle has one structure. Two ways of counting come apart: same river,
-different water; same ship, different planks; same planks, a different ship.
+## Two ways of counting
 
-## What is already known
+Parenthesised IDs point to the kernel,
+[`specs/ARTICULATION.md`](specs/ARTICULATION.md), which governs.
 
-- **Locke**: identity depends on the kind of thing. Add one atom and a mass of
-  matter is no longer the same mass; an oak stays the same oak through a
-  lifetime of exchanged matter.
-- **Geach, Wiggins**: "the same" always invites "the same *what*?"
-- **Quine**: no entity without identity. You can bathe in the same river twice,
-  though not in the same water.
-- **Dennett**: the gliders of Conway's Game of Life are real patterns, though
-  nothing but cells ever changes.
+- A whole's **occurrences** are what happens in its changing, ordered in
+  time (P3, P4).
+- A **continuity** is any sameness relation on those occurrences (D1): same
+  cell, same glider, same colour. Each is a candidate *criterion of
+  identity*, fixing what counts as one thing and what keeps it the same one.
+  Whether the whole bears it is the carrying question below (D9).
+- A **footprint** is a persisting thing at one instant. A frozen frame holds
+  footprints, never the persisting thing (D3).
+- A **refines** B when sameness by A guarantees sameness by B (D4). A and B
+  **cross-cut** when neither refines the other, with witnesses in both
+  directions (D7).
+- A criterion is **carried** when the whole's changing sustains it, rather
+  than having it laid across it. ICW names this and has not defined it: open
+  item O2 (D8).
+- If A and B cross-cut and both are carried, the whole X **is articulated as
+  A and B**, written `A < X > B` (D9, D11). The brackets are a mnemonic,
+  not arrows of cause, composition or order.
 
-ICW starts from all of this. Identity depends on a criterion.
+## The test
 
-## What ICW adds
+Two criteria in a named whole go through the checks in order; the first to
+fail gives the verdict (§6).
 
-The tradition does not say when two criteria are two articulations of *one*
-thing, rather than an arbitrary pair, or one criterion that merely refines the
-other. ICW contributes:
-
-1. **A test.** Two criteria articulate one changing whole when each holds where
-   the other fails, checked in both directions, and the whole's changing
-   carries both. Most pairs fail, in one of four named ways.
-2. **A result on composition** *(proposed)*. "Made of" holds only within one
-   criterion. The ship at an instant is made of planks; the ship that persists
-   through repair is made of no particular planks.
-3. **A result on causation** *(proposed)*. Between two articulations of one
-   whole there is one change, read twice. Neither "the glider acts on the
-   cells" (emergence) nor "only the cells act" (reduction) is the right
-   picture.
-4. **A separation.** Identity is independent of determination. The glider is
-   fully calculable from the cell rule, and still not made of cells.
-
-## The base case
-
-In the Game of Life, no cell moves. Cells sit at fixed sites and switch on and
-off. Yet a glider crosses the grid. A cell is one thing by one criterion (same
-site, through any change of state); a glider by another (same organization,
-through any change of site). Same cell, different gliders; same glider,
-different cells.
-
-    cell < grid > glider
-
-*The grid is articulated as cells and as gliders.* The arrows point outward
-from the whole and are a mnemonic only.
-
-## It usually says no
-
-| Pair | Verdict | Why |
+| Check | Verdict if it fails | Case |
 |---|---|---|
-| triangle, circle of a cone | **untyped** | nothing changes, so there is nothing to trace |
-| charge, field in electrostatics | **coincident** | one criterion under two names |
-| temperature, microstate | **nested** | one refines the other |
-| cell, glider | cross-cuts | the paradigm case |
-| colour, shape of parked cars | cross-cuts | passes the same checks as cell and glider |
+| 1. The whole changes | **untyped**: not false, not a claim | a cone's triangle and circle |
+| 2. The criteria differ | **coincident** | Locke's same mass and same united atoms |
+| 3. Neither refines the other | **nested** | a gas's temperature and microstate |
+| 4. Both are carried | **uncarried**: undecided while O2 is open | Goodman's green and grue |
+| All pass | **holds**: `A < X > B` | none yet |
 
-The last two rows are the open problem. Cell and glider look carried by the
-grid's changing; colour and shape look laid across the car park. The kernel
-names that difference (*carrying*) and does not yet define it, so it cannot
-yet tell the two rows apart. That is the place to push.
+Today every pair that cross-cuts stops at check 4, cell and glider as much
+as green and grue. Intuition tells them apart; no definition does yet. That
+gap is the place to push.
+
+## Where this sits
+
+The question is old: Heraclitus's river, the ship of Theseus, Locke's oak,
+*the same what?*, Quine's river and its water, the statue and its clay,
+causal theories of persistence, Dennett's real patterns. ICW inherits most of
+its structure. What it adds is narrow: an ordered test, run in a named
+changing whole, that refuses pairs on stated grounds and ends in the carrying
+question. Credits and comparisons are in [PRIOR-ART.md](PRIOR-ART.md).
 
 ## Examples
 
-- [Glider](examples/glider.md): why "gliders emerge from cells" and "gliders
-  are made of cells" both misfire, and why "the collision changed these cells"
-  is still true.
-- [Wave](examples/wave.md): the same structure in water.
-- [Ship of Theseus](examples/ship.md): what ICW says about the oldest case, and
-  what it leaves open.
-- [Limits](examples/limits.md): the ways the test says no.
+- [The glider](examples/glider.md): "gliders emerge from cells", examined.
+- [The wave](examples/wave.md): the same structure in water.
+- [The ship of Theseus](examples/ship.md): the test run on the oldest case.
+- [Where the test stops](examples/limits.md): three refusals, and one pair it
+  cannot refuse.
 
-## What it does not claim
+## What ICW does not claim
 
-- That one criterion is the real one. No articulation ranks above another.
-- That anything does the articulating, whether an observer or the whole
-  itself. An articulation is a structure of the changing, not an act.
-- That anything acts between articulations. There is one change, read twice.
-- That passing the test makes something real.
+- That any pair is articulated.
+- That *carried* means *real* (D8), or that a coarser or derivable criterion
+  is less genuine (R2, R3).
+- That identity depends on how the history is generated (R1).
+- That anything performs an articulation, an observer or the whole itself
+  (D9).
+- That anything acts between articulations as a second cause (R5,
+  proposed).
 
-## Layout
+## Repository
 
-| Path | What |
-|---|---|
-| [`specs/ARTICULATION.md`](specs/ARTICULATION.md) | The kernel. Every term defined before use, every item with a stable ID. The only authoritative file. |
-| [`specs/READING.md`](specs/READING.md) | Misreadings the kernel excludes, with probes. |
-| [`examples/`](examples/) | Cases. An example may not conclude what the kernel does not contain. |
-| [`notes/FINDINGS.md`](notes/FINDINGS.md) | Working notes. Not authoritative. |
-| [`tools/`](tools/) | `python3 tools/lint.py` checks definition order, citations and rendering; `python3 tools/algebra.py` checks the relation's algebra. |
-
-## Prior art
-
-Heraclitus, fragment B12. Plutarch, *Life of Theseus* 23. Hobbes, *De
-Corpore* II.11. Locke, *Essay Concerning Human Understanding* II.xxvii. Geach,
-*Reference and Generality* (1962). Wiggins, *Sameness and Substance* (1980).
-Quine, "Identity, Ostension, and Hypostasis" (1950). Dennett, "Real Patterns"
-(1991).
+[`specs/ARTICULATION.md`](specs/ARTICULATION.md) is the kernel and the only
+authoritative file. [`specs/READING.md`](specs/READING.md) lists misreadings
+it excludes, [`notes/FINDINGS.md`](notes/FINDINGS.md) holds working notes, and
+[`tools/`](tools/) checks the kernel.
