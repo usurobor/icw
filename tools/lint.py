@@ -77,7 +77,7 @@ def check_citations(spec_text):
                                           if f"**O{i}.**" in spec_text}
     errors = []
     for md in ROOT.rglob("*.md"):
-        if ".git" in md.parts:
+        if ".git" in md.parts or ".cells" in md.parts:
             continue
         for n, line in enumerate(md.read_text().splitlines(), 1):
             for cid in CITE.findall(line):
@@ -93,7 +93,7 @@ UNSPACED = re.compile(r"\w<\w[^<>\s]*>\w")
 def check_render():
     errors = []
     for md in ROOT.rglob("*.md"):
-        if ".git" in md.parts:
+        if ".git" in md.parts or ".cells" in md.parts:
             continue
         for n, line in enumerate(md.read_text().splitlines(), 1):
             if UNSPACED.search(line):

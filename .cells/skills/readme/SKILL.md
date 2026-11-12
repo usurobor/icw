@@ -2,7 +2,7 @@
 name: readme
 description: Writes and reviews the ICW front page (README and linked example pages) so that it pulls a stranger in and a smart non-specialist ("your grandma") understands the idea from the first paragraph. Use when writing, rewriting or reviewing README.md, PRIOR-ART.md or examples/ in this repository.
 metadata:
-  version: "1.0.1"
+  version: "1.0.2"
   author: usurobor
   artifact_class: skill
   kata_surface: embedded
@@ -14,7 +14,7 @@ metadata:
 
 # README
 
-*Version 1.0.1. ICW-specific; generalize later.*
+*Version 1.0.2. ICW-specific; generalize later. Unproven: no acceptance run yet.*
 
 ## Core Principle
 
