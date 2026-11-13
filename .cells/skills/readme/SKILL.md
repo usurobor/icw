@@ -9,7 +9,7 @@ metadata:
   governing_question: "How do we write a front page that a stranger reads past the first paragraph and understands without being taught?"
   triggers: "writing or rewriting a README; reviewing a README before publishing; a README that reads like a spec, a literature review or a manifesto"
   scope: task-local
-  composes_with: "cnos write, cnos document (not yet in this repo)"
+  composes_with: "write (this repo); cnos document (not yet in this repo)"
 ---
 
 # README
@@ -25,7 +25,7 @@ question that paragraph raises, in words they already own.
 This skill teaches how to write the front page of a repository so a smart
 non-specialist reads on and understands. It owns two axes only: **pull** (the
 reader keeps going) and **plainness** (the reader understands without being
-taught). Prose coherence belongs to `write`. Claims checked against their
+taught). Plain prose and machine-written patterns belong to `write` (`.cells/skills/write`). Claims checked against their
 source belong to `document`. Apply both alongside this one.
 
 READMEs fail when understanding them requires already understanding the work.
