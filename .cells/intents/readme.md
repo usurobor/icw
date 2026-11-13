@@ -10,7 +10,7 @@ near-hit (✅) and a near-miss (❌), with what would show it. Examples marked
 meet it another way.
 
 Priority: **I1 and I2 first.** A README that fails either ranks below every
-README that passes both. Then I3–I6. I7 always.
+README that passes both. Then I3–I6 and I8. I7 always.
 
 ## I1. Draws the visitor in
 
@@ -87,6 +87,18 @@ What is open is stated as open.
 - ❌ "ICW shows that the glider is as real as the squares." The kernel's test
   for that is unfinished.
 - **Shown by:** a judge holding the kernel checks each claim.
+
+## I8. Takes its place in an old conversation
+
+The reader sees that the question is old, who asked it before, and what ICW
+adds, with every credit accurate. (Owner, 12 Nov: "additive to the
+conversation going on for millennia, with respect to prior art.")
+
+- ✅ *illustration*: one sentence naming Heraclitus's river and Theseus's
+  ship, linking to `PRIOR-ART.md` for the full credits.
+- ❌ the README presents the glider puzzle as ICW's discovery.
+- **Shown by:** a judge checks each credit against its source and each
+  "ICW adds" claim against the credited work.
 
 ## Owner decisions (13 Nov 2026)
 
