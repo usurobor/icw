@@ -1,34 +1,97 @@
 # Intent: README
 
-**Status: intents and three decisions ratified by the owner; reference opening open.** Not yet turned into
-tested acceptance criteria. The last attempt is recorded in
-`runs/2026-11-12-readme-intent/` (not converged; see its `DELTA.md`).
+**Status: draft for owner review.** Purpose only. How the README gets there
+belongs to the planning cell.
 
-What the README must achieve, highest priority first:
+The README exists so that a stranger who reads it understands ICW's idea and
+wants to read on. Each property below is stated as an outcome, pinned by a
+near-hit (✅) and a near-miss (❌), with what would show it. Examples marked
+*illustration* show what meeting a property looks like; the working cell may
+meet it another way.
 
-1. **Draws the visitor in.** A stranger keeps reading.
-2. **Clear to a non-specialist ("your grandma").** No step needs training in
-   philosophy, logic or mathematics.
-3. **Top-down.** A reader who stops after the first paragraph has the idea.
-4. **Succinct.** Nothing a reader would not miss.
+Priority: **I1 and I2 first.** A README that fails either ranks below every
+README that passes both. Then I3–I6. I7 always.
 
-1 and 2 rank above 3 and 4: a README that fails either ranks below every one
-that passes both.
+## I1. Draws the visitor in
 
-Always also: **true to the kernel** (`specs/ARTICULATION.md`).
+A stranger who reads the opening wants to read on, because of a question
+about the subject itself.
+
+- ✅ *illustration*: the opening leaves the reader asking how the glider can
+  move when no square does.
+- ❌ the opening leaves the reader asking what "ICW" stands for.
+- **Shown by:** the owner reads it and decides.
+
+## I2. Plain words
+
+A non-specialist reads it without help. Technical terms appear only where no
+everyday word does the job, and each is explained where it first appears.
+
+- ✅ *illustration*: "a grid of squares that switch on and off by one simple
+  rule".
+- ❌ "a two-dimensional cellular automaton with a Moore-neighbourhood update
+  rule".
+- **Shown by:** a fresh reader's list of phrases they had to guess at. A flag
+  counts only when their guess is missing or wrong.
+
+## I3. The first paragraph carries the idea
+
+A reader who stops after the first paragraph can say, in their own words:
+there can be two honest ways to say what stays the same while something
+changes; they can disagree in both directions; and ICW asks whether the
+changing thing itself keeps both going, instead of choosing one.
+
+- ✅ *illustration*: "No square on the grid ever moves, yet a glider crosses
+  it. The same square holds one glider, then another; the same glider covers
+  new squares at every step."
+- ❌ "In the Game of Life, gliders emerge from cells following simple rules."
+  Readers come away with the usual story, and with ICW's idea missing.
+- **Shown by:** a fresh reader restates the first paragraph; the restatement
+  contains all three parts.
+
+## I4. Shows what it questions (*proposed by Claude; owner to confirm*)
+
+The reader sees which familiar explanation ICW questions, and where it slips.
+
+- ✅ *illustration*: "'Gliders emerge from the cells' starts out counting
+  squares and ends up counting gliders."
+- ❌ the README explains ICW's idea and leaves the reader unaware of any
+  explanation it differs from.
+- **Shown by:** a fresh reader can name the explanation and the slip.
+
+## I5. Holds up wherever the reader stops (*Claude's reading of the owner's "top-down unfolding"; owner to confirm*)
+
+After the first paragraph, after the first section and after the first worked
+example, the reader holds a complete, smaller version of the idea.
+
+- ✅ the first section ends with the glider worked through once, both
+  directions shown.
+- ❌ the first paragraph asks the question and the answer arrives three
+  sections later.
+- **Shown by:** a fresh reader stopped at each point restates what they have.
+
+## I6. Succinct
+
+Every sentence adds something the reader would miss without it.
+
+- ✅ a closing line that points to the one next file to read.
+- ❌ a closing paragraph that restates the opening in other words.
+- **Shown by:** a fresh reader's list of sentences that repeat an earlier one.
+
+## I7. True to the kernel
+
+Every claim about what ICW says or shows traces to `specs/ARTICULATION.md`.
+What is open is stated as open.
+
+- ✅ "The test's last step is still unfinished, so no case has passed it."
+- ❌ "ICW shows that the glider is as real as the squares." The kernel's test
+  for that is unfinished.
+- **Shown by:** a judge holding the kernel checks each claim.
 
 ## Owner decisions (13 Nov 2026)
 
-- **Draws the visitor in:** the owner reads and decides. No reader panel
-  scores it.
-- **Clarity:** lenient. A reader's flag on a phrase counts only when their
-  guess at its meaning is missing or wrong. And no lingo: plain words a
-  grandma reads without help, wherever the README can manage without a
-  technical term.
-- **Shape of the opening:** concrete examples first, then the general idea.
-
-## Open
-
-- The reference opening, written to that shape, for the owner to approve or
-  rewrite. Readers of the previous draft took "its test asks whether…" to
-  mean "which one is real".
+- I1 is judged by the owner. No reader panel scores it.
+- I2 uses the lenient bar above, and no jargon.
+- Hint for planning (the planning cell decides whether it becomes a
+  requirement): concrete cases first, then the general idea. The glider and the "emerges from" explanation as the lead;
+  molecules flowing through a cell as a second case.
