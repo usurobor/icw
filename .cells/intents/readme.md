@@ -1,6 +1,6 @@
 # Intent: README
 
-**Status: draft, not ratified.** Stated by the owner; not yet turned into
+**Status: intents and three decisions ratified by the owner; reference opening open.** Not yet turned into
 tested acceptance criteria. The last attempt is recorded in
 `runs/2026-11-12-readme-intent/` (not converged; see its `DELTA.md`).
 
@@ -17,10 +17,18 @@ that passes both.
 
 Always also: **true to the kernel** (`specs/ARTICULATION.md`).
 
-## Open owner decisions
+## Owner decisions (13 Nov 2026)
 
-- How "draws the visitor in" is measured. Self-report from same-model readers
-  failed (all yes, then all maybe).
-- The reference opening that defines "has the idea" (draft P in the last run).
-- The clarity bar: zero flagged phrases, or count a flag only when the
-  reader's guess is missing or wrong.
+- **Draws the visitor in:** the owner reads and decides. No reader panel
+  scores it.
+- **Clarity:** lenient. A reader's flag on a phrase counts only when their
+  guess at its meaning is missing or wrong. And no lingo: plain words a
+  grandma reads without help, wherever the README can manage without a
+  technical term.
+- **Shape of the opening:** concrete examples first, then the general idea.
+
+## Open
+
+- The reference opening, written to that shape, for the owner to approve or
+  rewrite. Readers of the previous draft took "its test asks whether…" to
+  mean "which one is real".
