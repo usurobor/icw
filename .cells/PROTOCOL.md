@@ -33,7 +33,15 @@ own folder only when two runs share it.
 - **α** produces. In Acceptance, α runs the spec and drafts the verdict;
   readers and judges are its instruments.
 - **β** reviews α's output against the contract, adversarially, every
-  property every round. In Acceptance, β audits how the verdict was reached.
+  property every round. β reports one verdict per property (pass, fail or
+  void) with one line of evidence, and nothing else. In Acceptance, β audits
+  how the verdict was reached.
+- **Advisor** brings what the owner may be missing before the owner decides:
+  two or three options for one decision, each with a one-line why and a
+  one-line cost, plus anything the intent does not cover. Called at
+  Planning, and when a verdict comes back void or with cause unknown. The
+  advisor never writes matter and never reviews it. Its ideas reach the
+  matter only through an owner decision recorded in the intent.
 - **γ** dispatches, relays findings and keeps the log. γ does not edit matter.
 - **δ** is a separate agent that validates the record against the contract
   and recommends to the owner. The owner decides.

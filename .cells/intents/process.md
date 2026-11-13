@@ -1,6 +1,6 @@
 # Intent: the process
 
-**Purpose.** An iterative process for work where agents produce and a human owner judges. Each run ends in something the owner uses, and the owner comes out understanding what they built and why.
+**Purpose.** An iterative process for work where agents produce and advise and a human owner decides and judges. Each run ends in something the owner uses, stronger than the owner or the agents would make alone, and the owner comes out understanding what they built and why.
 
 This file is the owner's theory of the process: what it is and why each part is there. P4 applies to it.
 
@@ -13,6 +13,7 @@ The process is a learning loop with two learners. The verification step is its c
 - **Verification step.** In: the output, its evidence, the intent's properties. Out: a verdict in the format below, with its cost measured.
 - **Learning.** Each verdict routes a lesson to one place. The owner learns what the product is and why (the intent). The agents learn to make the next verification cheaper and more reliable (skills, checks, the judge).
 - **Production.** Shaped for the next verification: small outputs, several variants, evidence attached.
+- **Advice.** Before the owner decides, an advisor brings options and what the owner may be missing. The owner holds purpose and choice; the agents bring breadth. Advice, production and checking are three outputs from three roles: options, matter, verdicts.
 
 ## Assumptions
 
@@ -36,6 +37,11 @@ The properties follow from these. When one fails, the process changes as noted.
   *If false* (sending, deploying, publishing): verification moves before the action; the owner approves each irreversible step.
 - **A9 The owner's understanding decays when they only approve.** Delegating without explaining leaves the owner unable to catch wrong output. A7 holds only while the owner's theory is current.
   *If false*: none known yet. This is why every verdict carries a written critique.
+
+- **A10 The agents know more of the field than the owner; the owner knows what they want.** Breadth comes from the agents, purpose and choice from the owner.
+  *If false* (the owner is the domain expert): the advisor shrinks to gap-finding against the intent.
+- **A11 A checker that proposes content ends up checking its own ideas.** Advice and verification need separate agents.
+  *If false*: none known yet. This is why β reports verdicts only.
 
 ## Properties
 
