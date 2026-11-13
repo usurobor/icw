@@ -39,7 +39,7 @@ The properties follow from these. When one fails, the process changes as noted.
 
 ## Properties
 
-Priority: P1 is the goal and ranks above P3, because a process tuned for cheap checks drifts toward outputs that are easy to check. P3 is the constraint. P4 keeps P3 reliable. P2 sets the pace.
+Priority: P1 is the goal and ranks above P3, because a process tuned for cheap checks drifts toward outputs that are easy to check. P3 is the constraint. P4 keeps P3 reliable. P2 sets the pace. P5 makes all of them checkable.
 
 ### P1 Converges on a useful outcome
 - **Why:** the owner judges the process by what it ships (A3, A4).
@@ -82,6 +82,17 @@ Priority: P1 is the goal and ranks above P3, because a process tuned for cheap c
 - ❌ An intent lists properties with no why.
 - **Surface:** the intent file and the accepted output.
 - **Known gap:** tracing shows coverage. Whether the owner holds the theory shows up when they explain it, which only the owner can do.
+
+### P5 Every run is measured
+- **Why:** the process is itself learned, and only what is measured can be improved. Measuring must not cost the owner attention (A2).
+- **Invariant:** each run's contract states its measures and its failure criteria before the first round. A script computes the measures from the LOG after each round.
+- **Oracle:** the contract has both sections before round 1; the measures file is regenerated from the LOG with no owner input.
+- ✅ A contract names "owner minutes per verdict above 10 fails P3" before any draft exists.
+- ❌ Failure criteria written after seeing the results.
+- ❌ Measures the owner has to tally by hand.
+- **Surface:** `.cells/runs/<id>/contract.md`, `.cells/runs/<id>/measures.md`.
+- **Known gap:** the thresholds are guesses until several runs exist.
+- **Baseline:** every run is compared against the same output produced in one shot with no process. The owner judges both blind. A process that does not beat its baseline is overhead.
 
 ## Verdict format
 
