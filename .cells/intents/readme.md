@@ -147,10 +147,13 @@ Each line is the owner's decision; the advisor proposed, the owner chose.
   Whether that difference is what "carried" means is the open question (O2).
   Fission is logged as O4.
 - **Outline for 1.0.0**, one line per section on what the reader then holds:
-  0. Title and one-sentence claim.
+  0. Title and one-sentence claim: ICW offers a test, which anyone, an LLM
+     included, can run on a claimed pair of levels to see whether it is two
+     ways of counting one changing whole (owner, 14 Nov).
   1. The glider: two ways of counting one process.
   2. The computer: sufficient yet incomplete is ordinary.
-  3. What ICW is: the idea, then the four checks in plain words.
+  3. The test: the four checks in plain words, the reason each refusal
+     names, and the open last check.
   4. The body: the question of causation between levels becomes a question
      of identity; mind and brain in one line (Kim).
   5. Where it stands: "carried" is open; ship beside body.
