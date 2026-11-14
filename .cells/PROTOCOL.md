@@ -64,6 +64,10 @@ and dispositions. A final β on a different model is preferred.
    rank with accuracy failures.
 8. A commit on `main` produced by a cell carries a trailer:
    `Cell-Run: .cells/runs/<id>`.
+9. The intent holds what the owner wants; the run contract's **Design**
+   section holds how. An owner decision about how goes in Design, marked
+   owner, and binds the working cell like any contract line. Planning β checks
+   that every Design line serves an intent property and contradicts none.
 
 ## History
 
