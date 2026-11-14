@@ -116,8 +116,6 @@ narrower, and none of it has yet been checked for novelty.
   II, ch. xxvii, §§3, 7.
 - Lewin, K. (1922). *Der Begriff der Genese in Physik, Biologie und
   Entwicklungsgeschichte*. Berlin: Springer.
-- Craver, C. F. and Bechtel, W. (2007). "Top-down causation without top-down
-  causes." *Biology and Philosophy* 22(4): 547–563.
 - Russell, B. (1948). *Human Knowledge: Its Scope and Limits*. New York:
   Simon and Schuster, pp. 333, 475–477.
 - Quine, W. V. (1950). "Identity, Ostension, and Hypostasis." *Journal of
@@ -126,8 +124,12 @@ narrower, and none of it has yet been checked for novelty.
 - Goodman, N. (1955). *Fact, Fiction, and Forecast*, ch. III.
 - Reichenbach, H. (1956). *The Direction of Time*. University of California
   Press.
+- Place, U. T. (1956). "Is Consciousness a Brain Process?" *British Journal
+  of Psychology* 47(1): 44–50.
 - Reichenbach, H. (1958). *The Philosophy of Space and Time*. New York:
   Dover. Translation of *Philosophie der Raum-Zeit-Lehre* (1928).
+- Smart, J. J. C. (1959). "Sensations and Brain Processes." *Philosophical
+  Review* 68(2): 141–156.
 - Geach, P. T. (1962). *Reference and Generality*. Cornell University Press.
 - Geach, P. T. (1967). "Identity." *Review of Metaphysics* 21: 3–12.
 - Davidson, D. (1970). "Mental Events." In Foster and Swanson (eds.),
@@ -141,7 +143,21 @@ narrower, and none of it has yet been checked for novelty.
   Journal of Philosophy* 61(4): 343–377.
 - Salmon, W. C. (1984). *Scientific Explanation and the Causal Structure of
   the World*. Princeton University Press, pp. 141–148.
+- Searle, J. R. (1990). "Is the Brain a Digital Computer?" *Proceedings and
+  Addresses of the American Philosophical Association* 64(3): 21–37.
 - Dennett, D. C. (1991). "Real Patterns." *Journal of Philosophy* 88(1):
   27–51.
+- Chalmers, D. J. (1995). "Facing Up to the Problem of Consciousness."
+  *Journal of Consciousness Studies* 2(3): 200–219.
+- Chalmers, D. J. (1996). "Does a Rock Implement Every Finite-State
+  Automaton?" *Synthese* 108(3): 309–333.
 - Zimmerman, D. W. (1997). "Immanent Causation." *Philosophical
   Perspectives* 11: 433–471.
+- Kim, J. (1998). *Mind in a Physical World*. MIT Press.
+- Craver, C. F. and Bechtel, W. (2007). "Top-down causation without top-down
+  causes." *Biology and Philosophy* 22(4): 547–563.
+- Piccinini, G. (2015). *Physical Computation: A Mechanistic Account*.
+  Oxford University Press.
+- Driscoll, L. N., Pettit, N. L., Minderer, M., Chettih, S. N. and Harvey,
+  C. D. (2017). "Dynamic Reorganization of Neuronal Activity Patterns in
+  Parietal Cortex." *Cell* 170(5): 986–999.
