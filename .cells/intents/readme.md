@@ -154,3 +154,22 @@ Each line is the owner's decision; the advisor proposed, the owner chose.
   6. Read next: examples, kernel, pairs still to examine.
   7. Prior art: a few lines on what ICW adds (Putnam and Fodor credited;
      Kim and Searle named); full credits in `PRIOR-ART.md`.
+
+## I9. Says what is new (owner, 14 Nov)
+
+The README states at least one claim ICW makes that no earlier work makes, and
+each claim of novelty survives an independent search. I8 checks credits
+against the works the README names; I9 searches beyond them.
+
+- ✅ *illustration*: "Earlier views pick one way of counting, or ask 'same
+  what?'. ICW adds an ordered test that refuses pairs on stated grounds."
+  (Holds only if the search finds no earlier ordered test.)
+- ❌ "ICW shows that a whole can persist while its parts change." Heraclitus,
+  Plutarch and Locke said so.
+- **Shown by:** an independent AI on a different model, with web search and
+  without the run's context, receives each novelty claim and returns new,
+  anticipated (citing a source it opened), or unclear. Sources must be
+  fetched, not recalled. The owner decides each unclear claim.
+- **Known neighbours to check first:** genidentity (Lewin 1922, Reichenbach)
+  against the sequence criterion; Wiggins's sortals and phase sortals;
+  four-dimensionalism; Fodor's special sciences.
