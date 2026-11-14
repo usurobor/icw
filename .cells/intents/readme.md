@@ -1,162 +1,120 @@
 # Intent: README
 
-**Status: draft for owner review.** Purpose only. How the README gets there
-belongs to the planning cell.
+**Status: draft for owner review.** *Owner* marks the owner's words or
+decision, dated (records under Sources); *proposed* marks Claude's. The
+Design section of `runs/2026-11-13-readme/contract.md` holds how (rule 9).
 
 The README exists so that a stranger who reads it understands ICW's idea and
-wants to read on. Each property below is stated as an outcome, pinned by a
-near-hit (✅) and a near-miss (❌), with what would show it. Examples marked
-*illustration* show what meeting a property looks like; the working cell may
-meet it another way.
+wants to read on. Each property is an outcome with a near-hit (✅), a
+near-miss (❌) and what would show it; an *illustration* is one way to meet
+it. Readers, judges, calibration and every "Pass" are *proposed*; the
+planning cell settles them (rule 5). Priority (owner, 12 Nov): clarity is
+"highest priority, with 1"; a README failing I1 or I2 ranks below every
+README passing both. *Proposed:* then I3–I6 and I8; I7 always.
 
-Priority: **I1 and I2 first.** A README that fails either ranks below every
-README that passes both. Then I3–I6 and I8. I7 always.
+## The idea
 
-## I1. Draws the visitor in
+One statement, used by I3, I5 and I7. Terms are the kernel's (D10); the
+README says them in plain words (owner, 14 Nov).
+1. What are called levels, such as squares and glider, can be two ways of
+   saying what stays the same in one changing whole: *elemental*, sameness
+   of what changes (a square); *pattern*, sameness of the change across what
+   changes (the glider) (owner, 14 Nov; D10).
+2. Each holds where the other does not: one square holds one glider, later
+   another; one glider covers new squares at every step (D7).
+3. ICW offers a test anyone, an LLM included, can run on a claimed pair
+   (owner, 14 Nov). *Proposed*, for O2: it refuses a pair on stated grounds
+   (no change; one criterion, two names; one inside the other) and cannot
+   yet confirm one: its last check, whether the change keeps both going, is
+   open (§6).
 
-A stranger who reads the opening wants to read on, because of a question
-about the subject itself.
+Supporting (owner, 14 Nov). A causal sentence across the two can be true:
+it is the one change described at either level, and the README presents
+this as proposed (R5). A description can be "sufficient, fixing every next
+state, and still incomplete" (*proposed* reading, R1: it fixes all that
+happens and leaves open what counts as one).
 
-- ✅ *illustration*: the opening leaves the reader asking how the glider can
-  move when no square does.
-- ❌ the opening leaves the reader asking what "ICW" stands for.
-- **Shown by:** the owner reads it and decides.
+## I1. Draws the visitor in (owner, 12 Nov)
 
-## I2. Plain words
+A stranger who reads the opening wants to read on (*proposed:* for its subject).
+- ✅ *illustration*: the reader asks how the glider moves when no square does.
+- ❌ the reader asks what "ICW" stands for.
+- **Shown by:** the owner reads it and decides; no reader panel (owner,
+  13 Nov; rule 6).
 
-A non-specialist reads it without help. Technical terms appear only where no
-everyday word does the job, and each is explained where it first appears.
+## I2. Plain words (owner, 12 and 13 Nov)
 
-- ✅ *illustration*: "a grid of squares that switch on and off by one simple
-  rule".
-- ❌ "a two-dimensional cellular automaton with a Moore-neighbourhood update
-  rule".
-- **Shown by:** a fresh reader's list of phrases they had to guess at. A flag
-  counts only when their guess is missing or wrong.
+A non-specialist ("your grandma") reads it without help. Owner, 13 Nov: "no
+lingo: plain words a grandma reads without help, wherever the README can
+manage without a technical term." *Proposed:* explain a needed term at once.
+- ✅ *illustration*: "a grid of squares that switch on and off by one rule".
+- ❌ "a two-dimensional cellular automaton with a Moore-neighbourhood rule".
+- **Shown by:** (a) a fresh non-specialist lists each phrase they guessed at,
+  with the guess; a judge holding the kernel rules on each, and a flag counts
+  only if the guess is missing or wrong (owner, 13 Nov). (b) A judge lists
+  each technical term an everyday word could replace. Pass: both lists empty.
 
-## I3. The first paragraph carries the idea
+## I3. The first paragraph carries the idea (owner, 12 Nov)
 
-A reader who stops after the first paragraph can say, in their own words:
-there can be two honest ways to say what stays the same while something
-changes; they can disagree in both directions; and ICW asks whether the
-changing thing itself keeps both going, instead of choosing one.
-
-- ✅ *illustration*: "No square on the grid ever moves, yet a glider crosses
-  it. The same square holds one glider, then another; the same glider covers
-  new squares at every step."
+"A reader who reads only the first paragraph gets the idea": parts 1–3.
+- ✅ *illustration*: "No square ever moves, yet a glider crosses the grid,"
+  then one sentence on each direction and one on the test.
 - ❌ "In the Game of Life, gliders emerge from cells following simple rules."
-  Readers come away with the usual story, and with ICW's idea missing.
-- **Shown by:** a fresh reader restates the first paragraph; the restatement
-  contains all three parts.
+- **Shown by:** a fresh reader reads the first paragraph, hands it back,
+  restates it, and applies it to one case it did not name (*proposed*). A
+  judge marks parts 1–3. Pass: all three, and the case handled.
 
-## I4. Shows what it questions (*proposed by Claude; owner to confirm*)
+## I4. Shows what it questions (*proposed; owner to confirm*)
 
 The reader sees which familiar explanation ICW questions, and where it slips.
-
 - ✅ *illustration*: "'Gliders emerge from the cells' starts out counting
   squares and ends up counting gliders."
-- ❌ the README explains ICW's idea and leaves the reader unaware of any
-  explanation it differs from.
-- **Shown by:** a fresh reader can name the explanation and the slip.
+- ❌ the README states the idea and names no explanation it differs from.
+- **Shown by:** a fresh reader names the explanation, what it counts first
+  and what last; a judge checks against the README and READING misreading 1.
 
-## I5. Holds up wherever the reader stops (*Claude's reading of the owner's "top-down unfolding"; owner to confirm*)
+## I5. Holds up wherever the reader stops (*proposed*; owner to confirm)
 
-After the first paragraph, after the first section and after the first worked
-example, the reader holds a complete, smaller version of the idea.
+Claude's reading of "top-down": at every section's end the reader holds
+parts 1–3, and nothing read so far contradicts them.
+- ✅ *illustration*: section 1 ends with the glider worked through once.
+- ❌ section 1 raises the question; the answer comes three sections later.
+- **Shown by:** a fresh reader stopped at each section's end restates it; a
+  judge marks parts 1–3 and flags contradictions. Pass: all three, no flag.
 
-- ✅ the first section ends with the glider worked through once, both
-  directions shown.
-- ❌ the first paragraph asks the question and the answer arrives three
-  sections later.
-- **Shown by:** a fresh reader stopped at each point restates what they have.
+## I6. Succinct (owner, 12 Nov)
 
-## I6. Succinct
+Every sentence carries something the reader would miss without it.
+- ✅ *illustration*: a closing line pointing to the one next file to read.
+- ❌ a closing paragraph restating the opening in other words.
+- **Shown by:** a fresh reader marks each sentence they would not miss; a
+  judge lists each sentence that serves no property. Pass: both lists empty.
 
-Every sentence adds something the reader would miss without it.
+## I7. True to the kernel (*proposed*: seed R6, 12 Nov; owner to confirm)
 
-- ✅ a closing line that points to the one next file to read.
-- ❌ a closing paragraph that restates the opening in other words.
-- **Shown by:** a fresh reader's list of sentences that repeat an earlier one.
+Every claim about ICW traces to `specs/ARTICULATION.md`, read with
+`specs/READING.md`; open stays open and proposed stays proposed. Every claim
+about a case is true of it; a case the kernel lacks is an application.
+- ✅ "The test's last check is still open, so no pair has passed it."
+- ❌ "ICW shows that the glider is as real as the squares."
+- **Shown by:** a judge holding the kernel pairs each ICW claim with its
+  item and checks each case claim (Life by running it). Pass: all hold.
 
-## I7. True to the kernel
-
-Every claim about what ICW says or shows traces to `specs/ARTICULATION.md`.
-What is open is stated as open.
-
-- ✅ "The test's last step is still unfinished, so no case has passed it."
-- ❌ "ICW shows that the glider is as real as the squares." The kernel's test
-  for that is unfinished.
-- **Shown by:** a judge holding the kernel checks each claim.
-
-## I8. Takes its place in an old conversation
+## I8. Takes its place in an old conversation (owner, 12 and 14 Nov)
 
 The reader sees that the question is old, who asked it before, and how ICW
-relates to them, with every credit accurate. No claim that ICW is first or
-new until a novelty check on ICW has run (owner, 14 Nov). (Owner, 12 Nov: "additive to the
-conversation going on for millennia, with respect to prior art.")
+relates to each, every credit accurate. No claim that ICW is first or new
+until a novelty check on ICW has run (owner, 14 Nov).
+- ✅ *illustration*: Heraclitus's river and Theseus's ship named as this
+  question, ICW's test put to the ship, a link to `PRIOR-ART.md`.
+- ❌ accurate names and dates with no word on how ICW relates to them.
+- **Shown by:** a judge holding `PRIOR-ART.md` checks each credit against
+  it, checks each name comes with a relation, and flags any first or new.
 
-- ✅ *illustration*: one sentence naming Heraclitus's river and Theseus's
-  ship, linking to `PRIOR-ART.md` for the full credits.
-- ❌ the README presents the glider puzzle as ICW's discovery.
-- **Shown by:** a judge checks each credit against its source and each
-  claim about what ICW offers against the credited work, and flags any claim
-  of being first.
+## Sources
 
-## Owner decisions (13 Nov 2026)
-
-- I1 is judged by the owner. No reader panel scores it.
-- I2 uses the lenient bar above, and no jargon.
-- Hint for planning (the planning cell decides whether it becomes a
-  requirement): concrete cases first, then the general idea. The glider and the "emerges from" explanation as the lead;
-  ~~molecules flowing through a cell as a second case~~ (superseded 14 Nov:
-  the computer is the second case, the body the third; see below).
-
-## Owner decisions (14 Nov 2026, advisor session)
-
-Each line is the owner's decision; the advisor proposed, the owner chose.
-
-- **The one idea.** Levels of organization (glider and squares, program and
-  hardware, body and organs) can be different ways of counting one changing
-  process, with no causation between them. Supporting claim: a description
-  can be sufficient, fixing every next state, and still incomplete.
-- **Two kinds of criteria**, defined over snapshots with no observer:
-  - *Snapshot criterion*: one snapshot settles sameness, by fixed address.
-  - *Sequence criterion*: sameness is settled only across a sequence of
-    snapshots, by continuity.
-  - ✅ One snapshot settles every square and its state. One snapshot can hold
-    a glider-shaped group and cannot show it is a glider; that takes five
-    consecutive snapshots, one period of four generations.
-  - ❌ "One snapshot plus the rules defines the squares but not the glider."
-    The rules generate the whole sequence; the glider is a fact about it.
-  - Line for the README: *Squares can be counted in one snapshot. A glider
-    needs five.*
-- **Every example pairs one snapshot criterion with one sequence criterion.**
-- **Examples climb: glider, computer, body.** This replaces the 13 Nov hint
-  (molecules flowing through a cell as the second case); molecules move to
-  "read next".
-  - Computer: physics fixes every voltage; "the same program running on two
-    machines" exists only in the other count.
-  - Body: ✅ the living body, followed across a sequence through its
-    turnover. ❌ the body as the organs it contains, compared through
-    transplants: both sides are snapshot criteria.
-- **Theseus's ship sits beside the body, in the section on where ICW stands.**
-  The repaired ship persists through an unbroken sequence; a ship rebuilt
-  from the old planks starts a new sequence at its assembly; Hobbes's matter
-  verdict holds within its own criterion. Ship and body both persist through
-  turnover; the ship is repaired by others and the body repairs itself.
-  Whether that difference is what "carried" means is the open question (O2).
-  Fission is logged as O4.
-- **Outline for 1.0.0**, one line per section on what the reader then holds:
-  0. Title and one-sentence claim: ICW offers a test, which anyone, an LLM
-     included, can run on a claimed pair of levels to see whether it is two
-     ways of counting one changing whole (owner, 14 Nov).
-  1. The glider: two ways of counting one process.
-  2. The computer: sufficient yet incomplete is ordinary.
-  3. The test: the four checks in plain words, the reason each refusal
-     names, and the open last check.
-  4. The body: the question of causation between levels becomes a question
-     of identity; mind and brain in one line (Kim).
-  5. Where it stands: "carried" is open; ship beside body.
-  6. Read next: examples, kernel, pairs still to examine.
-  7. Prior art: a few lines on how ICW relates (Craver and Bechtel, Putnam
-     and Fodor credited; Kim and Searle named); no novelty claims; full credits in `PRIOR-ART.md`.
+12 Nov: `runs/2026-11-12-readme-intent/CONTRACT.md` (fixed intents); for I8,
+`runs/2026-11-12-front-door/CONTRACT.md` ("millennia old, with full respect
+to prior art"), owner to confirm as his wording. 13 Nov: commit `52d397d`.
+14 Nov: commits `887d598`, `a0af299`, `2315eba`; after review round 1,
+`runs/2026-11-14-readme-intent-review/LOG.md`.
