@@ -58,8 +58,9 @@ gap is the place to push.
 
 The question is old: Heraclitus's river, the ship of Theseus, Locke's oak,
 *the same what?*, Quine's river and its water, the statue and its clay,
-causal theories of persistence, Dennett's real patterns. ICW inherits most of
-its structure. What it adds is narrow: an ordered test, run in a named
+causal theories of persistence, Dennett's real patterns, Craver and Bechtel's
+levels without interlevel causes. ICW inherits most of its structure. What it
+offers is narrow: an ordered test, run in a named
 changing whole, that refuses pairs on stated grounds and ends in the carrying
 question. Credits and comparisons are in [PRIOR-ART.md](PRIOR-ART.md).
 

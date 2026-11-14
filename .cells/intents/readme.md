@@ -90,15 +90,17 @@ What is open is stated as open.
 
 ## I8. Takes its place in an old conversation
 
-The reader sees that the question is old, who asked it before, and what ICW
-adds, with every credit accurate. (Owner, 12 Nov: "additive to the
+The reader sees that the question is old, who asked it before, and how ICW
+relates to them, with every credit accurate. No claim that ICW is first or
+new until a novelty check on ICW has run (owner, 14 Nov). (Owner, 12 Nov: "additive to the
 conversation going on for millennia, with respect to prior art.")
 
 - ✅ *illustration*: one sentence naming Heraclitus's river and Theseus's
   ship, linking to `PRIOR-ART.md` for the full credits.
 - ❌ the README presents the glider puzzle as ICW's discovery.
 - **Shown by:** a judge checks each credit against its source and each
-  "ICW adds" claim against the credited work.
+  claim about what ICW offers against the credited work, and flags any claim
+  of being first.
 
 ## Owner decisions (13 Nov 2026)
 
@@ -153,5 +155,5 @@ Each line is the owner's decision; the advisor proposed, the owner chose.
      of identity; mind and brain in one line (Kim).
   5. Where it stands: "carried" is open; ship beside body.
   6. Read next: examples, kernel, pairs still to examine.
-  7. Prior art: a few lines on what ICW adds (Putnam and Fodor credited;
-     Kim and Searle named); full credits in `PRIOR-ART.md`.
+  7. Prior art: a few lines on how ICW relates (Craver and Bechtel, Putnam
+     and Fodor credited; Kim and Searle named); no novelty claims; full credits in `PRIOR-ART.md`.
