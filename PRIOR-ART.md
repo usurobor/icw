@@ -77,7 +77,11 @@ conditional on a pair passing): wherever `A < X > B`, "B consists of As", read
 as fixing which B, refers only to B's footprint, never to B as it persists.
 Dennett already follows one and the same glider over cells that never move,
 and notes that it is calculable from the rule. ICW agrees that derivability
-and a different criterion of identity are compatible (R2). What it offers is
+and a different criterion of identity are compatible (R2). Bedau's (1997) weak
+emergence sits on the same axis: a whole-level state is weakly emergent when
+it can be derived from the micro-dynamics only by simulating them. That is a
+claim about derivation. ICW grants it and adds that it ranks neither
+criterion (R3). What it offers is
 narrower, and none of it has yet been checked for novelty.
 
 1. **A test that can refuse.** Checks 2 and 3 of the README's test use the
@@ -153,6 +157,8 @@ narrower, and none of it has yet been checked for novelty.
   Automaton?" *Synthese* 108(3): 309–333.
 - Zimmerman, D. W. (1997). "Immanent Causation." *Philosophical
   Perspectives* 11: 433–471.
+- Bedau, M. A. (1997). "Weak Emergence." *Philosophical Perspectives* 11:
+  375–399.
 - Kim, J. (1998). *Mind in a Physical World*. MIT Press.
 - Craver, C. F. and Bechtel, W. (2007). "Top-down causation without top-down
   causes." *Biology and Philosophy* 22(4): 547–563.
