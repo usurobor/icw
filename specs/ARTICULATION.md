@@ -257,3 +257,8 @@ expression. It is not an equivalence, which is why its sign is not `≡`.
 - **O2.** What carrying is (D8). Until it is answered, co-articulation can be refused for
   coincidence, nesting and type, and cannot be refused for arbitrariness.
 - **O3.** The structure of rhythm (D12).
+- **O4.** Branching. A sequence criterion can branch: split a ship and complete both
+  halves, and two ships each have an unbroken chain of ship-snapshots back to the
+  original. "Same ship" is then not transitive, so it is not an equivalence and fails
+  D1. Whether D1 excludes branching criteria, or ICW needs a continuity that is not an
+  equivalence, is open. (Parfit and Nozick on fission.)
