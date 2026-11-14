@@ -106,7 +106,8 @@ conversation going on for millennia, with respect to prior art.")
 - I2 uses the lenient bar above, and no jargon.
 - Hint for planning (the planning cell decides whether it becomes a
   requirement): concrete cases first, then the general idea. The glider and the "emerges from" explanation as the lead;
-  molecules flowing through a cell as a second case.
+  ~~molecules flowing through a cell as a second case~~ (superseded 14 Nov:
+  the computer is the second case, the body the third; see below).
 
 ## Owner decisions (14 Nov 2026, advisor session)
 

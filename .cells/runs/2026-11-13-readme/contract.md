@@ -8,7 +8,7 @@ Can the owner verify a README directly, reliably, with less attention than a spe
 
 ## Rounds
 - **Round 0 (baseline):** a fresh agent writes the whole README in one shot from the README intent's purpose alone. Sealed until the end.
-- **Round 1:** α writes three openings, led by the glider, by molecules flowing through a cell, by Theseus's ship. β checks I2 (plain words), I6 (succinct), I7 (true to the kernel) before the owner sees them. The owner gives a verdict on each.
+- **Round 1** (amended 14 Nov, owner): the glider leads, per the intent's 14 Nov decisions; Theseus moves to the status section and molecules to "read next". α writes section 1 (the glider) under the 14 Nov outline. β checks I2 (plain words), I6 (succinct), I7 (true to the kernel) before the owner sees it. The owner gives a verdict.
 - **Round 2 onward:** α extends the chosen opening to a full README. β checks again. The owner gives a verdict.
 - **End:** the owner compares the accepted README and the baseline blind.
 
