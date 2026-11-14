@@ -107,3 +107,50 @@ conversation going on for millennia, with respect to prior art.")
 - Hint for planning (the planning cell decides whether it becomes a
   requirement): concrete cases first, then the general idea. The glider and the "emerges from" explanation as the lead;
   molecules flowing through a cell as a second case.
+
+## Owner decisions (14 Nov 2026, advisor session)
+
+Each line is the owner's decision; the advisor proposed, the owner chose.
+
+- **The one idea.** Levels of organization (glider and squares, program and
+  hardware, body and organs) can be different ways of counting one changing
+  process, with no causation between them. Supporting claim: a description
+  can be sufficient, fixing every next state, and still incomplete.
+- **Two kinds of criteria**, defined over snapshots with no observer:
+  - *Snapshot criterion*: one snapshot settles sameness, by fixed address.
+  - *Sequence criterion*: sameness is settled only across a sequence of
+    snapshots, by continuity.
+  - ✅ One snapshot settles every square and its state. One snapshot can hold
+    a glider-shaped group and cannot show it is a glider; that takes five
+    consecutive snapshots, one period of four generations.
+  - ❌ "One snapshot plus the rules defines the squares but not the glider."
+    The rules generate the whole sequence; the glider is a fact about it.
+  - Line for the README: *Squares can be counted in one snapshot. A glider
+    needs five.*
+- **Every example pairs one snapshot criterion with one sequence criterion.**
+- **Examples climb: glider, computer, body.** This replaces the 13 Nov hint
+  (molecules flowing through a cell as the second case); molecules move to
+  "read next".
+  - Computer: physics fixes every voltage; "the same program running on two
+    machines" exists only in the other count.
+  - Body: ✅ the living body, followed across a sequence through its
+    turnover. ❌ the body as the organs it contains, compared through
+    transplants: both sides are snapshot criteria.
+- **Theseus's ship sits beside the body, in the section on where ICW stands.**
+  The repaired ship persists through an unbroken sequence; a ship rebuilt
+  from the old planks starts a new sequence at its assembly; Hobbes's matter
+  verdict holds within its own criterion. Ship and body both persist through
+  turnover; the ship is repaired by others and the body repairs itself.
+  Whether that difference is what "carried" means is the open question (O2).
+  Fission is logged as O4.
+- **Outline for 1.0.0**, one line per section on what the reader then holds:
+  0. Title and one-sentence claim.
+  1. The glider: two ways of counting one process.
+  2. The computer: sufficient yet incomplete is ordinary.
+  3. What ICW is: the idea, then the four checks in plain words.
+  4. The body: the question of causation between levels becomes a question
+     of identity; mind and brain in one line (Kim).
+  5. Where it stands: "carried" is open; ship beside body.
+  6. Read next: examples, kernel, pairs still to examine.
+  7. Prior art: a few lines on what ICW adds (Putnam and Fodor credited;
+     Kim and Searle named); full credits in `PRIOR-ART.md`.
