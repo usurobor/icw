@@ -58,6 +58,26 @@ Neuroscience gives a hint: learned behaviour stays stable over weeks while
 the neurons that encode it change (Driscoll et al. 2017). Behaviour is not
 experience, so the hint stays a hint.
 
+## A brain case the checks can run
+
+One brain case reaches check 3 now: `neuron < the brain's activity > attractor`,
+where an attractor is a low-dimensional pattern the population's activity
+returns to.
+
+- *Same neuron, different attractor states.* A head-direction cell fires at
+  one heading and is quiet at the others.
+- *Same attractor, different neurons.* In mouse parietal cortex, the same
+  neurons, followed for weeks, changed what they encoded while the task
+  representation stayed readable (Driscoll et al. 2017; Rule et al. 2020).
+
+**Verdict:** cross-cut (D7), **uncarried**, pending (O2). This is a pair of
+neural criteria, glider-style. It suggests a candidate experiential
+criterion: the same experience is the same trajectory on the same attractor.
+If that holds, experience and attractor coincide (D5), which is identity
+theory moved from neurons to dynamics. If they come apart, they cross-cut.
+Different animals converge on the same kind of attractor; relating
+articulations across wholes is O5.
+
 The verdicts sort the rival views. Identity theory (Place 1956, Smart 1959)
 needs the two criteria to coincide (D5). Emergence with a direction needs one
 to nest in the other, and even then nesting ranks neither (R3).

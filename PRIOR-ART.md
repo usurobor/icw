@@ -161,3 +161,6 @@ narrower, and none of it has yet been checked for novelty.
 - Driscoll, L. N., Pettit, N. L., Minderer, M., Chettih, S. N. and Harvey,
   C. D. (2017). "Dynamic Reorganization of Neuronal Activity Patterns in
   Parietal Cortex." *Cell* 170(5): 986–999.
+- Rule, M. E., Loback, A. R., Raman, D. V., Driscoll, L. N., Harvey, C. D.
+  and O'Leary, T. (2020). "Stable task information from an unstable neural
+  population." *eLife* 9: e51121.

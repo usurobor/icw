@@ -262,3 +262,9 @@ expression. It is not an equivalence, which is why its sign is not `≡`.
   original. "Same ship" is then not transitive, so it is not an equivalence and fails
   D1. Whether D1 excludes branching criteria, or ICW needs a continuity that is not an
   equivalence, is open. (Parfit and Nozick on fission.)
+- **O5.** Across wholes. Every definition relates continuities of one `X`. Separate
+  wholes can converge on the same kind of pattern: head-direction circuits in
+  different animals each settle into a ring. ICW has no relation between articulations
+  of different wholes, so it cannot yet say that two wholes are articulated the same
+  way. Conjecture, linking O5 to O2: a criterion that independent wholes converge on
+  is carried, and one that only a describer imposes is not.
