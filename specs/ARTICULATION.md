@@ -149,6 +149,13 @@ site is computed from its previous neighbourhood. Pattern: closure plus
 integration (the stage does not split into parts that each evolve as they would
 apart). Open until it survives iteration 0, the registered probes, the hunter
 and noise.
+*Rulings* (owner, 16 Nov, after C9 failed its probes). Window: integration is
+judged over the interaction's own interval, fixed independently of the
+candidate's verdict; a one-step lull does not end it; it ends when the parts
+evolve apart for the rest of the observed run; a run that stops first leaves
+it unresolved. Grading: a best continuer is the next candidate, tested against
+a share threshold, with its comparison set and closeness declared and audited.
+Not yet O2.
 *Content.* None yet. See O2.
 
 ## 4. Articulation
