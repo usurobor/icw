@@ -46,6 +46,12 @@ kernel, [`specs/ARTICULATION.md`](specs/ARTICULATION.md), which governs.
   of light, which cannot transmit a mark. On the immanent-causation view,
   discussed by Zimmerman (1997), a thing persists only where its earlier
   states cause its later ones.
+  Armstrong (1980) gives the causal account of identity through time; Lewis's
+  Humean supervenience denies that persistence needs more than the pattern of
+  occurrences; Zimmerman (1998) argues the two Humean doctrines, temporal parts
+  and supervenient causation, are incompatible. ICW takes the causal side for
+  check 4 only (R1): its continuities are fixed by the history, and what
+  carries them is fixed by the rule.
 - **Craver and Bechtel** (2007): appeals to interlevel causes, top-down or
   bottom-up, can be understood as mechanistically mediated effects, in which
   the relations between levels are constitutive and every causal relation
@@ -185,9 +191,14 @@ narrower, and none of it has yet been checked for novelty.
   Automaton?" *Synthese* 108(3): 309–333.
 - Zimmerman, D. W. (1997). "Immanent Causation." *Philosophical
   Perspectives* 11: 433–471.
+- Zimmerman, D. W. (1998). "Temporal Parts and Supervenient Causation: The
+  Incompatibility of Two Humean Doctrines." *Australasian Journal of
+  Philosophy* 76: 265–288.
 - Bedau, M. A. (1997). "Weak Emergence." *Philosophical Perspectives* 11:
   375–399.
 - Kim, J. (1998). *Mind in a Physical World*. MIT Press.
+- Armstrong, D. M. (1980). "Identity Through Time." In P. van Inwagen (ed.),
+  *Time and Cause*, 67–78. Reidel.
 - Craver, C. F. and Bechtel, W. (2007). "Top-down causation without top-down
   causes." *Biology and Philosophy* 22(4): 547–563.
 - Piccinini, G. (2015). *Physical Computation: A Mechanistic Account*.

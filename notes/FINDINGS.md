@@ -310,3 +310,15 @@ which articulation is a link someone makes: the reading misreading #4
 refuses); *self-articulation* (reads as a person's self, and makes the whole an
 agent, which D9 denies); *theory of wholes* (Husserl's theory of wholes and
 parts, whose composition this theory denies across articulations, R4).
+
+## Carrying is read off the rule (16 Nov)
+
+Decision: check 4 depends on how the history is generated; checks 1–3 do not
+(R1 amended). Argument from the register: Reichenbach's spot moves
+continuously, so a test that reads only the film accepts it; it is an
+anchor−. Reach alone also accepts a slow spot and an indirect splice, so the
+test needs closure: each stage depends mainly on the previous stage of the
+same continuity. Open: closure must be on organisation, not material. A
+glider's next cells were empty cells, and a body's matter comes from food; a
+material reading of closure refuses both.
+

@@ -38,11 +38,14 @@ verdict. Then the hunter looks for cases it gets wrong.
 8. **Guards, reported every run:** the share of cases the test refuses (holds
    steady or rises); the candidate's length in words; the record of probe
    predictions, right and wrong.
-9. **Stop rule.** If three successive revisions each fall to a new
+9. **Shift check.** Every candidate gives the same verdict on a board shifted
+   in space or time. The rule is the same everywhere and always, so a grouping
+   that needs an outside clock (step-indexed, splice) fails.
+10. **Stop rule.** If three successive revisions each fall to a new
    counterexample, test whether *carried* is graded or prototype-based before
    revising again.
 
-10. **Labels are cheap to check.** Each target records who set it.
+11. **Labels are cheap to check.** Each target records who set it.
     - *owner*: a case that states ICW's own thesis (glider, two gliders in one
       arrangement, step-indexed grouping, wave, trivial groupings). Only the
       owner sets these; a model setting them would let the loop fit a
@@ -53,6 +56,8 @@ verdict. Then the hunter looks for cases it gets wrong.
       labeler is of a different family from the model proposing candidates. A
       second model audits the translations; the owner reads them once.
     Labels are frozen before a run and change only under rule 3.
+12. **Carrying is read off the rule** (R1, owner, 16 Nov). Reach is necessary;
+    closure is the proposed addition.
 
 ## Seed list
 
@@ -64,6 +69,10 @@ probes first.
 |---|---|---|---|---|---|---|---|
 | Glider | `cell < grid > glider` | uncarried, pending; passes check 3 | holds | anchor+ | script | no | `examples/glider.md` |
 | Two gliders, one arrangement | same sites and phase, different glider | — | holds | anchor+ | script | no | `examples/glider.md` |
+| Two identical gliders at once | two classes of `same glider` | — | holds, owner: two classes of one continuity, told apart by separate reach | anchor+ | script | no | 16 Nov |
+| Splice | glider A to step 100, then identical distant glider B | — | uncarried, owner | anchor− | script | no | 16 Nov |
+| Indirect splice | as splice, A fires a signal that triggers B | — | uncarried, owner; tests closure | anchor− | script | no | 16 Nov |
+| Collision | glider until it hits a block | — | holds up to the collision, ends there, owner | anchor+ | script | no | 16 Nov |
 | Step-indexed grouping | glider / "glider before t₀, block after" | — | uncarried | anchor− | script | no | new |
 | Trivial groupings | same trajectory; whole board | — | nested (proposed) | regression | script | no | new |
 | Incars (Hirsch) | car / car-matter inside a garage | — | uncarried ([Korman](https://philarchive.org/archive/KORSKF)) | anchor− | script: glider / its cells inside a region | no | literature |
@@ -87,7 +96,7 @@ probes first.
 | Cone | `triangle < cone > circle` | refused, untyped | untyped | regression | control | — | `examples/limits.md` |
 | Locke's mass | same mass / same united atoms | refused, coincident | coincident | regression | control | — | `examples/limits.md` |
 | Temperature | microstate / temperature | refused, nested | nested | regression | control | — | `examples/limits.md` |
-| Fission | "same ship" across a split | fails D1 | — | parked (O4) | panel | — | kernel O4 |
+| Fission | "same ship" across a split | fails D1 | — | probe (O4) | panel; script: a collision that yields two gliders | — | kernel O4 |
 | Teletransporter (Parfit) | physical / psychological continuity | — | — | parked (with fission) | script: delete a glider, copy it | no | [LSE notes](https://personal.lse.ac.uk/robert49/teaching/ph103/lecture5.html) |
 | Head-direction rings | ring attractors in different animals | — | — | parked (O5) | panel | noise | `examples/mind.md` |
 
