@@ -56,7 +56,12 @@ cases decide.
 - *Against:* independently established causal transitions repeatedly sorted as
   articulation, or verdicts that turn on arbitrary choices of description.
   Shared occurrences alone decide nothing.
-- *Status:* untested.
+- *Status:* the first candidate (reach) is contradicted within eight
+  registered claims: it calls a distant glider and a gun's next glider
+  products of the cause. Dependence (different occurrences, and deleting the
+  cause changes the effect) is supported within the same eight. Untested:
+  overdetermination, preemption, partly overlapping cause and effect
+  (`notes/runs/2026-11-16-h2.md`).
 
 **H3 — Carrying generalises** (bounded conjecture, O2). A criterion grounded in
 the dynamics separates the intended carried continuities from stipulated
