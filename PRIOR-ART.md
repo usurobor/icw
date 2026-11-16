@@ -135,6 +135,8 @@ narrower, and none of it has yet been checked for novelty.
 
 ## References
 
+- Armstrong, D. M. (1980). "Identity Through Time." In P. van Inwagen (ed.),
+  *Time and Cause*, 67–78. Reidel.
 - Heraclitus, fragment DK 22 B12.
 - Plutarch, *Life of Theseus* 23.1.
 - Hobbes, *De Corpore* (1655), part II, ch. 11, §7.
@@ -197,8 +199,6 @@ narrower, and none of it has yet been checked for novelty.
 - Bedau, M. A. (1997). "Weak Emergence." *Philosophical Perspectives* 11:
   375–399.
 - Kim, J. (1998). *Mind in a Physical World*. MIT Press.
-- Armstrong, D. M. (1980). "Identity Through Time." In P. van Inwagen (ed.),
-  *Time and Cause*, 67–78. Reidel.
 - Craver, C. F. and Bechtel, W. (2007). "Top-down causation without top-down
   causes." *Biology and Philosophy* 22(4): 547–563.
 - Piccinini, G. (2015). *Physical Computation: A Mechanistic Account*.
