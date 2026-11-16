@@ -36,9 +36,14 @@ next. Every fourth snapshot, the glider's five lit squares appear again in the
 same arrangement, one square further along the diagonal. Eight snapshots on, it
 lights none of the squares it started on.
 
-Squares switching by their neighbours is one telling of that change. Following
-the glider as it recurs further along is another. Both tell the same snapshots.
-ICW proposes that neither is more basic, and neither produces the other.
+Squares switching by their neighbours is the elemental telling of that change.
+Following the glider as it recurs further along is the pattern telling. Both
+tell the same snapshots.
+
+"The glider emerges from the squares" mixes the two. It starts in the elemental
+telling, ends in the pattern telling, and reads the switch between them as
+something the squares produce. ICW proposes that neither telling is more basic,
+and neither produces the other.
 
 ## Where else?
 
@@ -53,7 +58,8 @@ These are mechanism questions. ICW asks how they relate to a different
 question: what makes it the same cell, organism or colony through change?
 
 It investigates whether some of these cases are one changing whole told two
-ways, by elements and by patterns. Each case has to be examined on its own.
+ways, by elements and by patterns, and whether "emerges" mixes the two there as
+well. Each case has to be examined on its own.
 
 ## The research program
 
