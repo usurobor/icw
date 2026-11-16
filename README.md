@@ -40,12 +40,10 @@ Squares switching by their neighbours is the elemental telling of that change.
 Following the glider as it recurs further along is the pattern telling. Both
 tell the same snapshots.
 
-"The glider emerges from the squares" can mean two things. Read as the squares
-producing the glider, it mixes the two tellings: it starts in the elemental
-one, ends in the pattern one, and takes the switch between them for production.
-Read as "the glider's motion can be calculated from the squares by running the
-rule", it is true and mixes nothing. ICW proposes that neither telling is more
-basic, and neither produces the other.
+Read as the squares producing the glider, "the glider emerges from the squares"
+mixes the two tellings. It starts in the elemental one, ends in the pattern
+one, and takes the switch between them for production. ICW proposes that
+neither telling is more basic, and neither produces the other.
 
 ## Where else?
 
