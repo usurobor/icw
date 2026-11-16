@@ -40,8 +40,8 @@ Squares switching by their neighbours is the elemental telling of that change.
 Following the glider as it recurs further along is the pattern telling. Both
 tell the same snapshots.
 
-"The glider emerges from the squares" mixes the two. It starts in the elemental
-telling, ends in the pattern telling, and reads the switch between them as
+"The glider emerges from the squares", as usually meant, mixes the two. It
+starts in the elemental telling, ends in the pattern telling, and reads the switch between them as
 something the squares produce. ICW proposes that neither telling is more basic,
 and neither produces the other.
 
@@ -61,32 +61,32 @@ It investigates whether some of these cases are one changing whole told two
 ways, by elements and by patterns, and whether "emerges" mixes the two there as
 well. Each case has to be examined on its own.
 
-## A way of thinking
+## How to examine a case
 
-ICW is also a way to reason about any case where something is said to emerge,
-for people and for language models alike. The usual habit is to start from the
-elements and let the pattern appear on top. ICW asks for both tellings, out
-loud, with the whole named first:
+ICW offers a way for people and language models to examine an emergence claim:
+name the changing whole first, then make both ways of staying the same
+explicit. For the glider:
 
-```
-Whole:     the grid, snapshot to snapshot under one rule.
-Elemental: the same square, lit or dark.
-Pattern:   the same glider, lighting different squares.
-Mix-up:    "the glider emerges from the squares" starts
-           elemental, ends pattern.
-Open:      whether the grid's changing keeps the glider going.
-```
+- **Whole:** the grid changing under one rule.
+- **Elemental:** the same square, through changes between lit and dark.
+- **Pattern:** the same glider, through changes of shape and place.
+- **Claim:** what does "emerges from" assert between squares and gliders?
+- **Open:** what distinguishes following the same glider from following one
+  glider and then switching to another?
 
-Each line stays in its own telling. A sentence that will not fit under one
-label is switching between them.
+The labels make the claim explicit before anyone judges it.
 
 ## The research program
 
-ICW looks for more cases like the glider: one changing whole told two ways, by
-elements and by patterns, where the patterns are said to emerge. Each candidate
-is tried first on the Game of Life, where everything can be run. Telling a
-pattern the whole's changing keeps going from a grouping laid over it is the
-part still being worked out. Cases so far: [notes/CASES.md](notes/CASES.md).
+ICW looks for more cases like the glider: one changing whole told two ways,
+where the pattern is said to emerge from the elements.
+
+It is also developing a test for when a changing whole keeps a way of staying
+the same going. Candidate definitions are tested first in the Game of Life,
+where each must separate following one glider from switching between gliders,
+then in other cases, including cells, organisms and colonies. The distinction
+remains open. The [case register](notes/CASES.md) and [working
+notes](notes/FINDINGS.md) record the tests, failures and revisions.
 
 ## Read next
 
