@@ -1,5 +1,9 @@
 # Intent: README
 
+**Superseded 17 Nov 2026** by
+`runs/2026-11-16-readme-dialogue/UNDERSTANDING.md`. Kept as the record of the
+earlier judge-and-panel approach.
+
 **Status: draft for owner review.** *Owner* marks the owner's words or
 decision, dated (records under Sources); *proposed* marks Claude's. The
 Design section of `runs/2026-11-13-readme/contract.md` holds how (rule 9).
