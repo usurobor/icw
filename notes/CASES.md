@@ -42,6 +42,18 @@ verdict. Then the hunter looks for cases it gets wrong.
    counterexample, test whether *carried* is graded or prototype-based before
    revising again.
 
+10. **Labels are cheap to check.** Each target records who set it.
+    - *owner*: a case that states ICW's own thesis (glider, two gliders in one
+      arrangement, step-indexed grouping, wave, trivial groupings). Only the
+      owner sets these; a model setting them would let the loop fit a
+      definition to its own choice.
+    - *literature*: a labeler model reports what the source concluded, with a
+      citation and a one-line translation into §6 terms, e.g. "Korman: incars
+      are not objects → no continuity the changing sustains → uncarried". The
+      labeler is of a different family from the model proposing candidates. A
+      second model audits the translations; the owner reads them once.
+    Labels are frozen before a run and change only under rule 3.
+
 ## Seed list
 
 Pairs use the kernel's notation where the repo has one. Targets are proposed
