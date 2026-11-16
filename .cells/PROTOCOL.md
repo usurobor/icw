@@ -10,6 +10,7 @@ is not the product lives in `.cells/`.
 | `intents/` | What the owner wants. Owner-ratified. |
 | `skills/` | How to do a kind of work. Agent Skills format. |
 | `runs/<date>-<name>/` | One cell run: contract, round files, log, receipt. |
+| `EXPERT-SYSTEM.md` | The fixed design for registers of verdicts (labeler, auditor, evaluator, hunter). |
 
 Contracts, keys and fixtures live in the run that uses them. Promote one to its
 own folder only when two runs share it.
