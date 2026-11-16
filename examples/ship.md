@@ -1,7 +1,7 @@
 # The ship of Theseus
 
 The philosophical case, and one anyone can check without learning the theory
-first. Terms are in the [README](../README.md#two-ways-of-counting), credits in
+first. Terms are in [the kernel](../specs/ARTICULATION.md), credits in
 [PRIOR-ART.md](../PRIOR-ART.md), and IDs point to [`specs/ARTICULATION.md`](../specs/ARTICULATION.md).
 
 ## The case

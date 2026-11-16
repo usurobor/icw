@@ -1,7 +1,7 @@
 # Mind and brain
 
-The case where "emerges from" carries the most weight. Terms are in the
-[README](../README.md#two-ways-of-counting), credits in
+The case where "emerges from" carries the most weight. Terms are in
+[the kernel](../specs/ARTICULATION.md), credits in
 [PRIOR-ART.md](../PRIOR-ART.md), and IDs point to
 [`specs/ARTICULATION.md`](../specs/ARTICULATION.md).
 

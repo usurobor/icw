@@ -3,8 +3,8 @@
 ICW is a contribution to a conversation about identity through change that is
 about 2,500 years old. This file credits that conversation and states what ICW
 inherits from it and what it offers. No claim here has yet been checked for
-novelty. Terms are defined in the
-[README](README.md#two-ways-of-counting). Parenthesised IDs point to the
+novelty. Terms are defined in
+[the kernel](specs/ARTICULATION.md). Parenthesised IDs point to the
 kernel, [`specs/ARTICULATION.md`](specs/ARTICULATION.md), which governs.
 
 ## The conversation

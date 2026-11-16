@@ -1,98 +1,83 @@
 # Identity in Changing Wholes
 
-**Where do we tell a story of one level producing another, when one changing
-whole is staying the same in two ways at once?**
+## Emergence
 
-Conway's Game of Life is a grid of cells, squares that switch on and off by
-one rule. No cell ever moves, yet a glider crosses the grid. One cell holds
-one glider, later another; one glider covers new cells at every step. So the
-grid stays the same in two ways: the same cell, and the same glider. The rule
-makes each moment of the grid from the one before. The glider can be
-calculated from the cells, and ICW (Identity in Changing Wholes) proposes that
-nothing more happens: no step turns cells into a glider (R5). ICW states a
-test anyone can run on such a pair. It refuses pairs for stated reasons. Its
-last check, whether the whole's own changing keeps both going, is an open
-problem, and no pair has passed it yet.
+A familiar picture of the world: living cells emerge from molecules, organisms
+from cells, a mind from neurons. In each case, something more complex arises
+from smaller, simpler things.
 
-Other explanations tell the same story of one level making another: molecules
-make a living thing, neurons make the features of a trained network, brain
-activity makes experience. Some of these may be one changing whole staying
-the same in two ways, described as two things that need a bridge. ICW sets
-out checks for telling the two apart, starting with the Game of Life, where
-everything that happens can be seen.
+ICW examines that picture through a case where every step can be followed.
 
-## Two ways of counting
+## One grid, two ways of staying the same
 
-Parenthesised IDs point to the kernel,
-[`specs/ARTICULATION.md`](specs/ARTICULATION.md), which governs.
+Conway's Game of Life is a grid of squares, each lit or dark. A fixed rule
+takes the whole grid from one snapshot to the next; every square's next state
+is calculated from that same snapshot.
 
-- A whole's **occurrences** are what happens in its changing, ordered in
-  time (P3, P4).
-- A **continuity** is any sameness relation on those occurrences (D1): same
-  cell, same glider, same colour. Each is a candidate *criterion of
-  identity*, fixing what counts as one thing and what keeps it the same one.
-  Whether the whole bears it is the carrying question below (D9).
-- A **footprint** is a persisting thing at one instant. A frozen frame holds
-  footprints, never the persisting thing (D3).
-- A **refines** B when sameness by A guarantees sameness by B (D4). A and B
-  **cross-cut** when neither refines the other, with witnesses in both
-  directions (D7).
-- A criterion is **carried** when the whole's changing sustains it, rather
-  than having it laid across it. ICW names this and has not defined it: open
-  item O2 (D8).
-- If A and B cross-cut and both are carried, the whole X **is articulated as
-  A and B**, written `A < X > B` (D9, D11). The brackets are a mnemonic,
-  not arrows of cause, composition or order.
+Follow a square: it stays in place while it switches between lit and dark.
 
-## The test
+Follow a glider: a small pattern travels across the grid, changing shape as it
+goes, and stays the same glider while passing over different squares.
 
-Two criteria in a named whole go through the checks in order; the first to
-fail gives the verdict (§6).
+Different gliders can pass over the same square. The same glider passes over
+different squares. Neither way of staying the same guarantees the other.
 
-| Check | Verdict if it fails | Case |
-|---|---|---|
-| 1. The whole changes | **untyped**: not false, not a claim | a cone's triangle and circle |
-| 2. The criteria differ | **coincident** | Locke's same mass and same united atoms |
-| 3. Neither refines the other | **nested** | a gas's temperature and microstate |
-| 4. Both are carried | **uncarried**: undecided while O2 is open | Goodman's green and grue |
-| All pass | **holds**: `A < X > B` | none yet |
+One grid, one sequence of changes, two ways of staying the same.
 
-Today every pair that cross-cuts stops at check 4, cell and glider as much
-as green and grue. Intuition tells them apart; no definition does yet. That
-gap is the place to push.
+## What "emerges" does
 
-## Where this sits
+"How do squares make a glider?" can hold two questions.
 
-The question is old: Heraclitus's river, the ship of Theseus, Locke's oak,
-*the same what?*, Quine's river and its water, the statue and its clay,
-causal theories of persistence, Dennett's real patterns, Craver and Bechtel's
-levels without interlevel causes. ICW inherits most of its structure. What it
-offers is narrow: an ordered test, run in a named
-changing whole, that refuses pairs on stated grounds and ends in the carrying
-question. Credits and comparisons are in [PRIOR-ART.md](PRIOR-ART.md).
+How did a glider form here, where there was none before? The rule answers that
+completely, snapshot by snapshot.
 
-## Examples
+What makes it the same glider as its shape and its squares change? That needs
+a criterion: which changes preserve its identity and which end it. Calculating
+successive snapshots does not, by itself, specify that criterion. The rule can
+then help test it.
 
-- [The glider](examples/glider.md): "gliders emerge from cells", examined.
-- [The wave](examples/wave.md): the same structure in water.
-- [The ship of Theseus](examples/ship.md): the test run on the oldest case.
-- [Where the test stops](examples/limits.md): three refusals, and one pair it
-  cannot refuse.
+ICW challenges using "emerges from" to bridge the two questions. In that use, a
+difference in identity looks like one kind of thing producing another. Its
+proposal is that the same changing grid sustains both kinds, with no further
+process connecting them.
 
-## What ICW does not claim
+At any instant, a glider occupies a few lit squares. Later it can be the same
+glider on none of them. Its motion is calculable from the squares and the rule,
+while what makes it the same glider differs from what makes a square the same
+square.
 
-- That any pair is articulated.
-- That *carried* means *real* (D8), or that a coarser or derivable criterion
-  is less genuine (R2, R3).
-- That identity depends on how the history is generated (R1).
-- That anything performs an articulation, an observer or the whole itself
-  (D9).
-- That anything acts between articulations as a second cause (R5,
-  proposed).
+## Where else?
 
-## Repository
+A living cell can replace molecules and stay the same cell. An organism can
+replace cells and stay the same organism.
 
-[`specs/ARTICULATION.md`](specs/ARTICULATION.md) is the kernel and the only
-authoritative file. [`specs/READING.md`](specs/READING.md) lists misreadings
-it excludes, [`notes/FINDINGS.md`](notes/FINDINGS.md) holds working notes, and
-[`tools/`](tools/) checks the kernel.
+Still, how do molecules make a living cell? How do cells make an organism? How
+do neurons make a mind?
+
+These are mechanism questions. ICW asks how they relate to a different
+question: what makes it the same cell, organism or mind through change?
+
+It investigates whether some of these cases involve one changing whole
+sustaining two kinds of identity, by its elements and by its patterns. Each
+case has to be examined on its own.
+
+## The research program
+
+What separates a pattern the grid keeps going from a grouping laid over it? We
+could group two unrelated gliders as one, or follow one glider and then switch
+to another.
+
+ICW calls a way of staying the same through change an *articulation* when the
+whole's own changing sustains it. Making that precise is the open problem.
+
+Candidate definitions are run against cases in the Game of Life, then
+challenged with counterexamples. The [case register](notes/CASES.md) and
+[working notes](notes/FINDINGS.md) record what passes, what fails, and what
+changes next.
+
+## Read next
+
+- [The glider, step by step](examples/glider.md)
+- [The question's history, from Heraclitus's river to the ship of
+  Theseus](PRIOR-ART.md)
+- [The definitions](specs/ARTICULATION.md)

@@ -1,6 +1,6 @@
 # The wave
 
-The physical case. Terms are in the [README](../README.md#two-ways-of-counting),
+The physical case. Terms are in [the kernel](../specs/ARTICULATION.md),
 credits in [PRIOR-ART.md](../PRIOR-ART.md), and IDs point to [`specs/ARTICULATION.md`](../specs/ARTICULATION.md).
 
 ## The case

@@ -3,8 +3,8 @@
 The test refuses a pair for type, coincidence or nesting. A pair that
 cross-cuts it cannot yet refuse (O2). The checks run in
 order (§6 of [`specs/ARTICULATION.md`](../specs/ARTICULATION.md)), and each
-case below stops at a different one. Terms are in the
-[README](../README.md#two-ways-of-counting), credits in
+case below stops at a different one. Terms are in
+[the kernel](../specs/ARTICULATION.md), credits in
 [PRIOR-ART.md](../PRIOR-ART.md).
 
 ## Refused, untyped: a cone
