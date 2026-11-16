@@ -4,6 +4,8 @@ The register O2 work runs against. A candidate definition of *carried* is
 applied to every case; it becomes a candidate when it matches every expected
 verdict. Then the hunter looks for cases it gets wrong.
 
+The hypotheses these cases serve are in [HYPOTHESES.md](HYPOTHESES.md).
+
 ## Rules
 
 1. **Every case has a target verdict**, in the kernel's vocabulary (§6:
