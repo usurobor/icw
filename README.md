@@ -41,9 +41,9 @@ Following the glider as it recurs further along is the pattern telling. Both
 tell the same snapshots.
 
 "The glider emerges from the squares", as usually meant, mixes the two. It
-starts in the elemental telling, ends in the pattern telling, and reads the switch between them as
-something the squares produce. ICW proposes that neither telling is more basic,
-and neither produces the other.
+starts in the elemental telling, ends in the pattern telling, and reads the
+switch between them as something the squares produce. ICW proposes that neither
+telling is more basic, and neither produces the other.
 
 ## Where else?
 
