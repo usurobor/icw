@@ -401,8 +401,16 @@ by design.
   representation-invariance; its car failure comes from comparing with
   isolated evolution. From rule 184 alone, the car mapping is unique for
   forward moves (0 of 3000 random rings ambiguous) and not when backward moves
-  are allowed (107 of 3000), the packed ring excepted; the flow-function
-  sources are under audit.
+  are allowed (107 of 3000). Audit (`notes/audits/2026-11-16-rule184-flow.md`):
+  a local flow exists for number-conserving automata (Hattori and Takesue
+  1991; Pivato), not from Boccara and Fukś 1998, which gives the conservation
+  criterion. Its uniqueness up to an additive constant, fixed by zero flow on
+  the empty road, is this register's own derivation, checked by script, not a
+  literature result. For rule 184 the flow takes values 0 or 1 and fixes each
+  car's move, which also settles the packed ring (all stay). Car identity is
+  the flow plus an order-preserving convention; restricted to rule 184 and
+  flows in {0, 1}. No source says the transition function alone fixes
+  identity.
 - Design problem, sharpened: closeness in context. Separate F's contribution
   from its surroundings without letting the full board validate every
   tracing. One general construction with principled special cases (flow under

@@ -63,8 +63,9 @@ The hypotheses these cases serve are in [HYPOTHESES.md](HYPOTHESES.md).
 13. **Representation-invariance.** Equivalent expressions of the same
     transition function give the same verdicts (owner, 16 Nov). Present scope:
     candidates that only call the transition function (C9, C10) pass by
-    construction. Whether a rule fixes particle identity (rule 184's flow) is
-    under audit.
+    construction. Rule 184's flow fixes each car's move (audited 16 Nov);
+    identity adds an order-preserving convention, and holds for flows in
+    {0, 1} only.
 14. **Closeness in context** (owner, 16 Nov). The car in the jam and the
     eater's persistence stay open under this heading; C10 unchanged, its misses
     kept. A context-aware closeness must separate F's contribution from what
