@@ -143,6 +143,12 @@ Necessary: each stage lies within the rule's reach of the previous stage of
 the same continuity. Not sufficient: a distant stage can be downstream
 indirectly. Proposed: each stage depends mainly on the previous stage of the
 same continuity (closure).
+*Candidate* (owner, 16 Nov; not the answer to O2). Elemental: a site's
+identity belongs to the rule's fixed lattice indexing, and the state at the
+site is computed from its previous neighbourhood. Pattern: closure plus
+integration (the stage does not split into parts that each evolve as they would
+apart). Open until it survives iteration 0, the registered probes, the hunter
+and noise.
 *Content.* None yet. See O2.
 
 ## 4. Articulation

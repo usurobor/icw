@@ -74,11 +74,11 @@ probes first.
 | Two identical gliders at once | two classes of `same glider` | — | holds, owner: two classes of one continuity, told apart by separate reach | anchor+ | script | no | 16 Nov |
 | Splice | glider A to step 100, then identical distant glider B | — | uncarried, owner | anchor− | script | no | 16 Nov |
 | Indirect splice | as splice, A fires a signal that triggers B | — | uncarried, owner; tests closure | anchor− | script | no | 16 Nov |
-| Alternating splice | A, B, A, B, one glider per step | — | uncarried, proposed; owner pending | anchor− | script | no | iteration 0 |
-| Union of two distant gliders | two gliders traced as one persistence | — | owner pending; every implemented candidate holds it | probe | script | no | review of iteration 0 |
-| Two gliders that interact once | registered before any integration test | — | owner pending | probe | script | no | 16 Nov |
-| Glider meets an eater | registered before any integration test | — | owner pending | probe | script | no | 16 Nov |
-| Rule-184 jam, integration | cars brake on each other: integrated? | — | owner pending | probe | script: rule 184 | moving elements | 16 Nov |
+| Alternating splice | A, B, A, B, one glider per step | — | uncarried, owner 16 Nov: derived from Splice and R1; a history that looks like a glider does not make the trace carried | anchor− | script | no | iteration 0 |
+| Union of two distant gliders | two gliders traced as one persistence | — | uncarried, a bundle (owner, 16 Nov, before the integration run). Not a ruling on Lewis's trout-turkey, which stays no clean translation | anchor− | script | no | review of iteration 0 |
+| Two gliders that interact | glider A, glider B, their interaction | — | owner, 16 Nov: two glider continuities before contact; one integrated interaction continuity while they affect each other; then classify what persists from the actual output. Not a claim that they fuse into one enduring glider. Interval fixed from trajectories before the run | probe | script | no | 16 Nov |
+| Glider meets an eater | glider, eater, their interaction | — | owner, 16 Nov: the glider continuity ends at contact; the eater persists; eater plus glider is integrated for the interval; afterwards only the eater remains. Interval fixed from trajectories before the run | probe | script | no | 16 Nov |
+| Rule-184 jam, integration | same car / same jam | — | holds and integrated (owner, 16 Nov): the update couples a car's motion to occupancy ahead, and the jam persists as cars pass through it | probe | script: rule 184 | moving elements | 16 Nov |
 | Collision | glider until it hits a block | — | holds up to the collision, ends there, owner | anchor+ | script | no | 16 Nov |
 | Step-indexed grouping | glider / "glider before t₀, block after" | — | uncarried | anchor− | script | no | new |
 | Trivial groupings | same trajectory; whole board | — | nested (proposed) | regression | script | no | new |
