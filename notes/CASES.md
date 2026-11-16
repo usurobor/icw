@@ -60,6 +60,19 @@ The hypotheses these cases serve are in [HYPOTHESES.md](HYPOTHESES.md).
     Labels are frozen before a run and change only under rule 3.
 12. **Carrying is read off the rule** (R1, owner, 16 Nov). Reach is necessary;
     closure is the proposed addition.
+13. **Representation-invariance.** Equivalent expressions of the same
+    transition function give the same verdicts (owner, 16 Nov). Present scope:
+    candidates that only call the transition function (C9, C10) pass by
+    construction. Whether a rule fixes particle identity (rule 184's flow) is
+    under audit.
+14. **Closeness in context** (owner, 16 Nov). The car in the jam and the
+    eater's persistence stay open under this heading; C10 unchanged, its misses
+    kept. A context-aware closeness must separate F's contribution from what
+    its surroundings supply: running the whole board only reproduces the next
+    frame and would pass any tracing. It need not give every later occurrence
+    one source: conservation may give a strong flow-based witness as a special
+    case, while the Game of Life needs joint, many-to-many dependence. A
+    by-product rule is judged only on boards it has not seen.
 
 ## Seed list
 

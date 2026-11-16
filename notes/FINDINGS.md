@@ -391,3 +391,20 @@ in the jam fails every candidate. Audit applied: "closest continuer" is
 Nozick's term, claimed as a parallel; C10 breaks the only-x-and-y principle
 by design.
 
+## Rulings after C10 (16 Nov)
+
+- Fragments that have become independent are not constituents of the
+  continuing interaction; they may be continuities of their own. The recorded
+  C10 misses stay. A by-product rule is judged only on unseen boards, since a
+  different formula does not establish independence.
+- The semantic rule counts, not its notation. C10 already passes
+  representation-invariance; its car failure comes from comparing with
+  isolated evolution. From rule 184 alone, the car mapping is unique for
+  forward moves (0 of 3000 random rings ambiguous) and not when backward moves
+  are allowed (107 of 3000), the packed ring excepted; the flow-function
+  sources are under audit.
+- Design problem, sharpened: closeness in context. Separate F's contribution
+  from its surroundings without letting the full board validate every
+  tracing. One general construction with principled special cases (flow under
+  conservation; joint dependence in Life), no unique-source requirement.
+

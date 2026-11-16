@@ -156,6 +156,10 @@ evolve apart for the rest of the observed run; a run that stops first leaves
 it unresolved. Grading: a closest continuer is the next candidate, tested against
 a share threshold, with its comparison set and closeness declared and audited.
 Not yet O2.
+Integration as tested asks whether the parts' evolutions depend on each other
+(dynamics), not whether the whole's state reduces to the parts' states. In
+classical cellular automata the two coincide; a Bell pair separates them
+(`notes/ENTANGLEMENT.md`).
 *Content.* None yet. See O2.
 
 ## 4. Articulation
