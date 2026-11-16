@@ -342,3 +342,29 @@ accepts the indirect splice; C8 turns on a free bound. Closure carries a
 collision's reaction as its own whole and carries empty tracings. Two cases
 were rebuilt after the first run, both logged.
 
+## Closure is closed under disjoint union (16 Nov)
+
+Found by an outside reviewer, reproduced in the harness: two distant gliders
+traced as one persistence pass checks 1–3 and hold under every implemented
+candidate at every step. Each glider produces its own next step, so the pair
+does too. The register had predicted the opposite for the trout-turkey; that
+prediction is withdrawn. The owner's target stays unset.
+
+Three properties have been run together: persistence (the changing sustains
+it), prediction (it forecasts as well as the full state) and control (acting
+on it changes an outcome reliably). The union has the first two and is still a
+bundle. What a glider has and the union lacks is integration: the glider
+cannot be split into parts that each keep going alone.
+
+Proposed for the owner: carried means closed and not splittable into parts
+that are each closed (indecomposability; compare the organismal/colonial line
+in Krakauer et al. on individuality, unverified). Before it is adopted, three
+probes are registered so it cannot be a patch: two gliders that interact once,
+a glider meeting an eater, the rule-184 jam.
+
+Also found: closure carries 1 of the 127 cells a glider crosses, so
+`cell < grid > glider` cannot hold while D11 needs both sides carried by
+closure. Proposed: elemental continuities are carried by the form of the rule
+(each cell is updated from its own neighbourhood); pattern continuities by
+closure and integration. Owner decision.
+

@@ -157,7 +157,16 @@ def case_indirect_splice():
     raise RuntimeError("no one-time turner found")
 
 
+def case_union():
+    """Two distant gliders traced as ONE persistence (trout-turkey in Life)."""
+    H = run(board((GLIDER, (10, 10)), (GLIDER, (10, 60))), T)
+    a, _ = track_glider(H, glider_at(10, 10), 0)
+    b, _ = track_glider(H, glider_at(10, 60), 0)
+    return dict(name="Union of two distant gliders", H=H,
+                tracings=[{t: a[t] | b[t] for t in a}], target="pending (owner)")
+
+
 def all_cases():
     return [case_glider(), case_two_gliders(), case_splice(), case_indirect_splice(),
             case_collision(debris=False), case_collision(), case_step_indexed(),
-            case_periodic_splice(), case_alternating_splice()]
+            case_periodic_splice(), case_alternating_splice(), case_union()]

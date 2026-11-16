@@ -65,6 +65,8 @@ def score(case, name, cand):
         before = all(f[:max(tc - 3, 0)])
         broke = not all(f[tc - 3:tc + 3])
         return ("✓" if before and broke else "✗"), f"break at {[i for i, x in enumerate(f) if not x][:4]}, crash {tc}"
+    if tgt.startswith("pending"):
+        return v, v
     want = tgt.split()[0]
     return ("✓" if v == want else "✗"), v
 

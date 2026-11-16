@@ -73,11 +73,15 @@ probes first.
 | Splice | glider A to step 100, then identical distant glider B | — | uncarried, owner | anchor− | script | no | 16 Nov |
 | Indirect splice | as splice, A fires a signal that triggers B | — | uncarried, owner; tests closure | anchor− | script | no | 16 Nov |
 | Alternating splice | A, B, A, B, one glider per step | — | uncarried, proposed; owner pending | anchor− | script | no | iteration 0 |
+| Union of two distant gliders | two gliders traced as one persistence | — | owner pending; every implemented candidate holds it | probe | script | no | review of iteration 0 |
+| Two gliders that interact once | registered before any integration test | — | owner pending | probe | script | no | 16 Nov |
+| Glider meets an eater | registered before any integration test | — | owner pending | probe | script | no | 16 Nov |
+| Rule-184 jam, integration | cars brake on each other: integrated? | — | owner pending | probe | script: rule 184 | moving elements | 16 Nov |
 | Collision | glider until it hits a block | — | holds up to the collision, ends there, owner | anchor+ | script | no | 16 Nov |
 | Step-indexed grouping | glider / "glider before t₀, block after" | — | uncarried | anchor− | script | no | new |
 | Trivial groupings | same trajectory; whole board | — | nested (proposed) | regression | script | no | new |
 | Incars (Hirsch) | same car / same incar (one garage-bound episode) | — | nested, labeler: "same incar implies same car; the car continues outside" (Hirsch 1982, pp. 32–33; Korman 2015) | regression | script: glider / glider inside a region | no | literature, audited 16 Nov |
-| Trout-turkey (Lewis) | same animal / same fusion | — | no clean translation, labeler: Lewis (1991, §3.5) and Korman dispute existence, not persistence. Closure predicts uncarried (the fusion's stage depends on two separate processes); owner to set | probe | script: two non-interacting gliders | no | literature, audited 16 Nov |
+| Trout-turkey (Lewis) | same animal / same fusion | — | no clean translation, labeler: Lewis (1991, §3.5) and Korman dispute existence, not persistence. closure was predicted to refuse it and does not: the Game of Life union of two distant gliders holds under every candidate (iteration 0); owner to set | probe | script: two non-interacting gliders | no | literature, audited 16 Nov |
 | Wave | `parcel < sea > wave` | uncarried, pending | holds | anchor+ | panel | moving elements | `examples/wave.md` |
 | Traffic jam | same car / same jam | — | holds, labeler: "one jam persists through different cars; one car passes through different jams" (Resnick 1994; Nagel and Schreckenberg 1992, §3; rule 184 in Israeli and Goldenfeld 2006, §IV.B.3) | anchor+ | script: rule 184 | moving elements | literature, audited 16 Nov |
 | Grue, bleen | colour / grue-class over examinations | uncarried: undecided, not refused | uncarried (medium), labeler: Goodman (1955) concerns projection, not persistence; Lewis (1983) denies grue naturalness. Covered in the Game of Life by the step-indexed grouping | source | panel | — | `examples/limits.md`, audited 16 Nov |
