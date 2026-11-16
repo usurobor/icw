@@ -3,7 +3,8 @@ import numpy as np
 from scipy import ndimage
 from life import GLIDER, N, board, run, symmetries, frame_of
 from cases import track_glider, follow, glider_at, T
-from candidates import closure, integrated, local_next, c9_closure_integration, steps
+from candidates import (closure, integrated, local_next, c9_closure_integration, steps,
+                        c10_flags, CANDIDATES)
 
 EATER = [(0, 0), (0, 1), (1, 0), (1, 2), (2, 2), (3, 2), (3, 3)]
 K5 = np.ones((5, 5))
@@ -57,14 +58,27 @@ def settled_from(H, t0, need_split=True):
     return None
 
 
-def flags(tr):
-    return c9_closure_integration(None, tr)
+NAMES = ["C9", "C10", "C10s"]
 
 
-def carried_on(tr, lo, hi):
-    """C9 carries every step t -> t+1 with lo <= t < hi."""
-    f = dict(zip([t for t, _ in steps(tr)], flags(tr)))
-    return all(f[t] for t in range(lo, hi) if t in f), [t for t in sorted(f) if not f[t]]
+def flags(tr, name, H):
+    return CANDIDATES[name](H, tr)
+
+
+def carried_on(tr, lo, hi, name, H):
+    """Every step t -> t+1 with lo <= t < hi is carried (None counts as not carried)."""
+    f = dict(zip([t for t, _ in steps(tr)], flags(tr, name, H)))
+    bad = [t for t in sorted(f) if f[t] is not True]
+    return all(f[t] is True for t in range(lo, hi) if t in f), bad
+
+
+def mark(ok):
+    return "✓" if ok else "✗"
+
+
+def row(part, target, results):
+    return f"| {part} | {target} | " + " | ".join(mark(ok) for ok, _ in results) + " | " + \
+        "; ".join(f"{n}: {b[:6]}" for n, (ok, b) in zip(NAMES, results) if b) + " |"
 
 
 def probe_gliders():
@@ -146,6 +160,24 @@ def c9_184(tr):
     return out
 
 
+def near184(frame):
+    return frozenset((i + d) % L for i in frame for d in (-1, 0, 1))
+
+
+def far184(p, q):
+    if not p or not q:
+        return True
+    return min(min(abs(a - b), L - abs(a - b)) for a in p for b in q) >= 3
+
+
+def flags184(tr, name, Hj):
+    if name == "C9":
+        return c9_184(tr)
+    board_at = lambda t: frozenset(np.nonzero(Hj[t])[0].tolist())
+    return c10_flags(tr, board_at, evolve=next184, pieces=runs184, near=near184, far=far184,
+                     share=0.5 if name == "C10s" else None)
+
+
 def probe_jam():
     a = np.zeros(L, dtype=bool)
     a[0:120:2] = True             # inflow, density 1/2
@@ -172,59 +204,60 @@ def probe_jam():
     # cars that leave the jam come round the ring and re-enter it; compare at step 40
     insideT = {k for k, p in enumerate(cars[40]) if p in jam[40]}
     car = {t: frozenset([cars[t][min(inside0)]]) for t in range(T + 1)}
-    return dict(jam=jam, car=car, turnover=not (inside0 & insideT),
+    return dict(H=H, jam=jam, car=car, turnover=not (inside0 & insideT),
                 jam_len=(len(jam[0]), len(jam[max(jam)])), last=max(jam))
+
+
+def follow_piece(H, start):
+    """The pieces that hold the start cells or grew from them."""
+    from candidates import blobs
+    tr = {0: start}
+    for t in range(T):
+        near = set()
+        for r, c in tr[t]:
+            near |= {(r + i, c + j) for i in (-1, 0, 1) for j in (-1, 0, 1)}
+        tr[t + 1] = frozenset().union(*[b for b in blobs(frame_of(H[t + 1])) if b & near] or [frozenset()])
+    return tr
 
 
 def main():
     out = []
+    head = ["| Part | Target | " + " | ".join(NAMES) + " | Steps not carried |",
+            "|---|---|" + "---|" * len(NAMES) + "---|"]
     g = probe_gliders()
-    s, e = g["start"], g["end"]
-    trA, _ = track_glider(g["H"], g["A"][0], 0)
-    trB, _ = track_glider(g["H"], g["B"][0], 0)
-    okA, brA = carried_on(trA, 0, s - 1)
-    okB, brB = carried_on(trB, 0, s - 1)
+    H, s, e = g["H"], g["start"], g["end"]
+    trA, _ = track_glider(H, g["A"][0], 0)
+    trB, _ = track_glider(H, g["B"][0], 0)
     union = {t: trA[t] | trB[t] for t in range(0, s)}
-    u_ok = not all(flags(union))
-    R = follow(g["H"], frame_of(g["H"][s]), s, T)
-    okR, brR = carried_on(R, s, e)
-    n_out = len(pieces(frame_of(g["H"][e])))
-    out += [f"### Two gliders that interact (B placed at {g['b0']}; contact interval {s}–{e})", "",
-            "| Part | Target | C9 | Detail |", "|---|---|---|---|",
-            f"| Glider A before contact | carried | {'✓' if okA else '✗'} | breaks {brA[:6]} |",
-            f"| Glider B before contact | carried | {'✓' if okB else '✗'} | breaks {brB[:6]} |",
-            f"| A and B as one, before contact | uncarried | {'✓' if u_ok else '✗'} | |",
-            f"| The interaction, {s}–{e} | carried | {'✓' if okR else '✗'} | breaks {[t for t in brR if s <= t < e][:8]} |",
-            f"| After {e} | classify | — | {n_out} separate pieces; the interaction tracing breaks at {[t for t in brR if t >= e][:3]} |", ""]
+    R = follow(H, frame_of(H[s]), s, T)
+    rows = [row("Glider A before contact", "carried", [carried_on(trA, 0, s - 1, n, H) for n in NAMES]),
+            row("Glider B before contact", "carried", [carried_on(trB, 0, s - 1, n, H) for n in NAMES]),
+            row("A and B as one, before contact", "uncarried",
+                [(not all(x is True for x in flags(union, n, H)), []) for n in NAMES]),
+            row(f"The interaction, {s}–{e}", "carried", [carried_on(R, s, e, n, H) for n in NAMES])]
+    out += [f"### Two gliders that interact (B at {g['b0']}; interval {s}–{e})", ""] + head + rows + [""]
 
     q = probe_eater()
-    s, e = q["start"], q["end"]
-    trG, stop = track_glider(q["H"], q["G"][0], 0)
-    okG, brG = carried_on(trG, 0, s - 1)
-    R = follow(q["H"], frame_of(q["H"][s]), s, T)
-    okR, brR = carried_on(R, s, e)
-    region = set()
-    for r, c in q["eater"]:
-        region |= {(r + i, c + j) for i in (-1, 0, 1) for j in (-1, 0, 1)}
-    E = {t: frozenset(p for p in region if q["H"][t][p]) for t in range(T + 1)}
-    okE, brE = carried_on(E, 0, T)
-    E2 = {t: (q["eater"] if t < s or t >= e else frame_of(q["H"][t])) for t in range(T + 1)}
-    okE2, brE2 = carried_on(E2, 0, T)
-    out += [f"### Glider meets an eater (eater at {q['e0']}; contact interval {s}–{e}; glider tracker stops at {stop})", "",
-            "| Part | Target | C9 | Detail |", "|---|---|---|---|",
-            f"| Glider until contact | carried | {'✓' if okG else '✗'} | breaks {brG[:6]} |",
-            f"| The interaction, {s}–{e} | carried | {'✓' if okR else '✗'} | breaks {[t for t in brR if s <= t < e][:8]} |",
-            f"| Only the eater at the end | yes | ✓ | board at step {T} equals the eater |",
-            f"| The eater persists: its region | carried | {'✓' if okE else '✗'} | breaks {brE[:8]} |",
-            f"| The eater persists: eater, interaction, eater | carried | {'✓' if okE2 else '✗'} | breaks {brE2[:8]} |", ""]
+    H, s, e = q["H"], q["start"], q["end"]
+    trG, stop = track_glider(H, q["G"][0], 0)
+    R = follow(H, frame_of(H[s]), s, T)
+    E3 = follow_piece(H, q["eater"])
+    G2 = {**{t: trG[t] for t in trG}, **{t: E3[t] for t in E3 if t > max(trG)}}
+    rows = [row("Glider until contact", "carried", [carried_on(trG, 0, s - 1, n, H) for n in NAMES]),
+            row("Glider continued into the merged piece", "uncarried",
+                [(not all(x is True for x in flags(G2, n, H)), []) for n in NAMES]),
+            row(f"The interaction, {s}–{e}", "carried", [carried_on(R, s, e, n, H) for n in NAMES]),
+            row("The eater persists (followed piece)", "carried", [carried_on(E3, 0, T, n, H) for n in NAMES])]
+    out += [f"### Glider meets an eater (eater at {q['e0']}; interval {s}–{e}; glider tracker stops at {stop}); only the eater at step {T}: yes", ""] + head + rows + [""]
 
     j = probe_jam()
-    fj = c9_184(j["jam"])
-    fc = c9_184(j["car"])
-    out += [f"### Rule-184 jam (ring of {L}; jam {j['jam_len'][0]} cars long at step 0, {j['jam_len'][1]} at step {j['last']}; jam moves backward one cell a step; none of its cars at step 0 are in it at step 40: {j['turnover']})", "",
-            "| Part | Target | C9 | Detail |", "|---|---|---|---|",
-            f"| The jam holds | carried | {'✓' if all(fj) else '✗'} | carried on {sum(fj)} of {len(fj)} steps |",
-            f"| A car that passes through the jam | carried | {'✓' if all(fc) else '✗'} | carried on {sum(fc)} of {len(fc)} steps |", ""]
+    res_jam, res_car = [], []
+    for n in NAMES:
+        fj, fc = flags184(j["jam"], n, j["H"]), flags184(j["car"], n, j["H"])
+        res_jam.append((all(x is True for x in fj), [i for i, x in enumerate(fj) if x is not True]))
+        res_car.append((all(x is True for x in fc), [i for i, x in enumerate(fc) if x is not True]))
+    out += [f"### Rule-184 jam (ring of {L}; jam {j['jam_len'][0]} cars at step 0, {j['jam_len'][1]} at step {j['last']}; full turnover by step 40: {j['turnover']})", ""] + head + \
+        [row("The jam holds", "carried", res_jam), row("A car through the jam", "carried", res_car), ""]
     print("\n".join(out))
 
 

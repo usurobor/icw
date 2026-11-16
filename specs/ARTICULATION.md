@@ -153,7 +153,7 @@ and noise.
 judged over the interaction's own interval, fixed independently of the
 candidate's verdict; a one-step lull does not end it; it ends when the parts
 evolve apart for the rest of the observed run; a run that stops first leaves
-it unresolved. Grading: a best continuer is the next candidate, tested against
+it unresolved. Grading: a closest continuer is the next candidate, tested against
 a share threshold, with its comparison set and closeness declared and audited.
 Not yet O2.
 *Content.* None yet. See O2.
@@ -284,7 +284,8 @@ expression. It is not an equivalence, which is why its sign is not `≡`.
   halves, and two ships each have an unbroken chain of ship-snapshots back to the
   original. "Same ship" is then not transitive, so it is not an equivalence and fails
   D1. Whether D1 excludes branching criteria, or ICW needs a continuity that is not an
-  equivalence, is open. (Parfit and Nozick on fission.)
+  equivalence, is open. (Parfit and Nozick on fission; Nozick's closest continuer, Philosophical
+  Explanations, 1981, ch. 1.)
 - **O5.** Across wholes. Every definition relates continuities of one `X`. Separate
   wholes can converge on the same kind of pattern: head-direction circuits in
   different animals each settle into a ring. ICW has no relation between articulations

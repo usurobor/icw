@@ -155,3 +155,94 @@ CANDIDATES = {
     "C8, K=2": c8_shortcut(2),
     "C9": c9_closure_integration,
 }
+
+
+# --- C10: best continuer, integration over the interval (declared in notes/runs/2026-11-16-c10.md) ---
+
+from fractions import Fraction
+
+
+def jaccard(a, b):
+    """Exact overlap, so ties are real ties."""
+    u = a | b
+    return Fraction(len(a & b), len(u)) if u else Fraction(0)
+
+
+def near2d(frame):
+    return dilate(frame, 1)
+
+
+def far2d(p, q):
+    if not p or not q:
+        return True
+    return min(max(abs(a - c), abs(b - d)) for a, b in p for c, d in q) >= 3
+
+
+def window_integrated(tr, t, evolve, pieces, far):
+    """True: one whole. False: splits into parts that run apart to the end and finish apart.
+    None: they run apart to the end but finish within two cells (unresolved)."""
+    F = tr[t]
+    bs = pieces(F)
+    if len(bs) <= 1:
+        return True
+    later = [u for u in sorted(tr) if u > t]
+    n, unresolved = len(bs), False
+    for mask in range(1, 2 ** (n - 1)):
+        p = frozenset().union(*[bs[i + 1] for i in range(n - 1) if mask >> i & 1])
+        q = F - p
+        ok = True
+        for u in later:
+            p, q = evolve(p), evolve(q)
+            if p | q != tr[u]:
+                ok = False
+                break
+        if ok:
+            if far(p, q):
+                return False
+            unresolved = True
+    return None if unresolved else True
+
+
+def unique_best(scores, rivals_differ):
+    """scores[0] is the proposal; rivals_differ[i] says rival i is a different stage.
+    Returns True, False, or "tie" (a different stage equally close)."""
+    s0 = scores[0]
+    if s0 <= 0:
+        return False
+    rivals = [s for s, d in zip(scores[1:], rivals_differ[1:]) if d]
+    if any(s > s0 for s in rivals):
+        return False
+    return "tie" if any(s == s0 for s in rivals) else True
+
+
+def c10_flags(tr, board_at, evolve=local_next, pieces=blobs, near=near2d, far=far2d, share=None):
+    out = []
+    for t, u in steps(tr):
+        F, X = tr[t], tr[u]
+        isoF = evolve(F)
+        if share is not None:
+            ok = jaccard(X, isoF) > share
+        else:
+            conts = [X] + [p for p in pieces(board_at(u)) if p & near(F)] + [frozenset()]
+            fwd = unique_best([jaccard(c, isoF) for c in conts], [c != X for c in conts])
+            preds = [F] + [p for p in pieces(board_at(t)) if p & near(X)] + [frozenset()]
+            bwd = unique_best([jaccard(X, evolve(p)) for p in preds], [p != F for p in preds])
+            ok = True if (fwd is True and bwd is True) else \
+                ("tie" if "tie" in (fwd, bwd) and False not in (fwd, bwd) else False)
+        if ok is not True:
+            out.append(ok)
+            continue
+        out.append(window_integrated(tr, t, evolve, pieces, far))
+    return out
+
+
+def _c10(share=None):
+    def judge(H, tr):
+        return c10_flags(tr, lambda t: frame_of(H[t]), share=share)
+    return judge
+
+
+from life import frame_of  # noqa: E402
+
+CANDIDATES["C10"] = _c10()
+CANDIDATES["C10s"] = _c10(share=0.5)

@@ -378,3 +378,16 @@ again. Closure also refuses the eater across contact, the rule-184 jam on
 every step and a car while blocked, as predicted. Both point to carrying judged
 over a window and to a degree.
 
+## C10, closest continuer (16 Nov)
+
+`notes/runs/2026-11-16-c10.md`. Graded closeness (overlap with what a stage
+alone produces, closest among declared rivals) makes the rule-184 jam hold,
+which closure could not. A 0.5 share threshold fails the collision and the
+eater's merger, where the closest continuer passes. Both versions still fail
+the interaction probes and the eater's persistence, always at steps where a
+small fragment of the reaction dies or drifts off without effect: by the
+window ruling it is not part of the whole, yet the tracings keep it. The car
+in the jam fails every candidate. Audit applied: "closest continuer" is
+Nozick's term, claimed as a parallel; C10 breaks the only-x-and-y principle
+by design.
+

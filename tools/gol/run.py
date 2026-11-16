@@ -60,7 +60,11 @@ def verdict(case, cand):
     if pre:
         return pre, None
     flags = [judge(cand, H, tr) for tr in case["tracings"]]
-    return ("holds" if all(all(f) for f in flags) else "uncarried"), flags
+    if any(x is not True and x is not None for f in flags for x in f):
+        return "uncarried", flags
+    if any(x is None for f in flags for x in f):
+        return "unresolved", flags
+    return "holds", flags
 
 
 def score(case, name, cand):
