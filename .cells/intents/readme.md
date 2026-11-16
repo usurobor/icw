@@ -16,6 +16,12 @@ README passing both. *Proposed:* then I3–I6 and I8; I7 always.
 
 One statement, used by I3, I5 and I7. Terms are the kernel's (D10); the
 README says them in plain words (owner, 14 Nov).
+0. The question, which leads the README (owner, 16 Nov: for the README the
+   core question matters more than everything else): where do we tell a
+   story of one level producing another, when one changing whole is staying
+   the same in two ways at once? The Game of Life is where everything that
+   happens can be seen; molecules and living things, a trained network's features,
+   and experience are where the story matters (*proposed*).
 1. What are called levels, such as squares and glider, can be two ways of
    saying what stays the same in one changing whole: *elemental*, sameness
    of what changes (a square); *pattern*, sameness of the change across what
@@ -56,7 +62,8 @@ manage without a technical term." *Proposed:* explain a needed term at once.
 
 ## I3. The first paragraph carries the idea (owner, 12 Nov)
 
-"A reader who reads only the first paragraph gets the idea": parts 1–3.
+"A reader who reads only the first paragraph gets the idea": parts 1–3. The
+opening line before it states part 0 (owner, 16 Nov).
 - ✅ *illustration*: "No square ever moves, yet a glider crosses the grid,"
   then one sentence on each direction and one on the test.
 - ❌ "In the Game of Life, gliders emerge from cells following simple rules."
@@ -64,9 +71,10 @@ manage without a technical term." *Proposed:* explain a needed term at once.
   restates it, and applies it to one case it did not name (*proposed*). A
   judge marks parts 1–3. Pass: all three, and the case handled.
 
-## I4. Shows what it questions (*proposed; owner to confirm*)
+## I4. Shows what it questions (*proposed*; owner direction 16 Nov)
 
-The reader sees which familiar explanation ICW questions, and where it slips.
+The reader sees which familiar explanation ICW questions, and where it slips:
+the story of one level producing another (part 0).
 - ✅ *illustration*: "'Gliders emerge from the cells' starts out counting
   squares and ends up counting gliders."
 - ❌ the README states the idea and names no explanation it differs from.
@@ -117,4 +125,5 @@ until a novelty check on ICW has run (owner, 14 Nov).
 `runs/2026-11-12-front-door/CONTRACT.md` ("millennia old, with full respect
 to prior art"), owner to confirm as his wording. 13 Nov: commit `52d397d`.
 14 Nov: commits `887d598`, `a0af299`, `2315eba`; after review round 1,
-`runs/2026-11-14-readme-intent-review/LOG.md`.
+`runs/2026-11-14-readme-intent-review/LOG.md`. 16 Nov: chat with Claude,
+owner's direction in part 0; he left the opening to Claude ("your call").

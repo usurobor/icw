@@ -1,18 +1,25 @@
 # Identity in Changing Wholes
 
-**When everything in a whole is changing, what counts as one thing?**
+**Where do we tell a story of one level producing another, when one changing
+whole is staying the same in two ways at once?**
 
-A wave runs across deep water while the water it passes through mostly circles
-in place. A glider crawls across Conway's Game of Life while no cell ever
-moves. The Athenians replaced the planks of Theseus's ship one by one. Was it
-still the same ship?
+Conway's Game of Life is a grid of cells, squares that switch on and off by
+one rule. No cell ever moves, yet a glider crosses the grid. One cell holds
+one glider, later another; one glider covers new cells at every step. So the
+grid stays the same in two ways: the same cell, and the same glider. The rule
+makes each moment of the grid from the one before. The glider can be
+calculated from the cells, and ICW (Identity in Changing Wholes) proposes that
+nothing more happens: no step turns cells into a glider (R5). ICW states a
+test anyone can run on such a pair. It refuses pairs for stated reasons. Its
+last check, whether the whole's own changing keeps both going, is an open
+problem, and no pair has passed it yet.
 
-Each time there are two ways of counting, and they come apart in both
-directions: same wave, different water; same water, a different wave. Are
-both sustained by the whole's own changing, or is one of them a sorting laid
-across it? ICW (Identity in Changing Wholes) states a test. It refuses pairs
-for three stated reasons. Its last check is an open problem, named but not
-yet solved, and no pair has passed it.
+Other explanations tell the same story of one level making another: molecules
+make a living thing, neurons make the features of a trained network, brain
+activity makes experience. Some of these may be one changing whole staying
+the same in two ways, described as two things that need a bridge. ICW sets
+out checks for telling the two apart, starting with the Game of Life, where
+everything that happens can be seen.
 
 ## Two ways of counting
 

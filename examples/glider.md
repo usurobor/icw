@@ -4,6 +4,10 @@ The computational case. Terms are in the [README](../README.md#two-ways-of-count
 credits in [PRIOR-ART.md](../PRIOR-ART.md), and IDs point to
 [`specs/ARTICULATION.md`](../specs/ARTICULATION.md).
 
+The rule makes each state of the grid from the one before, and that is the
+whole history. The cell and the glider are two ways that one history stays the
+same. This page asks whether any step turns one into the other (R5, proposed).
+
 ## The case
 
 Conway's Game of Life (Gardner 1970) is a grid of cells, each alive or dead.
