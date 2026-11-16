@@ -2,7 +2,7 @@
 name: readme
 description: Writes and reviews the ICW front page (README and linked example pages) so that it pulls a stranger in and a smart non-specialist ("your grandma") understands the idea from the first paragraph. Use when writing, rewriting or reviewing README.md, PRIOR-ART.md or examples/ in this repository.
 metadata:
-  version: "1.0.2"
+  version: "1.0.3"
   author: usurobor
   artifact_class: skill
   kata_surface: embedded
@@ -14,7 +14,7 @@ metadata:
 
 # README
 
-*Version 1.0.2. ICW-specific; generalize later. Unproven: no acceptance run yet.*
+*Version 1.0.3. ICW-specific; generalize later. Unproven: no acceptance run yet.*
 
 ## Core Principle
 
@@ -32,11 +32,36 @@ READMEs fail when understanding them requires already understanding the work.
 
 ## Algorithm
 
+0. Gate: confirm the owner can say what the work is for. If the owner cannot,
+   stop and elicit the purpose first (§0).
 1. Define: name the reader, the one idea, why it matters, and the familiar
    thing it starts from.
 2. Unfold: hook, idea, stakes, one worked example, status, map.
 3. Rules: apply 3.1–3.12.
 4. Verify: run the tests in §4 before publishing.
+
+---
+
+## 0. Gate: purpose before prose
+
+Before defining anything, ask the owner what the work is for, in one sentence:
+the question people already hold that it changes. Drafting starts when the
+owner gives that sentence and stands by it.
+
+When the owner cannot, say so plainly: the work needs a purpose before it
+needs a README. Switch to eliciting the purpose, by interview and by testing
+candidate statements against the work's own cases. Record the result in the
+intent. Then return to §1.
+
+- ❌ Round after round of drafts, each reviewed for pull and plainness, while
+  nobody can say why a stranger should care.
+- ✅ "Before I draft: what does this change for someone? If we can't say yet,
+  that's the work to do first."
+
+*Source: `runs/2026-11-12-front-door` took 8 rounds and the README still
+missed; the purpose was settled only on 16 Nov, in dialogue, and the opening
+followed in one pass (`9fe32a9`; intent part 0). Owner's reading, 16 Nov: the
+README work paused because ICW's purpose was unclear.*
 
 ---
 
