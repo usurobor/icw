@@ -104,6 +104,8 @@ probes first.
 | Locke's mass | same mass / same united atoms | refused, coincident | coincident | regression | control | — | `examples/limits.md` |
 | Temperature | microstate / temperature | refused, nested | nested | regression | control | — | `examples/limits.md` |
 | Fission | "same ship" across a split | fails D1 | — | probe (O4) | panel; script: a collision that yields two gliders | — | kernel O4 |
+| Bell pair under local evolution | each qubit / the pair's correlation | — | — | parked | panel; quantum CA later | non-separable state | `notes/ENTANGLEMENT.md` |
+| Teleportation | particle / quantum state | — | — | parked | panel | non-separable state | `notes/ENTANGLEMENT.md` |
 | Teletransporter (Parfit) | physical / psychological continuity | — | — | parked (with fission) | script: delete a glider, copy it | no | [LSE notes](https://personal.lse.ac.uk/robert49/teaching/ph103/lecture5.html) |
 | Head-direction rings | ring attractors in different animals | — | — | parked (O5) | panel | noise | `examples/mind.md` |
 
