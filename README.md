@@ -61,6 +61,25 @@ It investigates whether some of these cases are one changing whole told two
 ways, by elements and by patterns, and whether "emerges" mixes the two there as
 well. Each case has to be examined on its own.
 
+## A way of thinking
+
+ICW is also a way to reason about any case where something is said to emerge,
+for people and for language models alike. The usual habit is to start from the
+elements and let the pattern appear on top. ICW asks for both tellings, out
+loud, with the whole named first:
+
+```
+Whole:     the grid, snapshot to snapshot under one rule.
+Elemental: the same square, lit or dark.
+Pattern:   the same glider, lighting different squares.
+Mix-up:    "the glider emerges from the squares" starts
+           elemental, ends pattern.
+Open:      whether the grid's changing keeps the glider going.
+```
+
+Each line stays in its own telling. A sentence that will not fit under one
+label is switching between them.
+
 ## The research program
 
 ICW looks for more cases like the glider: one changing whole told two ways, by
