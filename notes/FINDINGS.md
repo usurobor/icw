@@ -329,6 +329,8 @@ Five anchors labelled by a model of another family, with citations. Two of my
 proposed targets were wrong: incars are nested (an incar refines a car), and
 trout-turkey has no clean translation (its literature is about existence).
 Grue concerns projection, so the step-indexed grouping carries its test. The
-spot depends on R1. The traffic jam holds. Citations await the audit
-(rule 11).
+spot depends on R1. The traffic jam holds. Audit (`notes/audits/2026-11-16-literature-labels.md`): every citation
+exists, all five verdicts stand, two wording fixes. Incars and trout-turkey get
+their verdicts from the structure of the pair, not from the sources: those
+labels are structural, and so the owner's.
 
