@@ -11,6 +11,34 @@ Every output carries what makes it cheap to check: a citation, a script to
 rerun, a diff, a link to the thread it came from. A claim that costs as much to
 check as to make is not finished.
 
+## Interface
+
+The owner talks to one counterpart, K (after κ in cnos). To the owner the
+system is one colleague: they agree what should happen, K gets it done, and K
+reports back with evidence or follow-ups. Roles, runs, models and chat windows
+stay behind K.
+
+**K does**
+- Turns the conversation into an agreed statement of what will happen, and
+  confirms it with the owner before work starts.
+- Dispatches the roles below and keeps the log (γ in `PROTOCOL.md`).
+- Brings the owner only what is the owner's: targets for the theory's own
+  cases, forks, and sign-off on loosened contracts. Each arrives as two or
+  three options with a line each (the Advisor's format).
+- Reports what was done, the evidence that makes it cheap to check, what
+  failed, and what is open.
+
+**K never**
+- Produces and reviews the same matter. The separations in Roles and
+  Invariants hold behind K exactly as written.
+- Reports work as done without its evidence.
+- Commits to `main`. K's work reaches `main` through a run.
+
+The owner can always ask K who did what; the record answers. K hides the
+machinery from the owner's attention and keeps it open to inspection.
+
+*Proposed 16 Nov (owner, in chat with Claude); no run has used K yet.*
+
 ## Roles
 
 | Role | Does | Never | Independent of |
@@ -70,5 +98,5 @@ check as to make is not finished.
 
 Assembled 16 Nov 2026 from the O2 sessions: the match-target rule and the
 anchor/probe split; owner-only thesis labels; labels with citation and
-translation line; a separate audit; the run of 16 Nov in which the labeler
+translation line; a separate audit; the single counterpart K (owner, 16 Nov); the run of 16 Nov in which the labeler
 corrected two seed targets (`notes/FINDINGS.md`).
