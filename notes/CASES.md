@@ -44,7 +44,7 @@ candidate runs.
 | Step-indexed grouping | a GoL grouping that switches at step T | — | uncarried | script | no | new |
 | Trivial groupings | each state alone; all states together | — | uncarried | script | no | new |
 | Wave | `parcel < sea > wave` | uncarried, pending | carried | panel | moving elements | `examples/wave.md` |
-| Quine's river | water stages / river stages | — | carried | panel | moving elements | `examples/wave.md` |
+| River (Heraclitus, Quine) | water stages / river stages | — | carried: the flow makes it a river ([IEP](https://iep.utm.edu/page/heraclit)) | panel | moving elements | `examples/wave.md` |
 | Grue, bleen | colour / grue-class over examinations | uncarried: undecided, not refused | uncarried (Goodman) | panel | — | `examples/limits.md` |
 | Reichenbach's spot | a moving spot of light / the light's process | — | uncarried (a pseudo-process) | panel | no | `PRIOR-ART.md` |
 | Ship | `plank < dockyard > ship` | stops at check 4 | open | panel | moving elements | `examples/ship.md` |
@@ -53,9 +53,30 @@ candidate runs.
 | Neural attractor | `neuron < the brain's activity > attractor` | reaches check 3 | open | panel | noise | `examples/mind.md` |
 | Running computer | `circuit < the running computer > variable` | uncarried, pending; nested if Chalmers and Piccinini are right | open | panel | moving elements | `examples/mind.md` |
 | Body | matter / living process | — | carried | panel | moving elements, noise | to write |
-| Statue and clay | lump / statue | — | open: coincident or nested, unverified | panel | — | `PRIOR-ART.md` |
+| Statue and clay (Gibbard) | lump / statue | — | contested: identity, constitution, coincidence ([Wasserman, SEP](https://plato.stanford.edu/archives/win2018/entries/material-constitution/)) | panel | — | `PRIOR-ART.md` |
+| Incars (Hirsch) | car / car-matter inside a garage | — | uncarried: incars shrink at the garage door, islands survive the tide ([Korman](https://philarchive.org/archive/KORSKF)) | script (glider vs its cells inside a region) | no | literature |
+| Trout-turkey (Lewis) | trout and turkey / fusion of a trout's front and a turkey's rear | — | uncarried; existence contested ([Sanson](https://www.davidsanson.com/files/composition.pdf)) | script (union of two non-interacting gliders) | no | literature |
+| Tibbles and Tib | cat / cat minus tail | — | contested ([Wasserman, SEP](https://plato.stanford.edu/archives/win2018/entries/material-constitution/)) | script (cut cells from a stable object) | no | literature |
+| Problem of the many | one cat / 1001 overlapping hair-sets | — | contested; Lewis: "many, but almost one" ([Lewis 1993](https://andrewmbailey.com/dkl/Many_Almost_One.pdf)) | script (boundary cells of a pattern) | no | literature |
+| Teletransporter (Parfit) | physical continuity / psychological continuity | — | contested; overlaps fission ([LSE notes](https://personal.lse.ac.uk/robert49/teaching/ph103/lecture5.html)) | script (delete a glider, place a copy) | no | literature |
+| Traffic jam | cars / the jam, moving backward | — | carried ([Resnick, NetLogo](https://ccl.northwestern.edu/cm/models/traffic-basic/info.html)) | script (rule 184, a one-dimensional automaton) | moving elements | literature |
+| Flame, whirlpool, Bénard cell | fluid passing through / the structure | — | contested: carried structure, extrinsic boundary conditions ([García-Valdecasas](https://philarchive.org/archive/GAROTN-4)) | panel; script (a structure fed by a glider stream) | moving elements | literature |
+| Species (Boyd) | organisms / species, maintained by gene flow | — | carried ([Brigandt on Boyd](https://sites.ualberta.ca/%7Ebrigandt/Natural_kinds_in_evolution_and_systematics.pdf)) | panel | moving elements, noise | literature |
 | Cone | `triangle < cone > circle` | refused, untyped | refused, untyped | control | — | `examples/limits.md` |
 | Locke's mass | same mass / same united atoms | refused, coincident | refused, coincident | control | — | `examples/limits.md` |
 | Temperature | microstate / temperature | refused, nested | refused, nested | control | — | `examples/limits.md` |
 | Fission | "same ship" across a split | fails D1; never reaches checks 2–4 | stress test (O4) | panel | — | kernel O4 |
 | Head-direction rings | ring attractors in different animals | — | stress test (O5, across wholes) | panel | noise | `examples/mind.md` |
+
+## Candidates for carried
+
+Tested before any new definition is invented.
+
+| ID | Candidate | Source |
+|---|---|---|
+| C1 | The rule maps the grouping's classes onto classes: coarse-graining and running commute. | Israeli and Goldenfeld, PRL 92 (2004) |
+| C2 | The grouping is the minimal one that predicts as well as the full state (causal states). | Shalizi and Crutchfield, J. Stat. Phys. 104 (2001) |
+| C3 | The grouping compresses: some description using it is more efficient than the bit map. | Dennett, "Real Patterns", J. Phil. 88 (1991) |
+| C4 | The grouping is sustained by mechanisms that maintain its clustering (homeostatic property clusters). | Boyd (1991, 1999) |
+| C5 | The grouping carves at the joints. Not operational; panel only. | Lewis (1983); Sider (2011) |
+| C6 | Independent wholes converge on the grouping. | ICW, conjecture in O5 |
