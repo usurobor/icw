@@ -81,13 +81,16 @@ probes first.
 
 ## Candidates for carried
 
-Tested before any new definition is invented.
+Tested before any new definition is invented. Iteration 0: C1, C2 and C7
+against each other on the Game of Life rows; where they disagree is the
+first finding.
 
 | ID | Candidate | Source |
 |---|---|---|
-| C1 | The rule maps the grouping's classes onto classes: coarse-graining and running commute. | Israeli and Goldenfeld, PRL 92 (2004) |
-| C2 | The grouping is the minimal one that predicts as well as the full state (causal states). | Shalizi and Crutchfield, J. Stat. Phys. 104 (2001) |
-| C3 | The grouping compresses: some description using it is more efficient than the bit map. | Dennett, "Real Patterns", J. Phil. 88 (1991) |
+| C1 | The rule maps the grouping's classes onto classes: coarse-graining and running commute. Their blocks are fixed; a version that follows a moving pattern is C2's territory. | Israeli and Goldenfeld, PRL 92 (2004) |
+| C2 | The grouping is the minimal one that predicts as well as the full state (causal states); applied locally, it picks out moving particles against filtered domains. Relative to a chosen measure of prediction. | Shalizi and Crutchfield (2001); Hanson and Crutchfield (1997); Shalizi et al., PRE 73 (2006) |
+| C3 | The grouping compresses: some description using it is more efficient than the bit map. Compression is relative to a describer, which D9 excludes; may mark the laid-across side. | Dennett, "Real Patterns", J. Phil. 88 (1991) |
 | C4 | The grouping is sustained by mechanisms that maintain its clustering (homeostatic property clusters). | Boyd (1991, 1999) |
 | C5 | The grouping carves at the joints. Not operational; panel only. | Lewis (1983); Sider (2011) |
 | C6 | Independent wholes converge on the grouping. | ICW, conjecture in O5 |
+| C7 | The pattern maintains its own integrity: it has an intrinsic viability constraint. Reported to count still lifes too; ICW refuses those before check 4 (a block's pattern and cell criteria coincide). | Beer, McShaffrey and Gaul (2024) |

@@ -55,6 +55,22 @@ kernel, [`specs/ARTICULATION.md`](specs/ARTICULATION.md), which governs.
   physical level, the cells and their rule, while at the design level one and
   the same glider moves. Every glider is calculable from the rule. He argues
   that such patterns are real.
+- **Israeli and Goldenfeld** (2004, 2006) coarse-grain cellular automata: a
+  projection is valid when running the automaton and then projecting equals
+  projecting and then running the coarse rule. Some automata that cannot be
+  shortcut become predictable after coarse-graining. Their blocks are fixed in
+  space.
+- **Hanson and Crutchfield** (1992, 1997), in the computational mechanics of
+  cellular automata, filter out regular domains, which are invariant under
+  translation in space and time, and are left with particles that move and
+  interact. **Shalizi and colleagues** (2006) find such particles with
+  automatic filters that need no prior information about the rule or the
+  structures. A moving pattern is picked out by the dynamics, under a chosen
+  measure of prediction.
+- **Beer, McShaffrey and Gaul** (2024) derive the intrinsic viability
+  constraint of a glider in the Game of Life: the conditions under which it
+  keeps its integrity as an individual or decays back into the substrate.
+  Beer's programme treats the glider as a self-maintaining individual.
 - **Goodman** (1955) defined *grue*: green if examined before a fixed date,
   blue otherwise. It poses his new riddle of induction.
 - **Lewis** (1983) separates an elite minority of natural properties from the
@@ -132,6 +148,9 @@ narrower, and none of it has yet been checked for novelty.
   of Psychology* 47(1): 44–50.
 - Reichenbach, H. (1958). *The Philosophy of Space and Time*. New York:
   Dover. Translation of *Philosophie der Raum-Zeit-Lehre* (1928).
+- Shalizi, C. R., Haslinger, R., Rouquier, J.-B., Klinkner, K. L. and Moore,
+  C. (2006). "Automatic Filters for the Detection of Coherent Structure in
+  Spatiotemporal Systems." *Physical Review E* 73: 036104.
 - Smart, J. J. C. (1959). "Sensations and Brain Processes." *Philosophical
   Review* 68(2): 141–156.
 - Geach, P. T. (1962). *Reference and Generality*. Cornell University Press.
@@ -143,12 +162,21 @@ narrower, and none of it has yet been checked for novelty.
 - Gibbard, A. (1975). "Contingent Identity." *Journal of Philosophical Logic*
   4(2): 187–221.
 - Wiggins, D. (1980). *Sameness and Substance*. Oxford: Blackwell.
+- Hanson, J. E. and Crutchfield, J. P. (1997). "Computational Mechanics of
+  Cellular Automata: An Example." *Physica D* 103: 169–189.
+- Israeli, N. and Goldenfeld, N. (2004). "Computational Irreducibility and the
+  Predictability of Complex Physical Systems." *Physical Review Letters* 92:
+  074105. (2006). "Coarse-graining of Cellular Automata, Emergence, and the
+  Predictability of Complex Systems." *Physical Review E* 73: 026203.
 - Lewis, D. (1983). "New Work for a Theory of Universals." *Australasian
   Journal of Philosophy* 61(4): 343–377.
 - Salmon, W. C. (1984). *Scientific Explanation and the Causal Structure of
   the World*. Princeton University Press, pp. 141–148.
 - Searle, J. R. (1990). "Is the Brain a Digital Computer?" *Proceedings and
   Addresses of the American Philosophical Association* 64(3): 21–37.
+- Beer, R. D., McShaffrey, C. and Gaul, T. M. (2024). "Deriving the Intrinsic
+  Viability Constraint of an Emergent Individual from First Principles."
+  *Proceedings of ALIFE 2024*. MIT Press.
 - Dennett, D. C. (1991). "Real Patterns." *Journal of Philosophy* 88(1):
   27–51.
 - Chalmers, D. J. (1995). "Facing Up to the Problem of Consciousness."
