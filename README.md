@@ -68,7 +68,7 @@ name the changing whole first, then make both ways of staying the same
 explicit. For the glider:
 
 - **Whole:** the grid changing under one rule.
-- **Elemental:** the same square, through changes between lit and dark.
+- **Element:** the same square, through changes between lit and dark.
 - **Pattern:** the same glider, through changes of shape and place.
 - **Claim:** what does "emerges from" assert between squares and gliders?
 - **Open:** what distinguishes following the same glider from following one
