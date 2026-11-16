@@ -368,3 +368,13 @@ closure. Proposed: elemental continuities are carried by the form of the rule
 (each cell is updated from its own neighbourhood); pattern continuities by
 closure and integration. Owner decision.
 
+## Integration probes (16 Nov)
+
+`notes/runs/2026-11-16-probes.md`. C9 (closure plus integration) matches the
+iteration-0 grid and refuses the union, and fails the two interaction probes
+registered before the run: integration judged one step at a time flickers,
+since interacting parts can evolve apart for a step and then act on each other
+again. Closure also refuses the eater across contact, the rule-184 jam on
+every step and a car while blocked, as predicted. Both point to carrying judged
+over a window and to a degree.
+

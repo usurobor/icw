@@ -46,8 +46,16 @@ def judge(cand, H, tr):
     return v if isinstance(v, list) else [v]
 
 
+def trim(tr):
+    live = [t for t in sorted(tr) if tr[t]]
+    return {t: tr[t] for t in sorted(tr) if live and live[0] <= t <= live[-1]}
+
+
 def verdict(case, cand):
     H = case["H"]
+    case = {**case, "tracings": [trim(tr) for tr in case["tracings"]]}
+    if not all(case["tracings"]):
+        return "not a continuity", None
     pre = checks_1_to_3(H, cell_labels(H), tracing_labels(H, case["tracings"]))
     if pre:
         return pre, None

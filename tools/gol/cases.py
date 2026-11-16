@@ -82,7 +82,7 @@ def case_alternating_splice():
     b, _ = track_glider(H, glider_at(10, 60), 0)
     tr = {t: (a[t] if t % 2 == 0 else b[t]) for t in range(T + 1)}
     return dict(name="Alternating splice", H=H, tracings=[tr],
-                target="uncarried (proposed; owner pending)")
+                target="uncarried (owner: derived from Splice and R1)")
 
 
 def case_collision(debris=True):
@@ -163,7 +163,7 @@ def case_union():
     a, _ = track_glider(H, glider_at(10, 10), 0)
     b, _ = track_glider(H, glider_at(10, 60), 0)
     return dict(name="Union of two distant gliders", H=H,
-                tracings=[{t: a[t] | b[t] for t in a}], target="pending (owner)")
+                tracings=[{t: a[t] | b[t] for t in a}], target="uncarried (owner: a bundle)")
 
 
 def all_cases():

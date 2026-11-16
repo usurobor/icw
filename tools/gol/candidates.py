@@ -5,6 +5,55 @@ from scipy import ndimage
 from life import isolated_next, dilate, shape
 
 
+K3 = np.ones((3, 3))
+K3[1, 1] = 0
+
+
+def local_next(frame):
+    """One step of the frame alone, computed on a small padded array."""
+    if not frame:
+        return frozenset()
+    rs = [r for r, _ in frame]
+    cs = [c for _, c in frame]
+    r0, c0 = min(rs) - 2, min(cs) - 2
+    a = np.zeros((max(rs) - r0 + 3, max(cs) - c0 + 3), dtype=bool)
+    for r, c in frame:
+        a[r - r0, c - c0] = True
+    n = ndimage.convolve(a.astype(int), K3, mode="constant")
+    b = (n == 3) | (a & (n == 2))
+    return frozenset((int(r) + r0, int(c) + c0) for r, c in zip(*np.nonzero(b)))
+
+
+def blobs(frame):
+    """8-connected pieces of a frame."""
+    if not frame:
+        return []
+    rs = [r for r, _ in frame]
+    cs = [c for _, c in frame]
+    r0, c0 = min(rs), min(cs)
+    a = np.zeros((max(rs) - r0 + 1, max(cs) - c0 + 1), dtype=bool)
+    for r, c in frame:
+        a[r - r0, c - c0] = True
+    lab, n = ndimage.label(a, structure=np.ones((3, 3)))
+    return [frozenset((int(r) + r0, int(c) + c0) for r, c in zip(*np.nonzero(lab == i)))
+            for i in range(1, n + 1)]
+
+
+def integrated(frame, evolve=local_next, pieces=blobs):
+    """True unless the stage splits into two groups that, run apart, give what the whole gives."""
+    bs = pieces(frame)
+    if len(bs) <= 1:
+        return True
+    whole = evolve(frame)
+    n = len(bs)
+    for mask in range(1, 2 ** (n - 1)):
+        P = frozenset().union(*[bs[i + 1] for i in range(n - 1) if mask >> i & 1])
+        Q = frame - P
+        if evolve(P) | evolve(Q) == whole:
+            return False
+    return True
+
+
 def steps(tr):
     ts = sorted(tr)
     return list(zip(ts[:-1], ts[1:]))
@@ -12,6 +61,10 @@ def steps(tr):
 
 def closure(H, tr):
     return [isolated_next(tr[t]) == tr[u] for t, u in steps(tr)]
+
+
+def c9_closure_integration(H, tr):
+    return [c and integrated(tr[t]) for c, (t, u) in zip(closure(H, tr), steps(tr))]
 
 
 def c7_viability(H, tr):
@@ -100,4 +153,5 @@ CANDIDATES = {
     "C7": c7_viability,
     "C8, K=1": c8_shortcut(1),
     "C8, K=2": c8_shortcut(2),
+    "C9": c9_closure_integration,
 }
