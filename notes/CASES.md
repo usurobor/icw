@@ -75,12 +75,12 @@ probes first.
 | Collision | glider until it hits a block | — | holds up to the collision, ends there, owner | anchor+ | script | no | 16 Nov |
 | Step-indexed grouping | glider / "glider before t₀, block after" | — | uncarried | anchor− | script | no | new |
 | Trivial groupings | same trajectory; whole board | — | nested (proposed) | regression | script | no | new |
-| Incars (Hirsch) | car / car-matter inside a garage | — | uncarried ([Korman](https://philarchive.org/archive/KORSKF)) | anchor− | script: glider / its cells inside a region | no | literature |
-| Trout-turkey (Lewis) | trout and turkey / front-and-rear fusion | — | uncarried ([Sanson](https://www.davidsanson.com/files/composition.pdf)) | anchor− | script: two non-interacting gliders | no | literature |
+| Incars (Hirsch) | same car / same incar (one garage-bound episode) | — | nested, labeler: "same incar implies same car; the car continues outside" (Hirsch 1982, pp. 32–33; Korman 2015) | regression | script: glider / glider inside a region | no | literature, unaudited |
+| Trout-turkey (Lewis) | same animal / same fusion | — | no clean translation, labeler: Lewis (1991, §3.5) and Korman dispute existence, not persistence. Closure predicts uncarried (the fusion's stage depends on two separate processes); owner to set | probe | script: two non-interacting gliders | no | literature, unaudited |
 | Wave | `parcel < sea > wave` | uncarried, pending | holds | anchor+ | panel | moving elements | `examples/wave.md` |
-| Traffic jam | cars / jam moving backward | — | holds ([Resnick](https://ccl.northwestern.edu/cm/models/traffic-basic/info.html)) | anchor+ | script: rule 184 | moving elements | literature |
-| Grue, bleen | colour / grue-class over examinations | uncarried: undecided, not refused | uncarried (Goodman) | anchor− | panel | — | `examples/limits.md` |
-| Reichenbach's spot | moving spot of light / the light's process | — | uncarried (pseudo-process) | anchor− | panel | no | `PRIOR-ART.md` |
+| Traffic jam | same car / same jam | — | holds, labeler: "one jam persists through different cars; one car passes through different jams" (Resnick 1994; Nagel and Schreckenberg 1992, §3; rule 184 in Israeli and Goldenfeld 2006, §IV.B.3) | anchor+ | script: rule 184 | moving elements | literature, unaudited |
+| Grue, bleen | colour / grue-class over examinations | uncarried: undecided, not refused | uncarried (medium), labeler: Goodman (1955) concerns projection, not persistence; Lewis (1983) denies grue naturalness. Covered in the Game of Life by the step-indexed grouping | source | panel | — | `examples/limits.md`, unaudited |
+| Reichenbach's spot | same wall patch / same sweeping spot | — | no clean translation in plain sense, labeler: Salmon (1984, pp. 141–147) shows the spot transmits no mark; that yields uncarried only once carrying is causal (R1, 16 Nov). Under closure: the spot's next stage depends on the lamp, not on the spot | anchor− (given R1) | panel | no | `PRIOR-ART.md`, unaudited |
 | Ship | `plank < dockyard > ship` | stops at check 4 | ? | probe | panel | moving elements | `examples/ship.md` |
 | Hobbes's ship | matter so shaped / ship through repair | — | ? | probe | panel | moving elements | `examples/ship.md` |
 | Body | matter / living process | — | holds? | probe | panel | moving elements, noise | to write |

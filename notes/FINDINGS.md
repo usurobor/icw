@@ -314,11 +314,21 @@ parts, whose composition this theory denies across articulations, R4).
 ## Carrying is read off the rule (16 Nov)
 
 Decision: check 4 depends on how the history is generated; checks 1–3 do not
-(R1 amended). Argument from the register: Reichenbach's spot moves
-continuously, so a test that reads only the film accepts it; it is an
-anchor−. Reach alone also accepts a slow spot and an indirect splice, so the
+(R1 amended). Grounds: the splice, which identical frames cannot refuse; decidability,
+since reach is local and finite; every candidate already uses the rule.
+Reichenbach's spot agrees but is not independent evidence: the labeler found
+it uncarried only once carrying is causal, which is the decision itself. Reach alone also accepts a slow spot and an indirect splice, so the
 test needs closure: each stage depends mainly on the previous stage of the
 same continuity. Open: closure must be on organisation, not material. A
 glider's next cells were empty cells, and a body's matter comes from food; a
 material reading of closure refuses both.
+
+## First literature labels (16 Nov)
+
+Five anchors labelled by a model of another family, with citations. Two of my
+proposed targets were wrong: incars are nested (an incar refines a car), and
+trout-turkey has no clean translation (its literature is about existence).
+Grue concerns projection, so the step-indexed grouping carries its test. The
+spot depends on R1. The traffic jam holds. Citations await the audit
+(rule 11).
 
