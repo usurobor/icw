@@ -106,3 +106,28 @@ first finding.
 | C5 | The grouping carves at the joints. Not operational; panel only. | Lewis (1983); Sider (2011) |
 | C6 | Independent wholes converge on the grouping. | ICW, conjecture in O5 |
 | C7 | The pattern maintains its own integrity: it has an intrinsic viability constraint. Reported to count still lifes too; ICW refuses those before check 4 (a block's pattern and cell criteria coincide). | Beer, McShaffrey and Gaul (2024) |
+| C8 | The grouping makes the dynamics shortcuttable: its coarse rule predicts with less computation than running the cells. Expected to fail the splice, which is as predictable as the true trace. | Israeli and Goldenfeld (2004), as a hypothesis |
+
+## Queued (16 Nov)
+
+- **Splice and reach.** Splice (follow glider A, then an identical distant
+  glider B), two simultaneous identical gliders, collision, shifted board or
+  clock. Targets: owner. Decision pending on R1: carried read off the actual
+  history (needs "next to") or off the rule's reach (qualifies R1).
+- **Universality.** The Game of Life emulates any computable whole, so the
+  running-computer probe can be built literally (Rendell's Turing machine), and
+  the OTCA metapixel gives a stack (cells, metacells, meta-gliders) that tests
+  R6 directly. Iteration 2: costly to run.
+- **Undecidability.** Whether a pattern ever dies is undecidable in general.
+  A candidate that quantifies over all future time makes check 4 undecidable
+  for some patterns. Prefer candidates checked over a finite stretch; a
+  continuity's verdict is then per stretch, which also fits the collision case.
+  The verdicts may need *undecidable* as distinct from *undecided while O2 is
+  open*.
+- **Emulation.** A carried criterion should stay carried when its whole is
+  emulated in the Game of Life (rule 184 traffic inside Life: the jam holds).
+  A check on every candidate, and a candidate relation for O5. The emulation
+  map is itself a commuting coarse-graining; check the cellular-automata
+  "bulking" literature (Delorme, Mazoyer, Ollinger, Theyssier) before claiming
+  anything.
+- **Scope.** Computable wholes only. Bodies and seas stay with the panel.
