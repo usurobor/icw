@@ -72,6 +72,7 @@ probes first.
 | Two identical gliders at once | two classes of `same glider` | — | holds, owner: two classes of one continuity, told apart by separate reach | anchor+ | script | no | 16 Nov |
 | Splice | glider A to step 100, then identical distant glider B | — | uncarried, owner | anchor− | script | no | 16 Nov |
 | Indirect splice | as splice, A fires a signal that triggers B | — | uncarried, owner; tests closure | anchor− | script | no | 16 Nov |
+| Alternating splice | A, B, A, B, one glider per step | — | uncarried, proposed; owner pending | anchor− | script | no | iteration 0 |
 | Collision | glider until it hits a block | — | holds up to the collision, ends there, owner | anchor+ | script | no | 16 Nov |
 | Step-indexed grouping | glider / "glider before t₀, block after" | — | uncarried | anchor− | script | no | new |
 | Trivial groupings | same trajectory; whole board | — | nested (proposed) | regression | script | no | new |

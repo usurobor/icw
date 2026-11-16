@@ -334,3 +334,11 @@ exists, all five verdicts stand, two wording fixes. Incars and trout-turkey get
 their verdicts from the structure of the pair, not from the sources: those
 labels are structural, and so the owner's.
 
+## Iteration 0 (16 Nov)
+
+`notes/runs/2026-11-16-iteration-0.md`. Closure and C7 match every Game of
+Life target. C1 (history only) accepts the alternating splice; C2 (adjacency)
+accepts the indirect splice; C8 turns on a free bound. Closure carries a
+collision's reaction as its own whole and carries empty tracings. Two cases
+were rebuilt after the first run, both logged.
+
