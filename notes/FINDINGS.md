@@ -497,3 +497,18 @@ changes five marks at the seam where padded empty frames give the glider a
 past the rule cannot produce. Glider cells score about 1.7 bits above
 still-life cells; that grading is unused. Depth 2 is the real test and costs
 more than minutes.
+
+## C13 (18 Nov)
+
+`notes/runs/2026-11-18-c13.md`. C10's closeness, integration judged in
+context (rerun with a part's cells set to 0; parts that never change each
+other's effects are split), and a clause for elements: a site, or in a
+conserving rule a live site moved as the rule's flow assigns. 11 of 11 grid
+rows; 7 of 10 probe parts; the car and the 127 crossed cells hold by the
+element clause. The three misses are the registered tracings that keep a
+fragment until it dies: at the death step the stage with and without the
+fragment tie as predecessors, under C10's code too (its run file said
+closeness never caused a miss; it did, at steps 16, 27 and 49). With
+fragments removed once independent, the eater's sides hold on four boards.
+Two fed eaters traced as one are refused from step 0; C10 held them for 47
+steps.
