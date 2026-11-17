@@ -432,3 +432,18 @@ by design.
   constraints. Bears on body against flame, which is a question of
   self-maintenance; queued in `notes/CASES.md`, together with a name clash
   over *closure*.
+
+## C11 (17 Nov)
+
+`notes/runs/2026-11-17-c11.md`. Own-past share: per cell of the next
+footprint, the information from inputs in the previous footprint against the
+information from the rest, exact over an ensemble that knocks live inputs out
+to the quiescent 0. θ = 0.5 from the anchors. It refuses every jump (splice,
+step-indexed, alternating: share 0 at the jump) and grades feeding: jam 0.95,
+blocked car 0.33, the eater's merge 0.56 against the glider's 0.44. That gives
+the eater's persistence and the glider's end at contact together, a first, by
+a margin inside the ±20% band. It misses the indirect splice, both collisions
+and the union: it reads where a stage's information comes from and never what
+the previous stage drops. Under uniform resampling the glider scores 0.45, so
+"more than its surroundings" depends on the ensemble. For O2: C11 is the
+graded input side of closure; the output side is the next candidate.

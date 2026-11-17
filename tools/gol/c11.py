@@ -227,15 +227,18 @@ def carried_on(sh, lo, hi, theta, keys):
 
 def probe_report(theta, ens):
     out = []
-    head = ["| Part | Target | Score | C11 | Steps not carried |", "|---|---|---|---|---|"]
+    head = ["| Part | Target | Score | C11 | at 0.8 θ | at 1.2 θ | Steps not carried |",
+            "|---|---|---|---|---|---|---|"]
 
     def part(name, target, H, tr, lo, hi, want=True, rule=LIFE):
         keys = [t for t, _ in C_steps(tr)]
         sh = shares(H, tr, rule, ens)
         ok, bad = carried_on(sh, lo, hi, theta, keys)
+        sens = [mark(carried_on(sh, lo, hi, f * theta, keys)[0] == want) for f in (0.8, 1.2)]
         sel = [s for k, s in zip(keys, sh) if lo <= k < hi and s is not None]
         sc = min(sel) if sel else None
-        return f"| {name} | {target} | {fmt(sc)} | {mark(ok == want)} | {bad[:8]} |", dict(zip(keys, sh))
+        return (f"| {name} | {target} | {fmt(sc)} | {mark(ok == want)} | {sens[0]} | {sens[1]} | "
+                f"{bad[:8]} |"), dict(zip(keys, sh))
 
     g = PR.probe_gliders()
     H, s, e = g["H"], g["start"], g["end"]

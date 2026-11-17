@@ -140,7 +140,7 @@ first finding.
 | C6 | Independent wholes converge on the grouping. | ICW, conjecture in O5 |
 | C7 | The pattern maintains its own integrity: it has an intrinsic viability constraint. Reported to count still lifes too; ICW refuses those before check 4 (a block's pattern and cell criteria coincide). | Beer, McShaffrey and Gaul (2024) |
 | C8 | The grouping makes the dynamics shortcuttable: its coarse rule predicts with less computation than running the cells. Expected to fail the splice, which is as predictable as the true trace. | Israeli and Goldenfeld (2004), as a hypothesis |
-| C11 | A stage gets more of its information from the persistence's own past than from its surroundings (temporal integrity, by information decomposition). Graded: separates driven forms (whirlpool, flame) from organismal ones. A measure for the *mainly* in closure and for rule 14's closeness in context. The source makes individuality relative to an observer's lens; D9 needs it read off the rule. | Krakauer, Bertschinger, Olbrich, Flack and Ay, *Theory in Biosciences* 139 (2020) |
+| C11 | A stage gets more of its information from the persistence's own past than from its surroundings (temporal integrity, by information decomposition). Graded: separates driven forms (whirlpool, flame) from organismal ones. A measure for the *mainly* in closure and for rule 14's closeness in context. The source makes individuality relative to an observer's lens; D9 needs it read off the rule. Run: `notes/runs/2026-11-17-c11.md`. | Krakauer, Bertschinger, Olbrich, Flack and Ay, *Theory in Biosciences* 139 (2020) |
 
 ## Queued (16 Nov)
 
