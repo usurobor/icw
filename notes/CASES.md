@@ -146,6 +146,21 @@ listed in this table with its status and run.
 | C11 | A stage gets more of its information from the persistence's own past than from its surroundings (temporal integrity, by information decomposition). Graded: separates driven forms (whirlpool, flame) from organismal ones. A measure for the *mainly* in closure and for rule 14's closeness in context. The source makes individuality relative to an observer's lens; D9 needs it read off the rule. Run: `notes/runs/2026-11-17-c11.md`. | Krakauer, Bertschinger, Olbrich, Flack and Ay, *Theory in Biosciences* 139 (2020) | Run, 17 Nov. Gets the eater's two sides right; holds the union, the collisions and the indirect splice; refuses the car; sorts elements (fed by surroundings) from patterns (fed by their own past). Not O2. |
 | C12 | Outflow: of the information in the previous stage, the share that reaches the next stage of the same continuity. Run: `notes/runs/2026-11-17-c12.md`. | ICW, after C11; the forward half of Krakauer et al. 2020 | Run, 17 Nov. θ 0.315 from the anchors. Refuses every jump and the annihilating collision at the crash; holds the union, the debris collision, the glider into the eater's merged piece; the car and the indirect splice pass by margins inside ±20%. 8 of 11 grid rows. Not O2. With C11, as a conjunction at both frozen thresholds (`notes/runs/2026-11-17-c11-c12.md`): 8 of 11 rows, 8 of 10 probe parts; misses bundles, endings into a product, the car. |
 
+**Where the candidates stand (17 Nov).** No candidate is O2. Three failure
+groups remain across C2, C3 and C9–C12:
+
+1. *Bundles*: the union of two distant gliders, and two gliders traced as one.
+   Only C9 and C10 refuse them, through integration.
+2. *Ending into a product*: the debris collision, the indirect splice, the
+   glider into the eater's merged piece.
+3. *Ending into nothing*: the annihilating collision. Only C12 catches it.
+
+Every local, per-step measure refuses jumps, and each refusal comes from reach
+(R1). Per-step information flow grades feeding and cannot tell a glider that
+ends inside a product from one that continues. Groups 1 and 2 need a judgement
+over a window or the whole tracing (C10's integration, its comparison with the
+stage run alone).
+
 ## Queued (16 Nov)
 
 - **Splice and reach.** Splice (follow glider A, then an identical distant
