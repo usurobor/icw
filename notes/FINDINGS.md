@@ -527,3 +527,50 @@ the wrapping board. It matches the whole frozen register (11 of 11 rows, 10 of
 by-product ruling's *independent* as "has lasting effects". The pulsar fails
 at its last step and the spaceship at a tracing's first step; both need owner
 targets.
+
+## C15 and rule 5 (18 Nov)
+
+`notes/runs/2026-11-18-c15.md`. C14 with one notion of interacting: the
+history graph also joins pieces that interact by the contrast, which sees
+cells that stay dead. The pulsar becomes unresolved at its last step instead
+of refused. It keeps C14's match on the whole frozen register (11 of 11 rows,
+10 of 10 parts, 26 of 27 on six unseen boards) and passes rule 5: noise at two
+rates (24 of 24), rule 184's cars (2312 of 2312) and jams without a merge or
+split (52 of 52), with and without noise. Two code faults found on the way and
+fixed: wrap on the board and on the ring.
+
+## C16, the blanket candidate (18 Nov)
+
+`notes/runs/2026-11-18-c16.md`. Owner's request, orchestrator's design:
+window integration by part-dependence under knockout, with C10's closeness
+and C12's outflow. 11 of 11 rows, 6 of 10 parts (7 with the element clause).
+The reduction "blanket minimality is integration" holds for parts out of
+reach (union 0 bits) and fails for parts within reach: the bi-block (2.3) and
+an interaction's two products (11.0) score high because knocked-out variants
+interact where the actual parts do not. Idle cells score 0 and split the
+spaceship. The statistical test is integration over variants, a different
+predicate from integration in the actual history.
+
+## Proposed D8 content, pending three owner rulings (18 Nov)
+
+Not O2 until the owner rules on the questions in `notes/CASES.md`, "Owner
+questions (18 Nov)". C15 in words. A continuity is carried when each of its
+steps is:
+
+- *for a continuity of elements* (each class one site at every step): the same
+  site, or, in a rule that conserves live sites, the move the rule's flow
+  assigns;
+- *for any other continuity*: the unique closest continuation of the previous
+  stage under the rule alone, and that stage its unique closest predecessor,
+  counting a stage and the same stage less its idle exhaust as one; and the
+  stage does not split, where a split is two groups with lasting effects that
+  never change each other's effects (judged by rerunning the history with a
+  group's cells set to 0): over the tracing's span when their histories never
+  joined, and over the rest of the run, as unresolved, when they did.
+
+Evidence: `notes/runs/2026-11-18-c13.md` to `-c16.md`. Frozen register 11 of
+11 rows and 10 of 10 parts; unseen boards 26 of 27; noise and rule 184 all
+anchors; shift (including across the board's edge) and representation checks
+unchanged. Patch flag: the idle-exhaust clause was written after seeing the
+fragment misses; it was judged on six unseen boards. No independent auditor
+was run (no subagent tool in the session).

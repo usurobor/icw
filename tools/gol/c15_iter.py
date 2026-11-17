@@ -89,7 +89,7 @@ def cars(H):
 
 
 def runs(H, t, m):
-    return [r for r in PR.runs184(frozenset(np.nonzero(H[t])[0].tolist())) if len(r) >= m]
+    return [r for r in c14.runs184_wrap(frozenset(np.nonzero(H[t])[0].tolist())) if len(r) >= m]
 
 
 def jams(H):
