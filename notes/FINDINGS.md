@@ -447,3 +447,16 @@ and the union: it reads where a stage's information comes from and never what
 the previous stage drops. Under uniform resampling the glider scores 0.45, so
 "more than its surroundings" depends on the ensemble. For O2: C11 is the
 graded input side of closure; the output side is the next candidate.
+
+## C12 (17 Nov)
+
+`notes/runs/2026-11-17-c12.md`. Outflow share: of the information the previous
+footprint sends to the cells it reaches, the share that lands in the next
+footprint. Same ensemble and exact enumeration as C11; θ = 0.315 from the
+anchors. It refuses every jump (0 at the switch) and the annihilating
+collision at the crash, where the information goes into cells that end dead.
+It holds the union, the debris collision and the glider continued into the
+eater's merged piece: a form that ends inside a product passes the outflow
+test. The car (0.333) and the indirect splice (0.318) pass by margins inside
+±20%. Predictions 3 of 7 right. For O2: outflow catches dying into nothing;
+neither direction catches ending into something.
