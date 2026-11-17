@@ -180,8 +180,11 @@ def rerun(H, t, t1, dels, world):
         for p in d:
             B[(k,) + (p if world.ndim == 2 else (p,))] = False
     out = [B]
-    for _ in range(t1 - t):
+    noise = getattr(world, "noise", None)
+    for s in range(t1 - t):
         B = world.step(B)
+        if noise is not None:
+            B = B ^ noise[t + s + 1]
         out.append(B)
     return np.stack(out, axis=1)
 

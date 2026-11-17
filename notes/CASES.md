@@ -147,13 +147,16 @@ listed in this table with its status and run.
 | C11 | A stage gets more of its information from the persistence's own past than from its surroundings (temporal integrity, by information decomposition). Graded: separates driven forms (whirlpool, flame) from organismal ones. A measure for the *mainly* in closure and for rule 14's closeness in context. The source makes individuality relative to an observer's lens; D9 needs it read off the rule. Run: `notes/runs/2026-11-17-c11.md`. | Krakauer, Bertschinger, Olbrich, Flack and Ay, *Theory in Biosciences* 139 (2020) | Run, 17 Nov. Gets the eater's two sides right; holds the union, the collisions and the indirect splice; refuses the car; sorts elements (fed by surroundings) from patterns (fed by their own past). Not O2. |
 | C12 | Outflow: of the information in the previous stage, the share that reaches the next stage of the same continuity. Run: `notes/runs/2026-11-17-c12.md`. | ICW, after C11; the forward half of Krakauer et al. 2020 | Run, 17 Nov. θ 0.315 from the anchors. Refuses every jump and the annihilating collision at the crash; holds the union, the debris collision, the glider into the eater's merged piece; the car and the indirect splice pass by margins inside ±20%. 8 of 11 grid rows. Not O2. With C11, as a conjunction at both frozen thresholds (`notes/runs/2026-11-17-c11-c12.md`): 8 of 11 rows, 8 of 10 probe parts; misses bundles, endings into a product, the car. |
 | C13 | C10's closeness; integration in context (a part's cells set to 0 and the history rerun; groups that never change each other's effects are split); elements judged by a separate clause: same site, or in a conserving rule the flow's move. Variants: a (any split), b (dying parts do not split), c (connected history). Run: `notes/runs/2026-11-18-c13.md`. | ICW, after C10, rule 14 and D8's owner candidate (16 Nov) | Run, 18 Nov. 11 of 11 grid rows, 7 of 10 probe parts, every variant. Holds the car and the 127 crossed cells; refuses fed bundles, car splices. Misses only the tracings that keep a dying fragment (a tie at its death step). With fragments removed, the eater's sides hold on 4 boards. Not O2 on the frozen register; turns on one owner question (by-products). |
+| C14 | C13 with three changes: a stage and the same stage less its idle exhaust (pieces the previous stage produced that change nothing afterwards) count as one in closeness; a split needs two groups with lasting effects, judged over the tracing's span if their histories are apart and over the rest of the run (then unresolved) if joined; wrapping board. Run: `notes/runs/2026-11-18-c14.md`. | ICW, after the hunter round on C13a | Run, 18 Nov. 11 of 11 grid rows, 10 of 10 probe parts, 26 of 27 unseen parts. Hunter: pulsar refused at its last step, spaceship at a tracing's first step; targets needed. Rests on reading *independent* in the by-product ruling as "has lasting effects". Rule 5 pending. |
 
-**Where the candidates stand (18 Nov).** No candidate is O2. C13a matches
-every grid row and every probe part except three: the registered tracings
-that keep a fragment until it dies. At the death step the stage with the
-fragment and the stage without it are equally close predecessors, and a tie
-carries nothing. The 16 Nov by-product ruling says such fragments are not
-constituents; the frozen targets were set on tracings that keep them.
+**Where the candidates stand (18 Nov).** C14 matches every frozen target:
+11 of 11 grid rows, 10 of 10 probe parts, the car and the crossed cells by its
+element clause, shift and representation checks. It is not yet O2: it rests
+on one reading of the 16 Nov by-product ruling (a fragment is independent when
+it has lasting effects; idle exhaust stays in the stage that produced it), and
+the hunter's pulsar and spaceship cases need owner targets. C13a is the
+variant consistent with the other reading; under it the three frozen
+fragment parts are misses.
 
 The three failure groups of 17 Nov, under C13a:
 

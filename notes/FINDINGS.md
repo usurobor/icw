@@ -512,3 +512,18 @@ closeness never caused a miss; it did, at steps 16, 27 and 49). With
 fragments removed once independent, the eater's sides hold on four boards.
 Two fed eaters traced as one are refused from step 0; C10 held them for 47
 steps.
+
+## Hunter round on C13a; C14 (18 Nov)
+
+`notes/runs/2026-11-18-c13-hunt.md`, `notes/runs/2026-11-18-c14.md`. The
+hunter found the fragment failure in the lightweight spaceship: a cell the
+stage produces that changes nothing afterwards (idle exhaust) ties the stage
+with the stage without it. The registered fragments at the tie steps are the
+same kind of cell. C14 counts a stage and the same stage less its idle exhaust
+as one, judges splits over the tracing's span when the groups' histories are
+apart and over the rest of the run (unresolved) when joined, and computes on
+the wrapping board. It matches the whole frozen register (11 of 11 rows, 10 of
+10 parts) and 26 of 27 parts on six unseen boards. It rests on reading the
+by-product ruling's *independent* as "has lasting effects". The pulsar fails
+at its last step and the spaceship at a tracing's first step; both need owner
+targets.
