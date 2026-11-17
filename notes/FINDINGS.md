@@ -574,3 +574,14 @@ anchors; shift (including across the board's edge) and representation checks
 unchanged. Patch flag: the idle-exhaust clause was written after seeing the
 fragment misses; it was judged on six unseen boards. No independent auditor
 was run (no subagent tool in the session).
+
+## Owner rulings after C15 (18 Nov)
+
+Rulings in `notes/CASES.md`, "Owner rulings (18 Nov)". Idle exhaust: yes,
+provisional until unseen boards. Parts that once interacted: unresolved unless
+provably unable to interact again, then refused. Symmetry: carrying respects
+the rule's symmetries. Consequences for C15: it keeps the idle-exhaust clause
+(provisional); it needs a provable-separation test (guns and interaction
+products become refused bundles, the pulsar stays unresolved); its element
+clause must be revised so that rule 184's holes get the verdict its cars get;
+the spaceship must hold from its spark phase (rule 9). C15 is not O2.

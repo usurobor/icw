@@ -172,17 +172,44 @@ The car holds by a separate clause for elements (same site; in a conserving
 rule, the flow's move). Every pattern candidate refuses it, as every pattern
 candidate refuses the cell.
 
-## Owner questions (18 Nov)
+## Owner rulings (18 Nov)
 
-Each answerable in one line; the fork each opens is in the runs.
+Answers to the owner questions raised by the C13–C15 runs.
 
-1. A fragment that changes nothing after it separates (idle exhaust): part of
-   the stage that produced it? Yes: C15, 10 of 10 parts. No: C13a, 7 of 10.
-2. Parts that once interacted and then never affect each other until the run
-   ends: refused, or unresolved? Refused: C14 (pulsar refused at its last
-   step). Unresolved: C15.
-3. Must carrying respect the rule's symmetries? Rule 184 maps cars to holes;
-   C15 carries cars and refuses holes.
+1. **Idle exhaust.** Yes. Shedding something that then has no effect does
+   not interrupt the spaceship's identity. The shed spark may have its own
+   continuity; it need not remain part of the ship. The clause stays
+   provisional until it passes on unseen boards.
+2. **Parts that interacted once.** Unresolved, unless they are shown to be
+   unable to interact again under the rule. If they are provably separating,
+   refuse them as one whole; otherwise a finite run cannot establish that they
+   will never meet again.
+3. **Symmetry.** Yes. Carrying must respect the rule's symmetries: if a
+   transformation preserves the rule, it must preserve the verdict. C15's
+   special treatment of live cells needs revision.
+
+Principles for the target clusters (owner, 18 Nov):
+
+- *Independent groupings* (side-by-side blocks, a distant spark, fed eaters,
+  a glider with its bounding box): proximity or shared description alone does
+  not make one carried whole. Bundles.
+- *Splices and labelling conventions*: a chosen way to join or label
+  continuities does not itself create a carried continuity.
+- *Reaction and kickback*: a glider's continuity ends at contact when it
+  ceases to continue through the interaction. Effects that remain do not
+  extend it.
+- *Spaceship spark phase*: a change of starting phase is a time shift, so the
+  spaceship's continuity holds at every phase.
+- *Guns and interaction products*: a combined tracing is unresolved while its
+  parts might interact again, and refused once they are provably separated.
+  The gun and its emitted gliders are then a bundle.
+- *Merging jams*: the larger jam is the closest continuer (as fission is
+  treated by the closest continuer). Pending a one-line clarification of the
+  owner's wording, which also has "the two incoming jams ending at the
+  merger".
+
+On these rulings, C15 is a candidate with specific repairs still needed, not
+O2.
 
 ## Needs owner target (18 Nov)
 
