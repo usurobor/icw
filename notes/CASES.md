@@ -128,19 +128,22 @@ probes first.
 
 Tested before any new definition is invented. Iteration 0: C1, C2 and C7
 against each other on the Game of Life rows; where they disagree is the
-first finding.
+first finding. Every candidate, from the literature or invented here, is
+listed in this table with its status and run.
 
-| ID | Candidate | Source |
-|---|---|---|
-| C1 | The rule maps the grouping's classes onto classes: coarse-graining and running commute. Their blocks are fixed; a version that follows a moving pattern is C2's territory. | Israeli and Goldenfeld, PRL 92 (2004) |
-| C2 | The grouping is the minimal one that predicts as well as the full state (causal states); applied locally, it picks out moving particles against filtered domains. Relative to a chosen measure of prediction. | Shalizi and Crutchfield (2001); Hanson and Crutchfield (1997); Shalizi et al., PRE 73 (2006) |
-| C3 | The grouping compresses: some description using it is more efficient than the bit map. Compression is relative to a describer, which D9 excludes; may mark the laid-across side. | Dennett, "Real Patterns", J. Phil. 88 (1991) |
-| C4 | The grouping is sustained by mechanisms that maintain its clustering (homeostatic property clusters). | Boyd (1991, 1999) |
-| C5 | The grouping carves at the joints. Not operational; panel only. | Lewis (1983); Sider (2011) |
-| C6 | Independent wholes converge on the grouping. | ICW, conjecture in O5 |
-| C7 | The pattern maintains its own integrity: it has an intrinsic viability constraint. Reported to count still lifes too; ICW refuses those before check 4 (a block's pattern and cell criteria coincide). | Beer, McShaffrey and Gaul (2024) |
-| C8 | The grouping makes the dynamics shortcuttable: its coarse rule predicts with less computation than running the cells. Expected to fail the splice, which is as predictable as the true trace. | Israeli and Goldenfeld (2004), as a hypothesis |
-| C11 | A stage gets more of its information from the persistence's own past than from its surroundings (temporal integrity, by information decomposition). Graded: separates driven forms (whirlpool, flame) from organismal ones. A measure for the *mainly* in closure and for rule 14's closeness in context. The source makes individuality relative to an observer's lens; D9 needs it read off the rule. Run: `notes/runs/2026-11-17-c11.md`. | Krakauer, Bertschinger, Olbrich, Flack and Ay, *Theory in Biosciences* 139 (2020) |
+| ID | Candidate | Source | Status |
+|---|---|---|---|
+| C1 | The rule maps the grouping's classes onto classes: coarse-graining and running commute. Their blocks are fixed; a version that follows a moving pattern is C2's territory. | Israeli and Goldenfeld, PRL 92 (2004) | Run, iteration 0 (as a film map). Accepts the alternating splice: judged on history only. Out. |
+| C2 | The grouping is the minimal one that predicts as well as the full state (causal states); applied locally, it picks out moving particles against filtered domains. Relative to a chosen measure of prediction. | Shalizi and Crutchfield (2001); Hanson and Crutchfield (1997); Shalizi et al., PRE 73 (2006) | Run, iteration 0 (activity filter, a stand-in for causal states). Accepts the indirect splice. The full causal-state version is unrun. |
+| C3 | The grouping compresses: some description using it is more efficient than the bit map. Compression is relative to a describer, which D9 excludes; may mark the laid-across side. | Dennett, "Real Patterns", J. Phil. 88 (1991) | Not run. |
+| C4 | The grouping is sustained by mechanisms that maintain its clustering (homeostatic property clusters). | Boyd (1991, 1999) | Not run; panel only. |
+| C5 | The grouping carves at the joints. Not operational; panel only. | Lewis (1983); Sider (2011) | Not run; panel only. |
+| C6 | Independent wholes converge on the grouping. | ICW, conjecture in O5 | Not run; needs a relation across wholes (O5). |
+| C7 | The pattern maintains its own integrity: it has an intrinsic viability constraint. Reported to count still lifes too; ICW refuses those before check 4 (a block's pattern and cell criteria coincide). | Beer, McShaffrey and Gaul (2024) | Run, iteration 0 (stand-in: closure plus the actual surroundings). Matches every iteration-0 target; holds the union of two distant gliders like every candidate before C9. |
+| C8 | The grouping makes the dynamics shortcuttable: its coarse rule predicts with less computation than running the cells. Expected to fail the splice, which is as predictable as the true trace. | Israeli and Goldenfeld (2004), as a hypothesis | Run, iteration 0. The verdict turns on a free bound K (K = 2 accepts the splice). Out until K is fixed in advance. |
+| C9 | Closure plus integration: each stage depends on the previous stage of the same continuity, and does not split into parts that each evolve as they would apart. | ICW, owner candidate (D8), 16 Nov | Run, 16 Nov (`notes/runs/2026-11-16-probes.md`). Refuses the union; fails both interaction probes (integration judged per step flickers), breaks the eater, refuses the jam and the car. Not O2; integration as computed is a patch. |
+| C10 | Closest continuer with integration over the interaction's interval; C10s, its share variant (closeness above 0.5 both ways). | ICW, after C9 (Nozick's closest continuer as a parallel), 16 Nov | Run, 16 Nov (`notes/runs/2026-11-16-c10.md`). Passes everything frozen except the interaction probes, the eater's persistence and the car. Not O2; two owner questions open (by-products; the rule's presentation). |
+| C11 | A stage gets more of its information from the persistence's own past than from its surroundings (temporal integrity, by information decomposition). Graded: separates driven forms (whirlpool, flame) from organismal ones. A measure for the *mainly* in closure and for rule 14's closeness in context. The source makes individuality relative to an observer's lens; D9 needs it read off the rule. Run: `notes/runs/2026-11-17-c11.md`. | Krakauer, Bertschinger, Olbrich, Flack and Ay, *Theory in Biosciences* 139 (2020) | Run, 17 Nov. Gets the eater's two sides right; holds the union, the collisions and the indirect splice; refuses the car; sorts elements (fed by surroundings) from patterns (fed by their own past). Not O2. |
 
 ## Queued (16 Nov)
 
