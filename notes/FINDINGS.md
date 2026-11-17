@@ -484,3 +484,16 @@ bits a jump. At Dennett's literal threshold the splices hold. The union and
 the indirect splice gain the most. Short or irregular tracings (probes, jam,
 car, single cells) lose. The verdict moves with board contents, length,
 format and shift: describer facts, as D9 warned. Out.
+
+## C2, light-cone filter (17 Nov)
+
+`notes/runs/2026-11-17-c2.md`. Causal states estimated from 7.8 × 10⁷ soup
+samples, light cones of depth 1. No two pasts merged, so the only domain is
+the empty past and the filter keeps every cell near something alive. The
+filter passes the splices at every step; the space-time connection, a reach
+test, refuses them. It holds the union, both collisions and the indirect
+splice: 7 of 11 grid rows, 8 of 10 probe parts. The declared time shift
+changes five marks at the seam where padded empty frames give the glider a
+past the rule cannot produce. Glider cells score about 1.7 bits above
+still-life cells; that grading is unused. Depth 2 is the real test and costs
+more than minutes.
