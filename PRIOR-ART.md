@@ -95,6 +95,13 @@ kernel, [`specs/ARTICULATION.md`](specs/ARTICULATION.md), which governs.
   through collective acceptance.
 - **Harari** (2014): money, states and corporations are shared stories that
   exist because people believe in them.
+- **Montévil and Mossio** (2015) and **Moreno and Mossio** (2015): living
+  organisation is a closure of constraints, constraints that depend on and
+  maintain one another, in a system that stays thermodynamically open.
+- **Krakauer, Bertschinger, Olbrich, Flack and Ay** (2020): individuals are
+  aggregates that propagate information from their past into their futures.
+  Three forms, organismal, colonial and driven, differ in how much they depend
+  on the environment.
 
 ## What ICW inherits and what it offers
 
@@ -207,6 +214,13 @@ narrower, and none of it has yet been checked for novelty.
   Press.
 - Harari, Y. N. (2014). *Sapiens: A Brief History of Humankind*. London:
   Harvill Secker.
+- Montévil, M. and Mossio, M. (2015). "Biological Organisation as Closure of
+  Constraints." *Journal of Theoretical Biology* 372: 179–191.
+- Moreno, A. and Mossio, M. (2015). *Biological Autonomy: A Philosophical and
+  Theoretical Enquiry*. Dordrecht: Springer.
+- Krakauer, D., Bertschinger, N., Olbrich, E., Flack, J. C. and Ay, N. (2020).
+  "The Information Theory of Individuality." *Theory in Biosciences* 139(2):
+  209–223.
 - Zimmerman, D. W. (1997). "Immanent Causation." *Philosophical
   Perspectives* 11: 433–471.
 - Zimmerman, D. W. (1998). "Temporal Parts and Supervenient Causation: The

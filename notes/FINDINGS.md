@@ -416,3 +416,19 @@ by design.
   tracing. One general construction with principled special cases (flow under
   conservation; joint dependence in Life), no unique-source requirement.
 
+
+## Prior-art check (17 Nov)
+
+- Krakauer et al. (2020), checked against the paper's abstract: individuals
+  are aggregates that propagate information from their past into their
+  futures, formalized with information theory; the formalism gives three
+  forms (organismal, colonial, driven) that differ in dependence on the
+  environment and on inherited information. The 16 Nov reading of the
+  organismal/colonial line as an indecomposability criterion is not supported
+  and is withdrawn. Their split of a stage's information into what comes from
+  its own past and what comes from its surroundings fits the closeness-in-
+  context design problem above; registered as C11.
+- Montévil and Mossio (2015): biological organisation as closure of
+  constraints. Bears on body against flame, which is a question of
+  self-maintenance; queued in `notes/CASES.md`, together with a name clash
+  over *closure*.
