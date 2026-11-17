@@ -203,10 +203,9 @@ Principles for the target clusters (owner, 18 Nov):
 - *Guns and interaction products*: a combined tracing is unresolved while its
   parts might interact again, and refused once they are provably separated.
   The gun and its emitted gliders are then a bundle.
-- *Merging jams*: the larger jam is the closest continuer (as fission is
-  treated by the closest continuer). Pending a one-line clarification of the
-  owner's wording, which also has "the two incoming jams ending at the
-  merger".
+- *Merging jams*: the larger jam continues through the merger as the closest
+  continuer (as fission is treated by the closest continuer); the smaller jam
+  ends there (owner, confirmed 18 Nov).
 
 On these rulings, C15 is a candidate with specific repairs still needed, not
 O2.
