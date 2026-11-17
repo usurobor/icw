@@ -78,15 +78,19 @@ The labels make the claim explicit before anyone judges it.
 
 ## The research program
 
-ICW looks for more cases like the glider: one changing whole told two ways,
-where the pattern is said to emerge from the elements.
+Running every step of the grid does not yet say what counts as the same glider.
+Following one glider counts as following the same thing; following one glider
+and then switching to another does not. What makes the difference is the
+central open task: a test, grounded in how the whole changes, that separates a
+way of staying the same the changing keeps going from a grouping laid over it.
 
-It is also developing a test for when a changing whole keeps a way of staying
-the same going. Candidate definitions are tested first in the Game of Life,
-where each must separate following one glider from switching between gliders,
-then in other cases, including cells, organisms and colonies. The distinction
-remains open. The [case register](notes/CASES.md) and [working
-notes](notes/FINDINGS.md) record the tests, failures and revisions.
+Candidate definitions are tested first in the Game of Life, where every claim
+can be checked by running it, then challenged with counterexamples. A
+definition that survives is taken to other cases where a pattern is said to
+emerge from elements: cells, organisms, colonies. Failures change the proposal.
+
+The [case register](notes/CASES.md) and [working notes](notes/FINDINGS.md)
+record the tests, failures and revisions.
 
 ## Read next
 

@@ -1,6 +1,6 @@
-# ICW README: understanding — 0.0.18
+# ICW README: understanding — 0.0.19
 
-Renders: README 0.0.30. Protocol: `../../DIALOGUE.md`. Statuses: accepted
+Renders: README 0.0.31. Protocol: `../../DIALOGUE.md`. Statuses: accepted
 (owner), proposed, open.
 
 ## Pinned theses
@@ -32,8 +32,13 @@ S4 [accepted] "Articulation" is used only where carrying is introduced; the
    README says "telling" before that.
 S5 [accepted] Examination format, whole first: Whole, Element, Pattern,
    Claim, Open. Explicit labels make a switch between tellings visible.
-S6 [accepted] Research program: find more glider-like cases; develop a test
-   for a pattern the whole's changing keeps going versus a grouping laid
+P0 [accepted] Purpose: challenge the elemental default in how people and
+   models reason about emergence. Proposal: one changing whole sustains
+   different kinds of identity, neither producing the other. Central open
+   task: the test (S6). Emergence stays the frame; identity is not the
+   destination. (17 Nov)
+S6 [accepted] Research program, led by the test as the central open task:
+   a pattern the whole's changing keeps going versus a grouping laid
    over it (one glider versus switching between gliders), in Life first,
    then cells, organisms, colonies.
 
@@ -59,5 +64,6 @@ P4 [open] `USING.md` for language models, tested on the glider, two
 
 ## Changelog
 
+- 0.0.19 P0 added; S6 now leads with the test; README 0.0.31.
 - 0.0.18 Consolidated at the end of the 16–17 Nov dialogue; README at 0.0.30.
   Items 0.0.1–0.0.17 were iterated in chat.
