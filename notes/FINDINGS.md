@@ -471,3 +471,16 @@ annihilating collision, and the conjunction gets both. 8 of 11 rows, 8 of 10
 parts. Remaining misses: bundles (union; A and B as one), endings into a
 product (debris collision; indirect splice), the car. C10 fails on a disjoint
 set of parts.
+
+## C3, compression (17 Nov)
+
+`notes/runs/2026-11-17-c3.md`. Gain: the LZMA length of the bit map minus the
+lengths of the tracing's description and of the bit map with the tracing
+removed. θ = 744 bits from the anchors. The anchors separate because the
+glider anchor is alone on its board: the same glider on a two-glider board
+gains about 400 bits, near the splice's 296, so θ refuses two anchor+ rows.
+On one board the order is true trace, splice, alternating splice, about 100
+bits a jump. At Dennett's literal threshold the splices hold. The union and
+the indirect splice gain the most. Short or irregular tracings (probes, jam,
+car, single cells) lose. The verdict moves with board contents, length,
+format and shift: describer facts, as D9 warned. Out.
