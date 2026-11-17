@@ -1,6 +1,6 @@
 """Audit of C15 (notes/audits/2026-11-18-c15-audit.md). C15 itself is not modified.
 Rerun: python3 tools/gol/audit_c15.py hunt | ablate | checks
-  hunt    the auditor's hunter cases H-1 to H-5
+  hunt    the auditor's hunter cases H-21 to H-25 (numbered after the C13 hunter round)
   ablate  C15 with one clause switched off at a time, on the registered probes and the six unseen boards
   checks  unseen boards as translates of the registered board; noise near the tracked gliders;
           C14's candidate with C15's ring-aware jam builder
@@ -51,36 +51,36 @@ def report(name, H, tr, world=W, lo=None, hi=None):
 
 def hunt():
     print("| Case | C15 verdict | Steps not carried | Flags there |\n|---|---|---|---|")
-    # H-1: a glider and a far soup that dies by itself, traced as one (every live cell)
+    # H-21: a glider and a far soup that dies by itself, traced as one (every live cell)
     H = run(board((GLIDER, (10, 10)), (SOUP, (80, 70))), T)
     death = next(t for t in range(T + 1) if not frame_of(H[t]) - frame_of(run(board((GLIDER, (10, 10))), T)[t]))
-    print(f"<!-- H-1 soup gone from step {death} -->")
-    report("H-1 glider and a far soup that dies at step %d, as one" % death, H, live(H))
-    # H-2: as N-2, with a three-cell far junk that dies in two steps
+    print(f"<!-- H-21 soup gone from step {death} -->")
+    report("H-21 glider and a far soup that dies at step %d, as one" % death, H, live(H))
+    # H-22: as N-2, with a three-cell far junk that dies in two steps
     H = run(board((GLIDER, (10, 10)), (DIAG, (10, 50))), T)
-    report("H-2 glider and a far 3-cell diagonal (dies in 2 steps), as one", H, live(H))
-    # H-3: an interaction's products as one, traced from contact and from step 110 (registered pair)
+    report("H-22 glider and a far 3-cell diagonal (dies in 2 steps), as one", H, live(H))
+    # H-23: an interaction's products as one, traced from contact and from step 110 (registered pair)
     g = PR.probe_gliders()
     Hg, s, e = g["H"], g["start"], g["end"]
     Rt = C.follow(Hg, frame_of(Hg[s]), s, T)
     for t0 in (e, 105, 110):
-        report(f"H-3 products as one, traced from step {t0}", Hg, {t: f for t, f in Rt.items() if t >= t0})
-    # H-4: A and B as one from step 0, continued into the reaction; judged before contact
+        report(f"H-23 products as one, traced from step {t0}", Hg, {t: f for t, f in Rt.items() if t >= t0})
+    # H-24: A and B as one from step 0, continued into the reaction; judged before contact
     trA, _ = C.track_glider(Hg, g["A"][0], 0)
     trB, _ = C.track_glider(Hg, g["B"][0], 0)
     ab = {**{t: trA[t] | trB[t] for t in range(0, s)}, **{t: f for t, f in Rt.items() if t <= e}}
-    report("H-4 A and B as one, continued into the reaction", Hg, ab, lo=0, hi=s - 1)
+    report("H-24 A and B as one, continued into the reaction", Hg, ab, lo=0, hi=s - 1)
     for t1 in (s + 2, s + 10, e):
         ab = {**{t: trA[t] | trB[t] for t in range(0, s)}, **{t: f for t, f in Rt.items() if t <= t1}}
-        report(f"H-4 same, tracing ending at {t1}", Hg, ab, lo=0, hi=s - 1)
-    report("H-4 control: registered part, A and B as one to step %d" % (s - 1), Hg,
+        report(f"H-24 same, tracing ending at {t1}", Hg, ab, lo=0, hi=s - 1)
+    report("H-24 control: registered part, A and B as one to step %d" % (s - 1), Hg,
            {t: trA[t] | trB[t] for t in range(0, s)})
-    # H-5: the other two catalogue spaceships, every live cell, from step 0 and from step 1
+    # H-25: the other two catalogue spaceships, every live cell, from step 0 and from step 1
     for nm, pat in (("MWSS", MWSS), ("HWSS", HWSS)):
         H = run(board((pat, (60, 100))), T)
         tr = live(H)
-        report(f"H-5 {nm} from step 0", H, tr)
-        report(f"H-5 {nm} from step 1", H, {t: f for t, f in tr.items() if t >= 1})
+        report(f"H-25 {nm} from step 0", H, tr)
+        report(f"H-25 {nm} from step 1", H, {t: f for t, f in tr.items() if t >= 1})
 
 
 # ---------------------------------------------------------------- ablations
