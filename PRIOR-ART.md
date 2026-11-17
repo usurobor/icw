@@ -98,6 +98,14 @@ kernel, [`specs/ARTICULATION.md`](specs/ARTICULATION.md), which governs.
 - **Montévil and Mossio** (2015) and **Moreno and Mossio** (2015): living
   organisation is a closure of constraints, constraints that depend on and
   maintain one another, in a system that stays thermodynamically open.
+- **Hume** (*Treatise* I.iv.6): looking into himself, he finds only a bundle
+  of perceptions, never a self apart from them.
+- **Parfit** (1984): what matters in survival is psychological continuity;
+  fission and the teletransporter show that identity can come apart from it.
+- **Olson** (1997): animalism; each of us is a human animal.
+- **Botvinick and Cohen** (1998): the rubber hand illusion; synchronous
+  stroking makes a rubber hand feel like one's own.
+- **Metzinger** (2003): the self is the content of a transparent self-model.
 - **Krakauer, Bertschinger, Olbrich, Flack and Ay** (2020): individuals are
   aggregates that propagate information from their past into their futures.
   Three forms, organismal, colonial and driven, differ in how much they depend
@@ -221,6 +229,14 @@ narrower, and none of it has yet been checked for novelty.
 - Krakauer, D., Bertschinger, N., Olbrich, E., Flack, J. C. and Ay, N. (2020).
   "The Information Theory of Individuality." *Theory in Biosciences* 139(2):
   209–223.
+- Hume, D. (1739). *A Treatise of Human Nature*, book I, part iv, §6.
+- Parfit, D. (1984). *Reasons and Persons*. Oxford: Clarendon Press.
+- Olson, E. T. (1997). *The Human Animal: Personal Identity without
+  Psychology*. Oxford University Press.
+- Botvinick, M. and Cohen, J. (1998). "Rubber Hands 'Feel' Touch That Eyes
+  See." *Nature* 391: 756.
+- Metzinger, T. (2003). *Being No One: The Self-Model Theory of
+  Subjectivity*. MIT Press.
 - Zimmerman, D. W. (1997). "Immanent Causation." *Philosophical
   Perspectives* 11: 433–471.
 - Zimmerman, D. W. (1998). "Temporal Parts and Supervenient Causation: The

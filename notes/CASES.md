@@ -105,6 +105,7 @@ probes first.
 | Ship | `plank < dockyard > ship` | stops at check 4 | ? | probe | panel | moving elements | `examples/ship.md` |
 | Hobbes's ship | matter so shaped / ship through repair | — | ? | probe | panel | moving elements | `examples/ship.md` |
 | Body | matter / living process | — | holds? | probe | panel | moving elements, noise | to write |
+| Self | `matter < life > self`; second pair `body < life > self` (animalism against the psychological view) | uncarried, pending; passes check 3 | ? (owner to set) | probe | panel; probes: rubber hand, split brain, dense amnesia, sleep | two carriers (integration, self-dependence) that fail separately; self-modelling | `examples/self.md` |
 | River (Heraclitus, Quine) | water / river | — | holds? ([IEP](https://iep.utm.edu/page/heraclit)) | probe | panel | moving elements | `examples/wave.md` |
 | Locke's oak | matter / one life | — | holds? (Locke) | probe | panel | moving elements | `PRIOR-ART.md` |
 | Species (Boyd) | organisms / species | — | holds? ([Brigandt](https://sites.ualberta.ca/%7Ebrigandt/Natural_kinds_in_evolution_and_systematics.pdf)) | probe | panel | moving elements, noise | literature |
