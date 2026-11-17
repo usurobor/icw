@@ -87,6 +87,14 @@ kernel, [`specs/ARTICULATION.md`](specs/ARTICULATION.md), which governs.
   description.
 - **Gardner** (1970) described Conway's Game of Life in his *Scientific
   American* column.
+- **Menger** (1892): money arises from exchange, as traders converge on the
+  goods that sell most easily.
+- **Lewis** (1969): a convention is a regularity in behaviour that persists
+  because each expects the others to conform.
+- **Searle** (1995): money is an institutional fact, a status that exists
+  through collective acceptance.
+- **Harari** (2014): money, states and corporations are shared stories that
+  exist because people believe in them.
 
 ## What ICW inherits and what it offers
 
@@ -142,6 +150,8 @@ narrower, and none of it has yet been checked for novelty.
 - Hobbes, *De Corpore* (1655), part II, ch. 11, §7.
 - Locke, *An Essay Concerning Human Understanding*, 2nd ed. (1694), book
   II, ch. xxvii, §§3, 7.
+- Menger, C. (1892). "On the Origin of Money." *Economic Journal* 2(6):
+  239–255.
 - Lewin, K. (1922). *Der Begriff der Genese in Physik, Biologie und
   Entwicklungsgeschichte*. Berlin: Springer.
 - Russell, B. (1948). *Human Knowledge: Its Scope and Limits*. New York:
@@ -163,6 +173,8 @@ narrower, and none of it has yet been checked for novelty.
   Review* 68(2): 141–156.
 - Geach, P. T. (1962). *Reference and Generality*. Cornell University Press.
 - Geach, P. T. (1967). "Identity." *Review of Metaphysics* 21: 3–12.
+- Lewis, D. (1969). *Convention: A Philosophical Study*. Harvard University
+  Press.
 - Davidson, D. (1970). "Mental Events." In Foster and Swanson (eds.),
   *Experience and Theory*.
 - Gardner, M. (1970). "Mathematical Games." *Scientific American* 223(4),
@@ -191,6 +203,10 @@ narrower, and none of it has yet been checked for novelty.
   *Journal of Consciousness Studies* 2(3): 200–219.
 - Chalmers, D. J. (1996). "Does a Rock Implement Every Finite-State
   Automaton?" *Synthese* 108(3): 309–333.
+- Searle, J. R. (1995). *The Construction of Social Reality*. New York: Free
+  Press.
+- Harari, Y. N. (2014). *Sapiens: A Brief History of Humankind*. London:
+  Harvill Secker.
 - Zimmerman, D. W. (1997). "Immanent Causation." *Philosophical
   Perspectives* 11: 433–471.
 - Zimmerman, D. W. (1998). "Temporal Parts and Supervenient Causation: The

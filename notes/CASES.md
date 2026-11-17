@@ -108,6 +108,7 @@ probes first.
 | River (Heraclitus, Quine) | water / river | — | holds? ([IEP](https://iep.utm.edu/page/heraclit)) | probe | panel | moving elements | `examples/wave.md` |
 | Locke's oak | matter / one life | — | holds? (Locke) | probe | panel | moving elements | `PRIOR-ART.md` |
 | Species (Boyd) | organisms / species | — | holds? ([Brigandt](https://sites.ualberta.ca/%7Ebrigandt/Natural_kinds_in_evolution_and_systematics.pdf)) | probe | panel | moving elements, noise | literature |
+| Money | `note < economy > currency` | uncarried, pending; passes check 3 | holds? (owner, 17 Nov: carried by the observable practice of settlement) | probe | panel | moving elements; reflexive elements (holders' expectations track the pattern) | `examples/money.md` |
 | Flame, whirlpool, Bénard cell | passing fluid / the structure | — | ? ([García-Valdecasas](https://philarchive.org/archive/GAROTN-4)) | probe | panel; script: structure fed by a glider stream | moving elements | literature |
 | Neural attractor | `neuron < the brain's activity > attractor` | reaches check 3 | ? | probe | panel | noise | `examples/mind.md` |
 | Running computer | `circuit < the running computer > variable` | uncarried, pending; nested if Chalmers and Piccinini are right | ? | probe | panel | moving elements | `examples/mind.md` |
