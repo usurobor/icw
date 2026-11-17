@@ -460,3 +460,14 @@ eater's merged piece: a form that ends inside a product passes the outflow
 test. The car (0.333) and the indirect splice (0.318) pass by margins inside
 ±20%. Predictions 3 of 7 right. For O2: outflow catches dying into nothing;
 neither direction catches ending into something.
+
+## C11 ∧ C12 (17 Nov)
+
+`notes/runs/2026-11-17-c11-c12.md`. Both flows at their frozen thresholds, no
+new tuning. On the grid the conjunction equals C12: every row C11 refuses, C12
+refuses too. On the probes the halves cover each other: C11 refuses the
+glider's continuation into the eater's merged piece, C12 refuses the
+annihilating collision, and the conjunction gets both. 8 of 11 rows, 8 of 10
+parts. Remaining misses: bundles (union; A and B as one), endings into a
+product (debris collision; indirect splice), the car. C10 fails on a disjoint
+set of parts.
