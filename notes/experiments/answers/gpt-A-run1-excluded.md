@@ -1,10 +1,11 @@
 # GPT, condition A, run 1 (excluded: possible memory contamination)
 
-Pasted by the owner, 18 Nov 04:54 MSK, verbatim. Excluded from scoring: the
-answers use ICW vocabulary and examples without the instruction (U-2 brings
-in the traffic jam; P-3 speaks of "different kinds of continuity"), which
-suggests the chat drew on memory of earlier ICW conversations. Rerun in a
-temporary chat with memory and custom instructions off.
+Pasted by the owner, 18 Nov 04:54 MSK, verbatim. Excluded from scoring:
+the chat may have drawn on memory of earlier ICW conversations, and the
+protocol now requires temporary chats. Correction (18 Nov): the traffic-jam
+example in U-2 is weak evidence of memory, since the jam is question P-1 in the
+same prompt list; the clean final run borrows it the same way. The phrase
+"different kinds of continuity" in P-3 remains the stronger sign.
 
 ---
 
