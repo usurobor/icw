@@ -1,0 +1,182 @@
+{
+ "C63043": {
+  "q": 1,
+  "first": "A",
+  "second": "B"
+ },
+ "C93653": {
+  "q": 1,
+  "first": "C",
+  "second": "B"
+ },
+ "C28408": {
+  "q": 1,
+  "first": "A",
+  "second": "C"
+ },
+ "C02711": {
+  "q": 2,
+  "first": "B",
+  "second": "A"
+ },
+ "C90811": {
+  "q": 2,
+  "first": "B",
+  "second": "C"
+ },
+ "C07229": {
+  "q": 2,
+  "first": "C",
+  "second": "A"
+ },
+ "C06593": {
+  "q": 3,
+  "first": "A",
+  "second": "B"
+ },
+ "C23890": {
+  "q": 3,
+  "first": "C",
+  "second": "B"
+ },
+ "C03598": {
+  "q": 3,
+  "first": "A",
+  "second": "C"
+ },
+ "C66485": {
+  "q": 4,
+  "first": "B",
+  "second": "A"
+ },
+ "C73579": {
+  "q": 4,
+  "first": "C",
+  "second": "B"
+ },
+ "C07674": {
+  "q": 4,
+  "first": "C",
+  "second": "A"
+ },
+ "C29593": {
+  "q": 5,
+  "first": "B",
+  "second": "A"
+ },
+ "C21886": {
+  "q": 5,
+  "first": "B",
+  "second": "C"
+ },
+ "C00407": {
+  "q": 5,
+  "first": "A",
+  "second": "C"
+ },
+ "C07358": {
+  "q": 6,
+  "first": "B",
+  "second": "A"
+ },
+ "C70131": {
+  "q": 6,
+  "first": "B",
+  "second": "C"
+ },
+ "C27112": {
+  "q": 6,
+  "first": "A",
+  "second": "C"
+ },
+ "C34597": {
+  "q": 7,
+  "first": "B",
+  "second": "A"
+ },
+ "C57667": {
+  "q": 7,
+  "first": "C",
+  "second": "B"
+ },
+ "C29265": {
+  "q": 7,
+  "first": "A",
+  "second": "C"
+ },
+ "C05662": {
+  "q": 8,
+  "first": "A",
+  "second": "B"
+ },
+ "C80018": {
+  "q": 8,
+  "first": "C",
+  "second": "B"
+ },
+ "C29110": {
+  "q": 8,
+  "first": "C",
+  "second": "A"
+ },
+ "C03090": {
+  "q": 9,
+  "first": "B",
+  "second": "A"
+ },
+ "C12749": {
+  "q": 9,
+  "first": "B",
+  "second": "C"
+ },
+ "C54118": {
+  "q": 9,
+  "first": "A",
+  "second": "C"
+ },
+ "C06835": {
+  "q": 10,
+  "first": "B",
+  "second": "A"
+ },
+ "C75065": {
+  "q": 10,
+  "first": "C",
+  "second": "B"
+ },
+ "C86182": {
+  "q": 10,
+  "first": "C",
+  "second": "A"
+ },
+ "C76958": {
+  "q": 11,
+  "first": "B",
+  "second": "A"
+ },
+ "C23579": {
+  "q": 11,
+  "first": "C",
+  "second": "B"
+ },
+ "C63026": {
+  "q": 11,
+  "first": "C",
+  "second": "A"
+ },
+ "C53738": {
+  "q": 12,
+  "first": "B",
+  "second": "A"
+ },
+ "C65048": {
+  "q": 12,
+  "first": "B",
+  "second": "C"
+ },
+ "C63057": {
+  "q": 12,
+  "first": "C",
+  "second": "A"
+ }
+}
