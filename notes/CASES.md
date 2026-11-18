@@ -210,6 +210,24 @@ Principles for the target clusters (owner, 18 Nov):
 On these rulings, C15 is a candidate with specific repairs still needed, not
 O2.
 
+Decisions delegated by the owner to Claude (18 Nov, after the outside review
+found target conflicts T-1 and T-2 in `notes/reviews/2026-11-18-simpler-o2.md`):
+
+4. **Merges.** Through a merge, the continuer is the piece whose kind of
+   pattern persists. If none persists, every incoming continuity ends. A jam
+   merging with a jam leaves a jam, so the larger jam continues. A glider
+   hitting a block leaves debris and no glider, so the glider ends at contact.
+   This resolves T-2 and keeps rulings on collisions and merging jams.
+5. **Board and horizon.** Verdicts are given on the unbounded plane (or a board
+   large enough that nothing wraps within the run) and for a declared horizon.
+   "Provably unable to interact again" means: the parts move apart on an empty
+   background, each outside the other's reach, for the rest of the horizon.
+   Beyond the horizon a verdict is unresolved. This resolves T-1 and makes
+   ruling 2 decidable (T-5).
+6. **O2 search paused.** No further candidate runs. The event graph of the
+   actual history (S-1, F-1) is the reference formulation for any later work.
+   See FINDINGS, "O2 status (18 Nov)".
+
 ## Needs owner target (18 Nov)
 
 C15's verdict in brackets. Spaceship traced from its spark phase (refused at

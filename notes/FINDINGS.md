@@ -585,3 +585,29 @@ the rule's symmetries. Consequences for C15: it keeps the idle-exhaust clause
 products become refused bundles, the pulsar stays unresolved); its element
 clause must be revised so that rule 184's holes get the verdict its cars get;
 the spaceship must hold from its spark phase (rule 9). C15 is not O2.
+
+## O2 status (18 Nov)
+
+Sixteen candidates, an audit, a literature survey (`notes/literature/2026-11-18-o2-literature.md`)
+and an outside review (`notes/reviews/2026-11-18-simpler-o2.md`) give this state.
+
+- Settled. Transport is necessary for any cross-cutting pattern
+  (`notes/runs/2026-11-18-transport.md`). Reach refuses every jump (R1).
+  Per-step information flow grades how much a pattern is fed from outside and
+  refuses nothing else. Clause stacks fit the register and fail fresh cases.
+- Proposed. Between events, carrying is read off the rule: a pattern is the
+  same while an unbroken chain of continuations links its stages in the actual
+  history. At merges and splits the rule does not settle identity; a declared
+  convention does (owner decision 4 in `notes/CASES.md`). Every field that
+  tracks moving things uses such a convention: the elder rule in persistent
+  homology, track management in multi-object tracking, Nozick on fission. O4,
+  branching, is the hard core of O2.
+- Much of the difficulty came from judging hand-built tracings step by step;
+  verdicts then moved with the tracing's start and end. Judging the whole
+  history once removes that.
+- Open. Integration (bundle against one whole) needs knockout tests in the
+  Game of Life; the outside review and C13 agree on that. Elements and patterns
+  take separate clauses.
+
+The search is paused (owner decision 6). The kernel works with the verdict
+*uncarried, pending* while O2 stays open, as it did before 16 Nov.
