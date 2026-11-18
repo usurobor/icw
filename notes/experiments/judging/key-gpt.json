@@ -1,0 +1,182 @@
+{
+ "G86001": {
+  "q": 1,
+  "first": "A",
+  "second": "B"
+ },
+ "G44942": {
+  "q": 1,
+  "first": "B",
+  "second": "C"
+ },
+ "G98641": {
+  "q": 1,
+  "first": "C",
+  "second": "A"
+ },
+ "G49977": {
+  "q": 2,
+  "first": "B",
+  "second": "A"
+ },
+ "G92182": {
+  "q": 2,
+  "first": "B",
+  "second": "C"
+ },
+ "G21649": {
+  "q": 2,
+  "first": "C",
+  "second": "A"
+ },
+ "G00448": {
+  "q": 3,
+  "first": "B",
+  "second": "A"
+ },
+ "G71259": {
+  "q": 3,
+  "first": "B",
+  "second": "C"
+ },
+ "G00827": {
+  "q": 3,
+  "first": "C",
+  "second": "A"
+ },
+ "G46604": {
+  "q": 4,
+  "first": "A",
+  "second": "B"
+ },
+ "G74713": {
+  "q": 4,
+  "first": "C",
+  "second": "B"
+ },
+ "G67931": {
+  "q": 4,
+  "first": "C",
+  "second": "A"
+ },
+ "G18893": {
+  "q": 5,
+  "first": "B",
+  "second": "A"
+ },
+ "G30391": {
+  "q": 5,
+  "first": "B",
+  "second": "C"
+ },
+ "G55988": {
+  "q": 5,
+  "first": "C",
+  "second": "A"
+ },
+ "G60931": {
+  "q": 6,
+  "first": "B",
+  "second": "A"
+ },
+ "G73416": {
+  "q": 6,
+  "first": "B",
+  "second": "C"
+ },
+ "G81470": {
+  "q": 6,
+  "first": "C",
+  "second": "A"
+ },
+ "G52637": {
+  "q": 7,
+  "first": "A",
+  "second": "B"
+ },
+ "G94304": {
+  "q": 7,
+  "first": "B",
+  "second": "C"
+ },
+ "G08273": {
+  "q": 7,
+  "first": "A",
+  "second": "C"
+ },
+ "G38767": {
+  "q": 8,
+  "first": "B",
+  "second": "A"
+ },
+ "G89063": {
+  "q": 8,
+  "first": "C",
+  "second": "B"
+ },
+ "G84429": {
+  "q": 8,
+  "first": "A",
+  "second": "C"
+ },
+ "G52214": {
+  "q": 9,
+  "first": "A",
+  "second": "B"
+ },
+ "G89077": {
+  "q": 9,
+  "first": "C",
+  "second": "B"
+ },
+ "G82132": {
+  "q": 9,
+  "first": "A",
+  "second": "C"
+ },
+ "G14522": {
+  "q": 10,
+  "first": "A",
+  "second": "B"
+ },
+ "G73934": {
+  "q": 10,
+  "first": "B",
+  "second": "C"
+ },
+ "G56886": {
+  "q": 10,
+  "first": "C",
+  "second": "A"
+ },
+ "G82120": {
+  "q": 11,
+  "first": "B",
+  "second": "A"
+ },
+ "G19821": {
+  "q": 11,
+  "first": "B",
+  "second": "C"
+ },
+ "G96908": {
+  "q": 11,
+  "first": "A",
+  "second": "C"
+ },
+ "G49542": {
+  "q": 12,
+  "first": "B",
+  "second": "A"
+ },
+ "G70109": {
+  "q": 12,
+  "first": "B",
+  "second": "C"
+ },
+ "G51694": {
+  "q": 12,
+  "first": "C",
+  "second": "A"
+ }
+}

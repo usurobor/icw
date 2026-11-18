@@ -1,0 +1,35 @@
+== order 1: 36 judged pairs
+  B beats A in P+U: 8/8 = 100%
+  B beats A in N  : 4/4 = 100%
+  B beats C in P+U: 8/8 = 100%
+  B beats C in N  : 4/4 = 100%
+  C beats A in P+U: 7/8 = 88%
+  C beats A in N  : 3/4 = 75%
+  A: R1-3 mean P+U 0.74  R4 P+U 2.00  | N: R4 2.00 R5 2.00
+  B: R1-3 mean P+U 1.95  R4 P+U 2.00  | N: R4 2.00 R5 1.00
+  C: R1-3 mean P+U 0.89  R4 P+U 2.00  | N: R4 2.00 R5 2.00
+== order 2: 36 judged pairs
+  B beats A in P+U: 5/8 = 62%
+  B beats A in N  : 3/4 = 75%
+  B beats C in P+U: 7/8 = 88%
+  B beats C in N  : 4/4 = 100%
+  C beats A in P+U: 1/8 = 12%
+  C beats A in N  : 3/4 = 75%
+  A: R1-3 mean P+U 0.84  R4 P+U 2.00  | N: R4 2.00 R5 2.00
+  B: R1-3 mean P+U 1.89  R4 P+U 2.00  | N: R4 2.00 R5 1.00
+  C: R1-3 mean P+U 0.95  R4 P+U 2.00  | N: R4 2.00 R5 1.25
+== both orders: 72 judged pairs
+  B beats A in P+U: 13/16 = 81%
+  B beats A in N  : 7/8 = 88%
+  B beats C in P+U: 15/16 = 94%
+  B beats C in N  : 8/8 = 100%
+  C beats A in P+U: 8/16 = 50%
+  C beats A in N  : 6/8 = 75%
+  A: R1-3 mean P+U 0.79  R4 P+U 2.00  | N: R4 2.00 R5 2.00
+  B: R1-3 mean P+U 1.92  R4 P+U 2.00  | N: R4 2.00 R5 1.00
+  C: R1-3 mean P+U 0.92  R4 P+U 2.00  | N: R4 2.00 R5 1.62
+
+Decision rule: B beats C (P+U) 15/16=94% (need >=60%); R1-3 B-C +1.00 (need >=+0.30); R4 B-C +0.00 (need >=0)
+  ICW helps: True
+  Controls: B loses to A in N 1/8; R4 B-A +0.00; R5 B-A -1.00; ICW hurts on controls: True
+  Agreement between orders on the winner: 25/36 = 69% (need >=70%)
