@@ -586,28 +586,53 @@ products become refused bundles, the pulsar stays unresolved); its element
 clause must be revised so that rule 184's holes get the verdict its cars get;
 the spaceship must hold from its spark phase (rule 9). C15 is not O2.
 
-## O2 status (18 Nov)
+## O2: frozen exploratory iteration (18 Nov)
 
-Sixteen candidates, an audit, a literature survey (`notes/literature/2026-11-18-o2-literature.md`)
-and an outside review (`notes/reviews/2026-11-18-simpler-o2.md`) give this state.
+Candidate runs are frozen. The Game of Life work stands as an exploratory
+iteration with open carrying questions; nothing in it settles D8. Sources:
+the runs from 16 to 18 Nov, the audit (`notes/audits/2026-11-18-c15-audit.md`),
+the literature survey (`notes/literature/2026-11-18-o2-literature.md`) and the
+outside review (`notes/reviews/2026-11-18-simpler-o2.md`). This entry replaces
+an earlier "O2 status" entry of the same day, which overstated the results.
 
-- Settled. Transport is necessary for any cross-cutting pattern
-  (`notes/runs/2026-11-18-transport.md`). Reach refuses every jump (R1).
-  Per-step information flow grades how much a pattern is fed from outside and
-  refuses nothing else. Clause stacks fit the register and fail fresh cases.
-- Proposed. Between events, carrying is read off the rule: a pattern is the
-  same while an unbroken chain of continuations links its stages in the actual
-  history. At merges and splits the rule does not settle identity; a declared
-  convention does (owner decision 4 in `notes/CASES.md`). Every field that
-  tracks moving things uses such a convention: the elder rule in persistent
-  homology, track management in multi-object tracking, Nozick on fission. O4,
-  branching, is the hard core of O2.
-- Much of the difficulty came from judging hand-built tracings step by step;
-  verdicts then moved with the tracing's start and end. Judging the whole
-  history once removes that.
-- Open. Integration (bundle against one whole) needs knockout tests in the
-  Game of Life; the outside review and C13 agree on that. Elements and patterns
-  take separate clauses.
+**Observed, with its scope.**
+- Every splice in the register is refused by reach (R1). Reach rules out jumps
+  between distant pieces; it says nothing about pieces within reach.
+- Per-step information flow (C11, C12) grades how much a stage is fed from
+  outside. On this register it refuses splices only through reach and refuses
+  no bundle.
+- Clause stacks fitted to the register failed fresh cases (C15: five of five
+  hunter cases in the audit).
+- Judging hand-built tracings step by step made verdicts depend on where a
+  tracing starts and ends (outside review, H-23 to H-25).
+- In 88 elementary-rule classes, rules in which a one-cell difference never
+  travels three cells show no moving pattern on the 0 background
+  (`notes/runs/2026-11-18-transport.md`). That run measures the spread of
+  influence. A pattern changing which elements it occupies is a different
+  claim, so the run supports the conjecture below without deriving it.
 
-The search is paused (owner decision 6). The kernel works with the verdict
-*uncarried, pending* while O2 stays open, as it did before 16 Nov.
+**Hypotheses to investigate.**
+- H-T. A pattern that cross-cuts its elements requires transport. *Transport*
+  is undefined so far. Candidate definition: some state at a later instant
+  depends, under the rule, on state at a different element at an earlier
+  instant. Under that definition the conjecture still needs a derivation.
+- H-B. At merges and splits the rule leaves identity undetermined, so identity
+  there is conventional. The runs show that every tracker needed a declared
+  tie-break (owner decision 4 is such a tie-break for the harness). A
+  reporting convention is compatible with identity being determined by
+  something the runs did not measure. H-B is a philosophical position the
+  runs make worth investigating; they do not establish it.
+
+**Open.**
+- What *continuation* is. "An unbroken chain of continuations" restates O2
+  until continuation has a criterion.
+- Context, integration, idle exhaust and starting phase: each caused failures
+  apart from branching.
+- Knockout dependence shows that a remainder changes when a part is removed.
+  Whether dependence makes one whole needs an argument.
+- *Pending* conflates insufficient evidence with an established failure of
+  carrying. The verdicts should separate them.
+- Elements and patterns may need separate clauses.
+
+Kernel changes from this iteration stay proposals; D8 receives no content
+until continuation has a criterion.
