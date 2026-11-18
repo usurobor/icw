@@ -69,6 +69,13 @@ At least two model families. Each answers every prompt under A, B and C in a
 fresh conversation: 12 × 3 × 2 = 72 answers. Answers are logged verbatim by
 script (cells protocol rule 4), with model, version and date.
 
+**Amendment (18 Nov, after the first collected answer set, before any
+scoring).** Answerers run with memory, chat history and custom instructions
+off (ChatGPT: a temporary chat). GPT's first condition-A set used ICW
+vocabulary and the traffic-jam example without the instruction, which points
+to memory of earlier ICW conversations; it is kept verbatim in
+`answers/gpt-A-run1-excluded.md` and excluded.
+
 ## Judging
 
 - Judges see a prompt and two answers from the same answerer, in random
