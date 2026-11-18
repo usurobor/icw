@@ -76,6 +76,14 @@ vocabulary and the traffic-jam example without the instruction, which points
 to memory of earlier ICW conversations; it is kept verbatim in
 `answers/gpt-A-run1-excluded.md` and excluded.
 
+**Amendment 2 (18 Nov, before any scoring).** Answerers see neutral,
+shuffled labels Q-1 to Q-12, so the groups and the controls are hidden, and
+every condition ends with "Answer only the questions; add no overall
+summary." Mapping, kept from answerers: Q-1 P-3, Q-2 N-2, Q-3 U-1, Q-4 P-1,
+Q-5 N-4, Q-6 U-3, Q-7 P-4, Q-8 U-2, Q-9 N-1, Q-10 P-2, Q-11 U-4, Q-12 N-3.
+GPT's second condition-A set (fresh chat, clean of memory) named the three
+groups in a closing summary; kept in `answers/gpt-A-run2-superseded.md`.
+
 ## Judging
 
 - Judges see a prompt and two answers from the same answerer, in random
