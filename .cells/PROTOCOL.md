@@ -69,6 +69,12 @@ and dispositions. A final β on a different model is preferred.
    section holds how. An owner decision about how goes in Design, marked
    owner, and binds the working cell like any contract line. Planning β checks
    that every Design line serves an intent property and contradicts none.
+10. **Complexity trip-wire.** When a definition, spec or design gains a second
+    patch (a clause added after seeing a miss), or grows past about five
+    clauses, the cell stops. Before any further revision, an outside reviewer
+    who has seen none of the history asks whether the problem is posed
+    wrongly, and checks the targets for conflicts. The working cell resumes
+    only after that review is logged.
 
 ## History
 
@@ -76,3 +82,10 @@ and dispositions. A final β on a different model is preferred.
   and examples. Converged after 8 rounds; exposed rule 7.
 - `runs/2026-11-12-readme-intent/`: planning run for the README intent. Did
   not converge; exposed rules 1, 3, 4, 5 and 6.
+- O2 search, 16–18 Nov (`notes/runs/2026-11-16-*` to `2026-11-18-*`,
+  `notes/audits/2026-11-18-c15-audit.md`,
+  `notes/reviews/2026-11-18-simpler-o2.md`): sixteen candidates for *carried*;
+  the best grew to about twelve clauses with two patches, matched every known
+  case and failed every fresh one. An outside review found the difficulty
+  largely self-inflicted (hand-built tracings judged step by step) and two
+  target conflicts. Exposed rule 10.
